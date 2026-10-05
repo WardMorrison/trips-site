@@ -4,10 +4,12 @@ import Stats from "../components/Stats.astro";
 import Atlas from "../components/Atlas.astro";
 import CategoryRow from "../components/CategoryRow.astro";
 import ParkGrid from "../components/ParkGrid.astro";
-import { getVisited, categories, site } from "../lib/data";
+import { getVisited, categories, site, parks } from "../lib/data";
 
 const v = await getVisited();
 const hasSamples = v.trips.some((t) => t.data.sample);
+const npAll = parks.filter((p) => p.type === "National Park");
+const npSeen = npAll.filter((p) => v.parkCodes.has(p.code)).length;
 const rows = categories.map((c) => ({ ...c, trips: v.trips.filter((t) => t.data.category === c.id) }));
 ---
 <Base sample={hasSamples}>
@@ -37,7 +39,7 @@ const rows = categories.map((c) => ({ ...c, trips: v.trips.filter((t) => t.data.
       <div class="section-head"><h2 id="parks-h">National Park System</h2></div>
       <div class="park-total">
         <span class="big">{v.parkCodes.size}</span><span class="of">of {site.npsTotal} sites</span>
-        <span class="what">Parks, monuments, historic sites, seashores and every other unit of the National Park System.</span>
+        <span class="what">Parks, monuments, historic sites, seashores and every other unit of the National Park System, including {npSeen} of the {npAll.length} national parks.</span>
       </div>
       <ParkGrid visited={v.parkCodes.size} />
       <a class="button" href="/parks/">See every site</a>

@@ -3,7 +3,9 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "engines": { "node": ">=22.12.0" },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -15,6 +17,7 @@
     "d3-geo": "^3.1.1",
     "sharp": "^0.35.5",
     "topojson-client": "^3.1.0",
+    "topojson-simplify": "^3.0.3",
     "us-atlas": "^3.0.1",
     "world-atlas": "^2.0.2"
   }

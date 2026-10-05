@@ -1,9 +1,10 @@
 // Map geometry, computed at build time. Pages get plain SVG paths: no map library ships to the browser.
-import { geoAlbersUsa, geoEqualEarth, geoGraticule10, geoPath, geoCentroid, geoNaturalEarth1 } from "d3-geo";
+import { geoAlbersUsa, geoEqualEarth, geoGraticule, geoPath, geoCentroid, geoNaturalEarth1 } from "d3-geo";
 import { feature, mesh } from "topojson-client";
+import { presimplify, simplify, quantile } from "topojson-simplify";
 import world110 from "world-atlas/countries-110m.json";
 import world50 from "world-atlas/countries-50m.json";
-import usTopo from "us-atlas/states-10m.json";
+import usTopoFull from "us-atlas/states-10m.json";
 import countries from "../data/countries.json";
 
 type Pt = { lat: number; lng: number };
@@ -19,6 +20,10 @@ const FIPS: Record<string, string> = {
   "72": "PR", "78": "VI",
 };
 
+// The 1:10m state outlines are far more detail than a 960px map can show; keep the top ~5% of points.
+const usPre = presimplify(structuredClone(usTopoFull) as any);
+const usTopo = simplify(usPre, quantile(usPre, 0.95));
+
 const worldFeatures = (feature(world110 as any, (world110 as any).objects.countries) as any).features;
 const world50Features = (feature(world50 as any, (world50 as any).objects.countries) as any).features;
 const worldBorders = mesh(world110 as any, (world110 as any).objects.countries, (a: any, b: any) => a !== b);
@@ -32,7 +37,7 @@ const round = (n: number) => Math.round(n * 10) / 10;
  *  the 1:110m outlines get a dot at their 1:50m centroid so they still show. */
 export function worldMap(visitedIsos: Set<string>, width = 960) {
   const projection = geoEqualEarth().rotate([-10, 0]).fitWidth(width, { type: "Sphere" } as any);
-  const path = geoPath(projection).digits(1);
+  const path = geoPath(projection).digits(0);
   const height = Math.ceil(path.bounds({ type: "Sphere" } as any)[1][1]);
   const drawn = new Set<string>();
   const lands = worldFeatures
@@ -48,7 +53,7 @@ export function worldMap(visitedIsos: Set<string>, width = 960) {
   return {
     width, height,
     sphere: path({ type: "Sphere" } as any) ?? "",
-    graticule: path(geoGraticule10()) ?? "",
+    graticule: path(geoGraticule().step([30, 30])()) ?? "",
     lands, extraDots,
     borders: path(worldBorders) ?? "",
     project: (p: Pt) => { const xy = projection([p.lng, p.lat]); return xy ? { x: round(xy[0]), y: round(xy[1]) } : null; },
@@ -59,7 +64,7 @@ export function worldMap(visitedIsos: Set<string>, width = 960) {
 export function usMap(visitedStates: Set<string>, width = 960) {
   const nation = { type: "FeatureCollection", features: usStates.filter((f: any) => FIPS[f.id] && !["AS", "GU", "MP", "VI", "PR"].includes(FIPS[f.id])) };
   const projection = geoAlbersUsa().fitWidth(width, nation as any);
-  const path = geoPath(projection).digits(1);
+  const path = geoPath(projection).digits(0);
   const height = Math.ceil(path.bounds(nation as any)[1][1]) + 2;
   return {
     width, height,

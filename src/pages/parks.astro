@@ -13,6 +13,14 @@ for (const p of parks) {
 }
 const states = [...groups.keys()].sort((a, b) => (STATE_NAMES[a] ?? a).localeCompare(STATE_NAMES[b] ?? b));
 const types = [...new Set(parks.map((p) => p.type))].sort();
+// Visited count per designation, biggest categories first; small ones fold into "Everything else".
+const MAIN_TYPES = ["National Park", "National Monument", "National Historic Site", "National Historical Park", "National Memorial", "National Seashore", "National Recreation Area", "National Preserve", "National Battlefield", "National Military Park"];
+const byType = MAIN_TYPES.map((t) => {
+  const all = parks.filter((p) => p.type === t);
+  return { t, n: all.length, v: all.filter((p) => v.parkCodes.has(p.code)).length };
+});
+const rest = parks.filter((p) => !MAIN_TYPES.includes(p.type));
+byType.push({ t: "Everything else", n: rest.length, v: rest.filter((p) => v.parkCodes.has(p.code)).length });
 ---
 <Base title="National park sites" description={`${v.parkCodes.size} of ${site.npsTotal} National Park System sites visited.`}>
   <div class="band title-band">
@@ -25,6 +33,15 @@ const types = [...new Set(parks.map((p) => p.type))].sort();
   <main>
     <section class="wrap">
       <ParkGrid visited={v.parkCodes.size} />
+      <dl class="by-type">
+        {byType.map((b) => (
+          <div>
+            <dt>{b.t === "Everything else" ? b.t : `${b.t}s`}</dt>
+            <dd><strong>{b.v}</strong> of {b.n}</dd>
+            <span class="bar" aria-hidden="true"><span style={`width:${(b.v / b.n) * 100}%`}></span></span>
+          </div>
+        ))}
+      </dl>
     </section>
 
     <section class="wrap" aria-labelledby="pmap-h">
