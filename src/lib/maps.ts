@@ -24,7 +24,18 @@ const FIPS: Record<string, string> = {
 const usPre = presimplify(structuredClone(usTopoFull) as any);
 const usTopo = simplify(usPre, quantile(usPre, 0.95));
 
-const worldFeatures = (feature(world110 as any, (world110 as any).objects.countries) as any).features;
+// The 1:110m data folds French Guiana into France; split it out so visiting France doesn't color South America.
+const worldFeatures = splitFrenchGuiana((feature(world110 as any, (world110 as any).objects.countries) as any).features);
+function splitFrenchGuiana(features: any[]) {
+  const fr = features.find((f) => f.properties.name === "France");
+  if (!fr || fr.geometry.type !== "MultiPolygon") return features;
+  const isGuiana = (poly: number[][][]) => poly[0].every(([lng]) => lng < -30);
+  const guiana = fr.geometry.coordinates.filter(isGuiana);
+  fr.geometry = { type: "MultiPolygon", coordinates: fr.geometry.coordinates.filter((p: number[][][]) => !isGuiana(p)) };
+  return guiana.length
+    ? [...features, { type: "Feature", id: "GF", properties: { name: "French Guiana" }, geometry: { type: "MultiPolygon", coordinates: guiana } }]
+    : features;
+}
 const world50Features = (feature(world50 as any, (world50 as any).objects.countries) as any).features;
 const worldBorders = mesh(world110 as any, (world110 as any).objects.countries, (a: any, b: any) => a !== b);
 const usStates = (feature(usTopo as any, (usTopo as any).objects.states) as any).features;
