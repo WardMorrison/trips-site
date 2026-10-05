@@ -61,7 +61,8 @@ export async function getVisited() {
   for (const s of visited.states) states.add(s.toUpperCase());
   for (const p of visited.parks) parkCodes.add(park(p).code);
 
-  for (const t of trips) {
+  // Sample trips show off the templates but never count toward real totals.
+  for (const t of trips.filter((t) => !t.data.sample)) {
     for (const c of t.data.countries) countryIsos.add(country(c).iso);
     for (const s of t.data.states) states.add(s.toUpperCase());
     for (const code of t.data.parks) {
@@ -71,8 +72,9 @@ export async function getVisited() {
     }
   }
   if (states.size) countryIsos.add("US");
-  // Visiting a park means visiting its state.
-  for (const code of parkCodes) for (const s of park(code).states) states.add(s);
+  // Visiting a single-state park means visiting that state. Multi-state units (the Natchez Trace,
+  // Blue Ridge Parkway) don't say which state you were in, so they don't count.
+  for (const code of parkCodes) { const st = park(code).states; if (st.length === 1) states.add(st[0]); }
 
   const continents = new Set(
     COUNTRY_LIST.filter((c) => countryIsos.has(c.iso)).map((c) => c.continent),

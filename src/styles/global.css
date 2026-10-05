@@ -92,7 +92,7 @@ section + section { border-top: 1px solid var(--line); }
 .map .park { fill: none; stroke: var(--earth); stroke-width: .9; opacity: .55; }
 .map .park.visited { fill: var(--forest); stroke: var(--paper); stroke-width: .8; opacity: 1; }
 .map .home { fill: var(--gold); stroke: var(--ink); stroke-width: 1.2; }
-.map .home-label { font: 700 13px/1 var(--display); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; }
+.map .home-label { font: 700 19px/1 var(--display); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; }
 .map .trip-pt { fill: var(--ink); stroke: var(--paper); stroke-width: 1.5; }
 .map .trip-label { font: 600 13px/1 var(--display); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; }
 .map .dot { fill: var(--forest); stroke: var(--paper); stroke-width: 1; }
@@ -166,7 +166,7 @@ section + section { border-top: 1px solid var(--line); }
 .trip-meta span { white-space: nowrap; }
 .cover { margin: 0; background: var(--band); }
 .cover img { width: 100%; max-height: 78vh; object-fit: cover; }
-.trip-body { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 48px; padding: 40px 0; }
+.trip-body { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 48px; padding-block: 40px; }
 .prose { max-width: 68ch; font-size: 1.125rem; line-height: 1.7; }
 .prose > :first-child { margin-top: 0; }
 .prose h2 { font-size: 30px; margin: 1.6em 0 .4em; }
@@ -198,7 +198,7 @@ dialog.lightbox .close {
   position: fixed; top: 14px; right: 18px; width: 40px; height: 40px; border: 0; background: rgb(255 255 255 / .12);
   color: #fff; font: 400 26px/1 var(--display); cursor: pointer;
 }
-.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 28px 0 48px; border-top: 1px solid var(--line); }
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding-block: 28px 48px; border-top: 1px solid var(--line); }
 .pager a { text-decoration: none; color: var(--ink); font: 400 14px/1.3 var(--display); }
 .pager a strong { display: block; font: 700 22px/1.1 var(--display); font-stretch: 75%; margin-top: 4px; }
 .pager a:last-child { text-align: right; }

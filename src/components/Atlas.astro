@@ -48,7 +48,7 @@ const parkPts = parks
           return xy && (
             <g>
               <circle class="home" cx={xy.x} cy={xy.y} r="6"><title>{h.name} ({h.note})</title></circle>
-              <text class="home-label" x={xy.x + (xy.x > us.width * 0.8 ? -10 : 10)} y={xy.y + 4} text-anchor={xy.x > us.width * 0.8 ? "end" : "start"}>{h.name}</text>
+              <text class="home-label" x={xy.x + (xy.x > us.width * 0.8 ? -11 : 11)} y={xy.y + 6} text-anchor={xy.x > us.width * 0.8 ? "end" : "start"}>{h.name}</text>
             </g>
           );
         })}
