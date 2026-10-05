@@ -15,7 +15,11 @@ FIX = {"Kosovo": ("XK", "Europe"), "N. Cyprus": ("CY", "Asia"), "Somaliland": ("
        "Siachen Glacier": ("IN", "Asia"), "Ashmore and Cartier Is.": ("AU", "Oceania"), "Indian Ocean Ter.": ("AU", "Oceania"), "Pitcairn Is.": ("PN", "Oceania")}
 EXTRA_ALIASES = {"US": {"United States", "USA", "America"}, "GB": {"UK", "Britain", "Great Britain", "England", "Scotland", "Wales"},
                  "KR": {"South Korea"}, "RU": {"Russia"}, "TZ": {"Tanzania"}, "CZ": {"Czech Republic"}, "VN": {"Vietnam"},
-                 "BO": {"Bolivia"}, "VE": {"Venezuela"}, "IR": {"Iran"}, "SY": {"Syria"}, "LA": {"Laos"}, "MD": {"Moldova"}}
+                 "BO": {"Bolivia"}, "VA": {"Vatican City", "Vatican", "Holy See"}, "CI": {"Ivory Coast"}, "MM": {"Burma"},
+                 "TL": {"East Timor"}, "SZ": {"Swaziland"}, "MK": {"Macedonia"}, "CV": {"Cape Verde"},
+                 "CD": {"DR Congo", "Democratic Republic of the Congo", "Congo-Kinshasa"}, "CG": {"Republic of the Congo", "Congo-Brazzaville"},
+                 "KP": {"North Korea"}, "PS": {"Palestine"}, "TW": {"Taiwan"}, "AE": {"UAE"}, "NL": {"Holland"},
+                 "BA": {"Bosnia", "Bosnia and Herzegovina"}, "DO": {"Dominican Republic"}, "CF": {"Central African Republic"}, "VE": {"Venezuela"}, "IR": {"Iran"}, "SY": {"Syria"}, "LA": {"Laos"}, "MD": {"Moldova"}}
 out = {}
 for g in topo["objects"]["countries"]["geometries"]:
     name = g["properties"]["name"]

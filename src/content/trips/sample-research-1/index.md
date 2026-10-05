@@ -4,7 +4,7 @@ sample: true
 category: research
 start: 2025-06-20
 end: 2025-08-01
-summary: A field season abroad. Trips outside the US get a world map on their page.
+summary: A field season abroad. Every trip gets a small map framed on its places.
 cover: ./cover.jpg
 coverAlt: Placeholder landscape
 countries: [Namibia]

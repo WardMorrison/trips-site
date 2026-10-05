@@ -1,0 +1,33 @@
+---
+// Totals as park-passport cancellation stamps: ink rings with text around the edge.
+import { site, FIFTY } from "../lib/data";
+interface Props { continents: number; countries: number; states: number; parks: number }
+const { continents, countries, states, parks } = Astro.props;
+const stamps = [
+  { n: continents, top: "Continents", bottom: "of 7", ink: "var(--ink-blue)", tilt: -8 },
+  { n: countries, top: "Countries", bottom: "and counting", ink: "var(--ink-red)", tilt: 5 },
+  { n: states, top: "U.S. States", bottom: `of ${FIFTY.length}`, ink: "var(--ink-green)", tilt: -3 },
+  { n: parks, top: "Park Sites", bottom: `of ${site.npsTotal}`, ink: "var(--ink-purple)", tilt: 7 },
+];
+---
+<ul class="stamps" aria-label="Totals">
+  {stamps.map((s, i) => (
+    <li style={`--ink:${s.ink};--tilt:${s.tilt}deg`}>
+      <svg viewBox="0 0 160 160" role="img" aria-label={`${s.n} ${s.top.toLowerCase()} ${s.bottom}`}>
+        <defs>
+          <path id={`arc-top-${i}`} d="M 26 80 A 54 54 0 0 1 134 80" />
+          <path id={`arc-bot-${i}`} d="M 22 80 A 58 58 0 0 0 138 80" />
+        </defs>
+        <g filter="url(#ink)">
+          <circle cx="80" cy="80" r="74" class="ring" />
+          <circle cx="80" cy="80" r="66" class="ring thin" />
+          <circle cx="80" cy="80" r="40" class="ring thin" />
+          <text class="arc"><textPath href={`#arc-top-${i}`} startOffset="50%" text-anchor="middle">{s.top}</textPath></text>
+          <text class="arc"><textPath href={`#arc-bot-${i}`} startOffset="50%" text-anchor="middle" dominant-baseline="hanging">{s.bottom}</textPath></text>
+          <text class="num" x="80" y="80" text-anchor="middle" dominant-baseline="central">{s.n}</text>
+          <circle cx="16" cy="80" r="2.5" class="dot" /><circle cx="144" cy="80" r="2.5" class="dot" />
+        </g>
+      </svg>
+    </li>
+  ))}
+</ul>

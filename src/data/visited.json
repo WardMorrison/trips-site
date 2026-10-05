@@ -2,7 +2,18 @@
   "_comment": "Places visited outside any trip page. Trips add their own countries, states and parks automatically. Countries: name or ISO code. States: two-letter codes. Parks: NPS four-letter codes (see parks.json).",
   "countries": [
     "United States",
-    "Canada"
+    "Canada",
+    "Mexico",
+    "Vatican City",
+    "Italy",
+    "France",
+    "Spain",
+    "Palau",
+    "Namibia",
+    "Tanzania",
+    "South Africa",
+    "Argentina",
+    "Chile"
   ],
   "states": [
     "ME",

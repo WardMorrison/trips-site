@@ -46,7 +46,9 @@
 "iso": "VA",
 "continent": "Europe",
 "aliases": [
-"Holy See (Vatican City State)"
+"Holy See",
+"Holy See (Vatican City State)",
+"Vatican City"
 ]
 },
 "548": {
@@ -256,7 +258,9 @@
 "name": "United Arab Emirates",
 "iso": "AE",
 "continent": "Asia",
-"aliases": []
+"aliases": [
+"UAE"
+]
 },
 "804": {
 "name": "Ukraine",
@@ -324,7 +328,8 @@
 "iso": "TL",
 "continent": "Asia",
 "aliases": [
-"Democratic Republic of Timor-Leste"
+"Democratic Republic of Timor-Leste",
+"East Timor"
 ]
 },
 "764": {
@@ -390,7 +395,8 @@
 "continent": "Africa",
 "aliases": [
 "Eswatini",
-"Kingdom of Eswatini"
+"Kingdom of Eswatini",
+"Swaziland"
 ]
 },
 "740": {
@@ -762,6 +768,7 @@
 "iso": "NL",
 "continent": "Europe",
 "aliases": [
+"Holland",
 "Kingdom of the Netherlands"
 ]
 },
@@ -1482,6 +1489,7 @@
 "iso": "CI",
 "continent": "Africa",
 "aliases": [
+"Ivory Coast",
 "Republic of Côte d'Ivoire"
 ]
 },
@@ -1498,7 +1506,10 @@
 "iso": "CD",
 "continent": "Africa",
 "aliases": [
-"Congo, The Democratic Republic of the"
+"Congo, The Democratic Republic of the",
+"Congo-Kinshasa",
+"DR Congo",
+"Democratic Republic of the Congo"
 ]
 },
 "178": {
@@ -1506,6 +1517,7 @@
 "iso": "CG",
 "continent": "Africa",
 "aliases": [
+"Congo-Brazzaville",
 "Republic of the Congo"
 ]
 },
@@ -1578,6 +1590,7 @@
 "iso": "CV",
 "continent": "Africa",
 "aliases": [
+"Cape Verde",
 "Republic of Cabo Verde"
 ]
 },
@@ -1608,6 +1621,7 @@
 "iso": "MM",
 "continent": "Asia",
 "aliases": [
+"Burma",
 "Republic of Myanmar"
 ]
 },
@@ -1662,6 +1676,7 @@
 "iso": "BA",
 "continent": "Europe",
 "aliases": [
+"Bosnia",
 "Bosnia and Herzegovina",
 "Republic of Bosnia and Herzegovina"
 ]

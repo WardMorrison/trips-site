@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Atlas from "../components/Atlas.astro";
 import ParkGrid from "../components/ParkGrid.astro";
+import Contour from "../components/Contour.astro";
 import { getVisited, parks, site, STATE_NAMES } from "../lib/data";
 
 const v = await getVisited();
@@ -23,14 +24,13 @@ const rest = parks.filter((p) => !MAIN_TYPES.includes(p.type));
 byType.push({ t: "Everything else", n: rest.length, v: rest.filter((p) => v.parkCodes.has(p.code)).length });
 ---
 <Base title="National park sites" description={`${v.parkCodes.size} of ${site.npsTotal} National Park System sites visited.`}>
-  <div class="band title-band">
-    <div class="wrap">
-      <h1>National park sites</h1>
-      <p class="kicker">{v.parkCodes.size} of {site.npsTotal} units of the National Park System: parks, monuments, historic sites, seashores, rivers, trails and more.</p>
-    </div>
-  </div>
-
   <main>
+    <section class="wrap intro intro-parks">
+      <div class="intro-text">
+        <h1>National park sites</h1>
+        <p><strong>{v.parkCodes.size}</strong> of the {site.npsTotal} units of the National Park System: parks, monuments, historic sites, seashores, rivers, trails and the rest.</p>
+      </div>
+    </section>
     <section class="wrap">
       <ParkGrid visited={v.parkCodes.size} />
       <dl class="by-type">
@@ -44,13 +44,15 @@ byType.push({ t: "Everything else", n: rest.length, v: rest.filter((p) => v.park
       </dl>
     </section>
 
+    <Contour />
     <section class="wrap" aria-labelledby="pmap-h">
-      <div class="section-head"><h2 id="pmap-h">Map</h2></div>
+      <h2 id="pmap-h" class="section-title">Map</h2>
       <Atlas countryIsos={v.countryIsos} states={v.states} parkCodes={v.parkCodes} initial="us" />
     </section>
 
+    <Contour />
     <section class="wrap" aria-labelledby="plist-h">
-      <div class="section-head"><h2 id="plist-h">Every site</h2><span class="meta" id="park-count">{parks.length} shown</span></div>
+      <h2 id="plist-h" class="section-title">Every site <span class="meta" id="park-count">{parks.length} shown</span></h2>
       <div class="filters">
         <label class="sr-only" for="park-q">Search park sites</label>
         <input id="park-q" type="search" placeholder="Search by name or state" autocomplete="off" />

@@ -1,10 +1,10 @@
 ---
-// One square per unit of the National Park System, visited ones filled.
+// One dot per unit of the National Park System, filled as they're collected.
 import { site } from "../lib/data";
 interface Props { visited: number }
 const { visited } = Astro.props;
-const squares = Array.from({ length: site.npsTotal }, (_, i) => i < visited);
+const dots = Array.from({ length: site.npsTotal }, (_, i) => i < visited);
 ---
-<div class="park-grid" role="img" aria-label={`${visited} of ${site.npsTotal} national park sites visited`}>
-  {squares.map((v) => <i class={v ? "v" : undefined}></i>)}
+<div class="park-dots" role="img" aria-label={`${visited} of ${site.npsTotal} national park sites visited`}>
+  {dots.map((v) => <i class={v ? "v" : undefined}></i>)}
 </div>

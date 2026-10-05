@@ -1,12 +1,13 @@
 ---
 import TripCard from "./TripCard.astro";
+import TrailSign from "./TrailSign.astro";
 import type { Trip } from "../lib/data";
 interface Props { id: string; label: string; trips: Trip[] }
 const { id, label, trips } = Astro.props;
 ---
 <div class="row" data-row>
   <div class="row-head">
-    <h3 id={`row-${id}`}>{label}</h3>
+    <TrailSign id={`row-${id}`}>{label}</TrailSign>
     <span class="count">{trips.length === 1 ? "1 trip" : `${trips.length} trips`}</span>
     {trips.length > 1 && (
       <div class="arrows">
@@ -17,10 +18,10 @@ const { id, label, trips } = Astro.props;
   </div>
   {trips.length ? (
     <div class="track" role="list" aria-labelledby={`row-${id}`} tabindex="0">
-      {trips.map((t) => <div role="listitem" style="display:contents"><TripCard trip={t} /></div>)}
+      {trips.map((t, i) => <div role="listitem" style="display:contents"><TripCard trip={t} tilt={[-1.4, 1.1, -0.6, 1.6][i % 4]} /></div>)}
     </div>
   ) : (
-    <p class="empty-row">No {label.toLowerCase()} trips yet.</p>
+    <p class="empty-row">No {label.toLowerCase()} trips posted yet.</p>
   )}
 </div>
 

@@ -1,9 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
-import Stats from "../components/Stats.astro";
+import Stamps from "../components/Stamps.astro";
 import Atlas from "../components/Atlas.astro";
 import CategoryRow from "../components/CategoryRow.astro";
 import ParkGrid from "../components/ParkGrid.astro";
+import Contour from "../components/Contour.astro";
 import { getVisited, categories, site, parks } from "../lib/data";
 
 const v = await getVisited();
@@ -13,36 +14,32 @@ const npSeen = npAll.filter((p) => v.parkCodes.has(p.code)).length;
 const rows = categories.map((c) => ({ ...c, trips: v.trips.filter((t) => t.data.category === c.id) }));
 ---
 <Base sample={hasSamples}>
-  <div class="band title-band">
-    <div class="wrap">
-      <h1>Where I've been</h1>
-      <p class="kicker">Backpacking, field research and the rest, from home bases in midcoast Maine and San Luis Obispo.</p>
-    </div>
-  </div>
-
   <main>
-    <section class="wrap" aria-label="Totals">
-      <Stats continents={v.continents.size} countries={v.countryIsos.size} states={v.fiftyVisited.length} parks={v.parkCodes.size} />
+    <section class="wrap intro">
+      <div class="intro-text">
+        <h1>Where I've been</h1>
+        <p>Backpacking, field research and plain old fun, from home in midcoast Maine and school in San Luis Obispo.</p>
+      </div>
+      <Stamps continents={v.continents.size} countries={v.countryIsos.size} states={v.fiftyVisited.length} parks={v.parkCodes.size} />
     </section>
 
-    <section class="wrap" aria-labelledby="map-h">
-      <div class="section-head"><h2 id="map-h">Map</h2></div>
+    <section class="wrap map-section" aria-label="Map">
       <Atlas countryIsos={v.countryIsos} states={v.states} parkCodes={v.parkCodes} />
     </section>
 
-    <section class="wrap" aria-labelledby="trips-h">
-      <div class="section-head"><h2 id="trips-h">Trips</h2><span class="meta">{v.trips.length} so far</span></div>
+    <Contour />
+
+    <section class="wrap" aria-label="Trips">
       {rows.map((r) => <CategoryRow id={r.id} label={r.label} trips={r.trips} />)}
     </section>
 
-    <section class="wrap" aria-labelledby="parks-h">
-      <div class="section-head"><h2 id="parks-h">National Park System</h2></div>
-      <div class="park-total">
-        <span class="big">{v.parkCodes.size}</span><span class="of">of {site.npsTotal} sites</span>
-        <span class="what">Parks, monuments, historic sites, seashores and every other unit of the National Park System, including {npSeen} of the {npAll.length} national parks.</span>
-      </div>
+    <Contour />
+
+    <section class="wrap parks-teaser" aria-labelledby="parks-h">
+      <h2 id="parks-h">National park sites</h2>
+      <p class="tally"><strong>{v.parkCodes.size}</strong> of {site.npsTotal}, including {npSeen} of the {npAll.length} national parks. Every monument, historic site, seashore and battlefield counts too.</p>
       <ParkGrid visited={v.parkCodes.size} />
-      <a class="button" href="/parks/">See every site</a>
+      <p><a class="trail-link" href="/parks/">See every site</a></p>
     </section>
   </main>
 </Base>

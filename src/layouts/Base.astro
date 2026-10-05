@@ -20,7 +20,7 @@ const nav = [
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
-  <meta name="theme-color" content="#121212" />
+  <meta name="theme-color" content="#f2ebdb" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
@@ -29,28 +29,34 @@ const nav = [
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" />
 </head>
 <body>
-  <header class="band site-head">
-    <div class="wrap">
-      <a class="site-title" href="/">Trips</a>
-      <span class="byline">{site.author}</span>
-      <nav aria-label="Main">
-        {nav.map((n) => <a href={n.href} aria-current={n.active ? "page" : undefined}>{n.label}</a>)}
-      </nav>
-    </div>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <!-- Rough, uneven ink for the passport stamps. -->
+      <filter id="ink" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2" result="rough" />
+        <feComponentTransfer in="noise" result="speckle"><feFuncA type="discrete" tableValues="1 1 1 0.35 1 1 0.6 1" /></feComponentTransfer>
+        <feComposite in="rough" in2="speckle" operator="in" />
+      </filter>
+    </defs>
+  </svg>
+  <header class="site-head wrap">
+    <a class="sign-logo" href="/">Trips</a>
+    <nav aria-label="Main">
+      {nav.map((n) => <a href={n.href} aria-current={n.active ? "page" : undefined}>{n.label}</a>)}
+      <a href="https://photos.wardmorrison.com">Photos</a>
+    </nav>
   </header>
   {sample && (
-    <div class="sample-note"><div class="wrap">Sample content. Delete the sample-* folders in src/content/trips once real trips are in.</div></div>
+    <p class="sample-note wrap">Sample trips are placeholders and don't count toward the totals. Delete the sample-* folders in src/content/trips once real trips are in.</p>
   )}
   <slot />
-  <footer class="band site-foot">
-    <div class="wrap">
-      {site.links.map((l) => <a href={l.url}>{l.label}</a>)}
-      <a href="mailto:ward.l.morrison@gmail.com">Email</a>
-      <span class="credit">Park list: National Park Service. Map outlines: Natural Earth and the U.S. Census Bureau. Not affiliated with the National Park Service.</span>
-    </div>
+  <footer class="site-foot wrap">
+    <p>{site.author}. {site.links.map((l, i) => <>{i > 0 && ", "}<a href={l.url}>{l.label}</a></>)}, <a href="mailto:ward.l.morrison@gmail.com">email</a>.</p>
+    <p class="credit">Park list from the National Park Service; map outlines from Natural Earth and the U.S. Census Bureau. Not affiliated with the National Park Service.</p>
   </footer>
 </body>
 </html>

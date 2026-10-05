@@ -1,0 +1,7 @@
+---
+// A routed wooden trail sign that points right; used for category headings.
+interface Props { id?: string; level?: 2 | 3 }
+const { id, level = 3 } = Astro.props;
+const Tag = `h${level}` as "h2" | "h3";
+---
+<Tag class="trail-sign" id={id}><span><slot /></span></Tag>

@@ -22,21 +22,16 @@ const stateNames = d.states.map((s) => STATE_NAMES[s.toUpperCase()] ?? s);
 const length = tripLength(d.start, d.end);
 ---
 <Base title={d.title} description={d.summary} image={d.cover.src} sample={d.sample}>
-  <div class="band title-band">
-    <div class="wrap">
-      <h1>{d.title}</h1>
-      <div class="trip-meta">
-        <span>{tripDates(d.start, d.end)}</span>
-        {length && <span>{length}</span>}
-        <span>{cat.label}</span>
-        <span>{(stateNames.length ? stateNames : countryNames).join(", ")}</span>
-      </div>
-    </div>
-  </div>
-
-  <figure class="cover">
+  <header class="trip-hero">
     <Image src={d.cover} alt={d.coverAlt} widths={[800, 1400, 2200]} sizes="100vw" loading="eager" />
-  </figure>
+    <div class="trip-title wrap">
+      <p class="trip-cat">{cat.label}</p>
+      <h1>{d.title}</h1>
+      <p class="trip-meta">
+        {tripDates(d.start, d.end)}{length && <>, {length}</>}. {(stateNames.length ? stateNames : countryNames).join(", ")}.
+      </p>
+    </div>
+  </header>
 
   <main class="wrap trip-body">
     <article class="prose">
@@ -46,7 +41,7 @@ const length = tripLength(d.start, d.end);
 
     <aside class="trip-side">
       {d.places.length > 0 && (
-        <div class="side-block">
+        <div class="side-block postcard-frame">
           <h2>Where</h2>
           <TripMap places={d.places} visitedIsos={v.countryIsos} />
         </div>
@@ -54,7 +49,7 @@ const length = tripLength(d.start, d.end);
       {parksHere.length > 0 && (
         <div class="side-block">
           <h2>Park sites</h2>
-          <ul>{parksHere.map((p) => <li>{p.name}</li>)}</ul>
+          <ul class="mini-stamps">{parksHere.map((p) => <li>{p.name}</li>)}</ul>
         </div>
       )}
       {d.links.length > 0 && (
@@ -68,10 +63,10 @@ const length = tripLength(d.start, d.end);
 
   {d.gallery.length > 0 && (
     <section class="wrap" aria-labelledby="photos-h">
-      <div class="section-head"><h2 id="photos-h">Photos</h2><span class="meta">{d.gallery.length}</span></div>
+      <h2 id="photos-h" class="section-title">Photos</h2>
       <div class="gallery" data-gallery>
         {d.gallery.map((g, i) => (
-          <figure>
+          <figure style={`--tilt:${[-1.2, 0.9, -0.4, 1.4, -1.6, 0.6][i % 6]}deg`}>
             <button type="button" data-full={g.src.src} data-index={i} aria-label={`Open photo: ${g.alt}`}>
               <Image src={g.src} alt={g.alt} widths={[400, 800]} sizes="(max-width: 600px) 100vw, 380px" />
             </button>
@@ -88,8 +83,8 @@ const length = tripLength(d.start, d.end);
   )}
 
   <nav class="wrap pager" aria-label="More trips">
-    {older ? <a href={`/trips/${older.id}/`}>Earlier trip<strong>{older.data.title}</strong></a> : <span></span>}
-    {newer ? <a href={`/trips/${newer.id}/`}>Later trip<strong>{newer.data.title}</strong></a> : <span></span>}
+    {older ? <a href={`/trips/${older.id}/`}><span>Earlier trip</span><strong>{older.data.title}</strong></a> : <span></span>}
+    {newer ? <a href={`/trips/${newer.id}/`}><span>Later trip</span><strong>{newer.data.title}</strong></a> : <span></span>}
   </nav>
 </Base>
 
