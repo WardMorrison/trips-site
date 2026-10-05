@@ -1,5 +1,5 @@
 {
-  "_comment": "Places visited outside any trip page. Trips add their own countries, states and parks automatically. Countries: name or ISO code. States: two-letter codes. Parks: NPS four-letter codes (see parks.json).",
+  "_comment": "Places visited outside any trip page. Trips add their own countries, states and parks automatically. Countries: name or ISO code. States: two-letter codes. Parks: NPS four-letter codes (see parks.json). statesNotCounted overrides states that parks would otherwise add.",
   "countries": [
     "United States",
     "Canada",
@@ -16,8 +16,32 @@
     "Chile"
   ],
   "states": [
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "FL",
+    "ID",
+    "MA",
+    "MD",
     "ME",
-    "CA"
+    "MT",
+    "ND",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "PA",
+    "RI",
+    "SD",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WV",
+    "WY"
   ],
   "parks": [
     "ACAD",
@@ -159,5 +183,8 @@
       "code": "ROCA",
       "name": "Roosevelt Campobello International Park"
     }
+  ],
+  "statesNotCounted": [
+    "GA"
   ]
 }

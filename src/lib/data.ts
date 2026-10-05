@@ -75,6 +75,7 @@ export async function getVisited() {
   // Visiting a single-state park means visiting that state. Multi-state units (the Natchez Trace,
   // Blue Ridge Parkway) don't say which state you were in, so they don't count.
   for (const code of parkCodes) { const st = park(code).states; if (st.length === 1) states.add(st[0]); }
+  for (const s of (visited as { statesNotCounted?: string[] }).statesNotCounted ?? []) states.delete(s.toUpperCase());
 
   const continents = new Set(
     COUNTRY_LIST.filter((c) => countryIsos.has(c.iso)).map((c) => c.continent),
