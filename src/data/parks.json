@@ -1,0 +1,4393 @@
+[
+{
+"code": "ABLI",
+"name": "Abraham Lincoln Birthplace National Historical Park",
+"type": "National Historical Park",
+"lat": 37.6121,
+"lng": -85.6425,
+"states": [
+"KY"
+]
+},
+{
+"code": "ACAD",
+"name": "Acadia National Park",
+"type": "National Park",
+"lat": 44.3379,
+"lng": -68.2455,
+"states": [
+"ME"
+]
+},
+{
+"code": "ADAM",
+"name": "Adams National Historical Park",
+"type": "National Historical Park",
+"lat": 42.2565,
+"lng": -71.0118,
+"states": [
+"MA"
+]
+},
+{
+"code": "AFBG",
+"name": "African Burial Ground National Monument",
+"type": "National Monument",
+"lat": 40.7146,
+"lng": -74.0043,
+"states": [
+"NY"
+]
+},
+{
+"code": "AGFO",
+"name": "Agate Fossil Beds National Monument",
+"type": "National Monument",
+"lat": 42.4222,
+"lng": -103.7592,
+"states": [
+"NE"
+]
+},
+{
+"code": "ALAG",
+"name": "Alagnak Wild River",
+"type": "Wild & Scenic River",
+"lat": 59.0555,
+"lng": -155.8343,
+"states": [
+"AK"
+]
+},
+{
+"code": "ALFL",
+"name": "Alibates Flint Quarries National Monument",
+"type": "National Monument",
+"lat": 35.5821,
+"lng": -101.6696,
+"states": [
+"TX"
+]
+},
+{
+"code": "ALPO",
+"name": "Allegheny Portage Railroad National Historic Site",
+"type": "National Historic Site",
+"lat": 40.4314,
+"lng": -78.5177,
+"states": [
+"PA"
+]
+},
+{
+"code": "AMCH",
+"name": "Amache National Historic Site",
+"type": "National Historic Site",
+"lat": 38.0495,
+"lng": -102.329,
+"states": [
+"CO"
+]
+},
+{
+"code": "AMME",
+"name": "American Memorial Park",
+"type": "Other",
+"lat": 15.215,
+"lng": 145.724,
+"states": [
+"MP"
+]
+},
+{
+"code": "AMIS",
+"name": "Amistad National Recreation Area",
+"type": "National Recreation Area",
+"lat": 29.5794,
+"lng": -101.2884,
+"states": [
+"TX"
+]
+},
+{
+"code": "ANDE",
+"name": "Andersonville National Historic Site",
+"type": "National Historic Site",
+"lat": 32.1979,
+"lng": -84.1306,
+"states": [
+"GA"
+]
+},
+{
+"code": "ANJO",
+"name": "Andrew Johnson National Historic Site",
+"type": "National Historic Site",
+"lat": 36.1555,
+"lng": -82.8381,
+"states": [
+"TN"
+]
+},
+{
+"code": "ANIA",
+"name": "Aniakchak National Monument & Preserve",
+"type": "National Preserve",
+"lat": 56.8722,
+"lng": -157.7125,
+"states": [
+"AK"
+]
+},
+{
+"code": "ANTI",
+"name": "Antietam National Battlefield",
+"type": "National Battlefield",
+"lat": 39.4624,
+"lng": -77.736,
+"states": [
+"MD"
+]
+},
+{
+"code": "APIS",
+"name": "Apostle Islands National Lakeshore",
+"type": "National Lakeshore",
+"lat": 46.9386,
+"lng": -90.5819,
+"states": [
+"WI"
+]
+},
+{
+"code": "APPA",
+"name": "Appalachian National Scenic Trail",
+"type": "National Scenic Trail",
+"lat": 35.9889,
+"lng": -82.4808,
+"states": [
+"CT",
+"GA",
+"MA",
+"MD",
+"ME",
+"NC",
+"NH",
+"NJ",
+"NY",
+"PA",
+"TN",
+"VA",
+"VT",
+"WV"
+]
+},
+{
+"code": "APCO",
+"name": "Appomattox Court House National Historical Park",
+"type": "National Historical Park",
+"lat": 37.3844,
+"lng": -78.7998,
+"states": [
+"VA"
+]
+},
+{
+"code": "ARCH",
+"name": "Arches National Park",
+"type": "National Park",
+"lat": 38.7079,
+"lng": -109.5955,
+"states": [
+"UT"
+]
+},
+{
+"code": "ARPO",
+"name": "Arkansas Post National Memorial",
+"type": "National Memorial",
+"lat": 34.0209,
+"lng": -91.3473,
+"states": [
+"AR"
+]
+},
+{
+"code": "ARHO",
+"name": "Arlington House, The Robert E. Lee Memorial",
+"type": "National Memorial",
+"lat": 38.8821,
+"lng": -77.0737,
+"states": [
+"VA"
+]
+},
+{
+"code": "ASIS",
+"name": "Assateague Island National Seashore",
+"type": "National Seashore",
+"lat": 38.0462,
+"lng": -75.2458,
+"states": [
+"MD",
+"VA"
+]
+},
+{
+"code": "AZRU",
+"name": "Aztec Ruins National Monument",
+"type": "National Monument",
+"lat": 36.8355,
+"lng": -108.0017,
+"states": [
+"NM"
+]
+},
+{
+"code": "BADL",
+"name": "Badlands National Park",
+"type": "National Park",
+"lat": 43.8341,
+"lng": -102.394,
+"states": [
+"SD"
+]
+},
+{
+"code": "BAND",
+"name": "Bandelier National Monument",
+"type": "National Monument",
+"lat": 35.7843,
+"lng": -106.3127,
+"states": [
+"NM"
+]
+},
+{
+"code": "BEPA",
+"name": "Belmont-Paul Women's Equality National Monument",
+"type": "National Monument",
+"lat": 38.8923,
+"lng": -77.0039,
+"states": [
+"DC"
+]
+},
+{
+"code": "BEOL",
+"name": "Bent's Old Fort National Historic Site",
+"type": "National Historic Site",
+"lat": 38.04,
+"lng": -103.4263,
+"states": [
+"CO"
+]
+},
+{
+"code": "BELA",
+"name": "Bering Land Bridge National Preserve",
+"type": "National Preserve",
+"lat": 65.9227,
+"lng": -164.1741,
+"states": [
+"AK"
+]
+},
+{
+"code": "BIBE",
+"name": "Big Bend National Park",
+"type": "National Park",
+"lat": 29.3338,
+"lng": -103.1941,
+"states": [
+"TX"
+]
+},
+{
+"code": "BICY",
+"name": "Big Cypress National Preserve",
+"type": "National Preserve",
+"lat": 25.9866,
+"lng": -81.105,
+"states": [
+"FL"
+]
+},
+{
+"code": "BIHO",
+"name": "Big Hole National Battlefield",
+"type": "National Battlefield",
+"lat": 45.6465,
+"lng": -113.6461,
+"states": [
+"MT"
+]
+},
+{
+"code": "BISO",
+"name": "Big South Fork National River & Recreation Area",
+"type": "National River",
+"lat": 36.5227,
+"lng": -84.6755,
+"states": [
+"KY",
+"TN"
+]
+},
+{
+"code": "BITH",
+"name": "Big Thicket National Preserve",
+"type": "National Preserve",
+"lat": 30.4752,
+"lng": -94.3468,
+"states": [
+"TX"
+]
+},
+{
+"code": "BICA",
+"name": "Bighorn Canyon National Recreation Area",
+"type": "National Recreation Area",
+"lat": 45.1036,
+"lng": -108.2347,
+"states": [
+"MT",
+"WY"
+]
+},
+{
+"code": "BICR",
+"name": "Birmingham Civil Rights National Monument",
+"type": "National Monument",
+"lat": 33.5154,
+"lng": -86.8147,
+"states": [
+"AL"
+]
+},
+{
+"code": "BISC",
+"name": "Biscayne National Park",
+"type": "National Park",
+"lat": 25.4697,
+"lng": -80.2183,
+"states": [
+"FL"
+]
+},
+{
+"code": "BLCA",
+"name": "Black Canyon Of The Gunnison National Park",
+"type": "National Park",
+"lat": 38.5794,
+"lng": -107.7437,
+"states": [
+"CO"
+]
+},
+{
+"code": "BLRV",
+"name": "Blackstone River Valley National Historical Park",
+"type": "National Historical Park",
+"lat": 41.9404,
+"lng": -71.4394,
+"states": [
+"RI",
+"MA"
+]
+},
+{
+"code": "BLSC",
+"name": "Blackwell School National Historic Site",
+"type": "National Historic Site",
+"lat": 30.3058,
+"lng": -104.0226,
+"states": [
+"TX"
+]
+},
+{
+"code": "BLRI",
+"name": "Blue Ridge Parkway",
+"type": "Parkway",
+"lat": 36.4358,
+"lng": -81.0707,
+"states": [
+"NC",
+"VA"
+]
+},
+{
+"code": "BLUE",
+"name": "Bluestone National Scenic River",
+"type": "Wild & Scenic River",
+"lat": 37.5609,
+"lng": -80.9955,
+"states": [
+"WV"
+]
+},
+{
+"code": "BOWA",
+"name": "Booker T. Washington National Monument",
+"type": "National Monument",
+"lat": 37.1142,
+"lng": -79.7308,
+"states": [
+"VA"
+]
+},
+{
+"code": "BOAF",
+"name": "Boston African American National Historic Site",
+"type": "National Historic Site",
+"lat": 42.3579,
+"lng": -71.0706,
+"states": [
+"MA"
+]
+},
+{
+"code": "BOHA",
+"name": "Boston Harbor Islands National Recreation Area",
+"type": "National Recreation Area",
+"lat": 42.2621,
+"lng": -70.8758,
+"states": [
+"MA"
+]
+},
+{
+"code": "BOST",
+"name": "Boston National Historical Park",
+"type": "National Historical Park",
+"lat": 42.3733,
+"lng": -71.0554,
+"states": [
+"MA"
+]
+},
+{
+"code": "BRCR",
+"name": "Brices Cross Roads National Battlefield Site",
+"type": "National Battlefield Site",
+"lat": 34.5061,
+"lng": -88.7289,
+"states": [
+"MS"
+]
+},
+{
+"code": "BRVB",
+"name": "Brown v. Board of Education National Historical Park",
+"type": "National Historical Park",
+"lat": 39.0377,
+"lng": -95.6758,
+"states": [
+"KS"
+]
+},
+{
+"code": "BRCA",
+"name": "Bryce Canyon National Park",
+"type": "National Park",
+"lat": 37.5708,
+"lng": -112.1856,
+"states": [
+"UT"
+]
+},
+{
+"code": "BUIS",
+"name": "Buck Island Reef National Monument",
+"type": "National Monument",
+"lat": 17.8088,
+"lng": -64.6199,
+"states": [
+"VI"
+]
+},
+{
+"code": "BUFF",
+"name": "Buffalo National River",
+"type": "National River",
+"lat": 36.04,
+"lng": -93.3099,
+"states": [
+"AR"
+]
+},
+{
+"code": "CABR",
+"name": "Cabrillo National Monument",
+"type": "National Monument",
+"lat": 32.6722,
+"lng": -117.241,
+"states": [
+"CA"
+]
+},
+{
+"code": "CANE",
+"name": "Camp Nelson National Monument",
+"type": "National Monument",
+"lat": 37.7927,
+"lng": -84.5956,
+"states": [
+"KY"
+]
+},
+{
+"code": "CANA",
+"name": "Canaveral National Seashore",
+"type": "National Seashore",
+"lat": 28.7782,
+"lng": -80.7478,
+"states": [
+"FL"
+]
+},
+{
+"code": "CARI",
+"name": "Cane River Creole National Historical Park",
+"type": "National Historical Park",
+"lat": 31.665,
+"lng": -93.0062,
+"states": [
+"LA"
+]
+},
+{
+"code": "CACH",
+"name": "Canyon de Chelly National Monument",
+"type": "National Monument",
+"lat": 36.0941,
+"lng": -109.3401,
+"states": [
+"AZ"
+]
+},
+{
+"code": "CANY",
+"name": "Canyonlands National Park",
+"type": "National Park",
+"lat": 38.2721,
+"lng": -109.8832,
+"states": [
+"UT"
+]
+},
+{
+"code": "CACO",
+"name": "Cape Cod National Seashore",
+"type": "National Seashore",
+"lat": 42.0503,
+"lng": -70.0873,
+"states": [
+"MA"
+]
+},
+{
+"code": "CAHA",
+"name": "Cape Hatteras National Seashore",
+"type": "National Seashore",
+"lat": 35.237,
+"lng": -75.6035,
+"states": [
+"NC"
+]
+},
+{
+"code": "CAKR",
+"name": "Cape Krusenstern National Monument",
+"type": "National Monument",
+"lat": 67.4293,
+"lng": -163.4533,
+"states": [
+"AK"
+]
+},
+{
+"code": "CALO",
+"name": "Cape Lookout National Seashore",
+"type": "National Seashore",
+"lat": 34.8281,
+"lng": -76.3477,
+"states": [
+"NC"
+]
+},
+{
+"code": "CARE",
+"name": "Capitol Reef National Park",
+"type": "National Park",
+"lat": 38.1706,
+"lng": -111.1427,
+"states": [
+"UT"
+]
+},
+{
+"code": "CAVO",
+"name": "Capulin Volcano National Monument",
+"type": "National Monument",
+"lat": 36.7817,
+"lng": -103.9731,
+"states": [
+"NM"
+]
+},
+{
+"code": "CARL",
+"name": "Carl Sandburg Home National Historic Site",
+"type": "National Historic Site",
+"lat": 35.2678,
+"lng": -82.4507,
+"states": [
+"NC"
+]
+},
+{
+"code": "CIBS",
+"name": "Carlisle Federal Indian Boarding School National Monument",
+"type": "National Monument",
+"lat": 40.2087,
+"lng": -77.1781,
+"states": [
+"PA"
+]
+},
+{
+"code": "CAVE",
+"name": "Carlsbad Caverns National Park",
+"type": "National Park",
+"lat": 32.1201,
+"lng": -104.6013,
+"states": [
+"NM"
+]
+},
+{
+"code": "CAWO",
+"name": "Carter G. Woodson Home National Historic Site",
+"type": "National Historic Site",
+"lat": 38.9109,
+"lng": -77.0243,
+"states": [
+"DC"
+]
+},
+{
+"code": "CAGR",
+"name": "Casa Grande Ruins National Monument",
+"type": "National Monument",
+"lat": 32.9969,
+"lng": -111.5327,
+"states": [
+"AZ"
+]
+},
+{
+"code": "CASA",
+"name": "Castillo de San Marcos National Monument",
+"type": "National Monument",
+"lat": 29.8979,
+"lng": -81.3124,
+"states": [
+"FL"
+]
+},
+{
+"code": "CACL",
+"name": "Castle Clinton National Monument",
+"type": "National Monument",
+"lat": 40.7035,
+"lng": -74.0168,
+"states": [
+"NY"
+]
+},
+{
+"code": "CAMO",
+"name": "Castle Mountains National Monument",
+"type": "National Monument",
+"lat": 35.3333,
+"lng": -115.0892,
+"states": [
+"CA"
+]
+},
+{
+"code": "CATO",
+"name": "Catoctin Mountain Park",
+"type": "Other",
+"lat": 39.6532,
+"lng": -77.4692,
+"states": [
+"MD"
+]
+},
+{
+"code": "CEBR",
+"name": "Cedar Breaks National Monument",
+"type": "National Monument",
+"lat": 37.6338,
+"lng": -112.8447,
+"states": [
+"UT"
+]
+},
+{
+"code": "CEBE",
+"name": "Cedar Creek & Belle Grove National Historical Park",
+"type": "National Historical Park",
+"lat": 38.9937,
+"lng": -78.3142,
+"states": [
+"VA"
+]
+},
+{
+"code": "CHCU",
+"name": "Chaco Culture National Historical Park",
+"type": "National Historical Park",
+"lat": 36.034,
+"lng": -107.9581,
+"states": [
+"NM"
+]
+},
+{
+"code": "CHAM",
+"name": "Chamizal National Memorial",
+"type": "National Memorial",
+"lat": 31.7671,
+"lng": -106.4548,
+"states": [
+"TX"
+]
+},
+{
+"code": "CHIS",
+"name": "Channel Islands National Park",
+"type": "National Park",
+"lat": 34.0185,
+"lng": -119.7062,
+"states": [
+"CA"
+]
+},
+{
+"code": "CHPI",
+"name": "Charles Pinckney National Historic Site",
+"type": "National Historic Site",
+"lat": 32.8456,
+"lng": -79.8248,
+"states": [
+"SC"
+]
+},
+{
+"code": "CHYO",
+"name": "Charles Young Buffalo Soldiers National Monument",
+"type": "National Monument",
+"lat": 39.7087,
+"lng": -83.8898,
+"states": [
+"OH"
+]
+},
+{
+"code": "CHAT",
+"name": "Chattahoochee River National Recreation Area",
+"type": "National Recreation Area",
+"lat": 33.9738,
+"lng": -84.2667,
+"states": [
+"GA"
+]
+},
+{
+"code": "CHOH",
+"name": "Chesapeake & Ohio Canal National Historical Park",
+"type": "National Historical Park",
+"lat": 39.6089,
+"lng": -77.9227,
+"states": [
+"DC",
+"MD",
+"WV"
+]
+},
+{
+"code": "CHCH",
+"name": "Chickamauga & Chattanooga National Military Park",
+"type": "National Military Park",
+"lat": 34.9193,
+"lng": -85.2552,
+"states": [
+"GA",
+"TN"
+]
+},
+{
+"code": "CHIC",
+"name": "Chickasaw National Recreation Area",
+"type": "National Recreation Area",
+"lat": 34.4555,
+"lng": -96.9977,
+"states": [
+"OK"
+]
+},
+{
+"code": "CHIR",
+"name": "Chiricahua National Monument",
+"type": "National Monument",
+"lat": 32.0158,
+"lng": -109.3475,
+"states": [
+"AZ"
+]
+},
+{
+"code": "CHRI",
+"name": "Christiansted National Historic Site",
+"type": "National Historic Site",
+"lat": 17.7341,
+"lng": -64.74,
+"states": [
+"VI"
+]
+},
+{
+"code": "CIRO",
+"name": "City Of Rocks National Reserve",
+"type": "National Reserve",
+"lat": 42.0671,
+"lng": -113.7063,
+"states": [
+"ID"
+]
+},
+{
+"code": "CLBA",
+"name": "Clara Barton National Historic Site",
+"type": "National Historic Site",
+"lat": 38.9677,
+"lng": -77.1403,
+"states": [
+"MD"
+]
+},
+{
+"code": "COLO",
+"name": "Colonial National Historical Park",
+"type": "National Historical Park",
+"lat": 37.2441,
+"lng": -76.5273,
+"states": [
+"VA"
+]
+},
+{
+"code": "COLM",
+"name": "Colorado National Monument",
+"type": "National Monument",
+"lat": 39.0547,
+"lng": -108.6893,
+"states": [
+"CO"
+]
+},
+{
+"code": "COLT",
+"name": "Coltsville National Historical Park",
+"type": "National Historical Park",
+"lat": 41.7562,
+"lng": -72.6633,
+"states": [
+"CT"
+]
+},
+{
+"code": "CONG",
+"name": "Congaree National Park",
+"type": "National Park",
+"lat": 33.7941,
+"lng": -80.7635,
+"states": [
+"SC"
+]
+},
+{
+"code": "COGA",
+"name": "Constitution Gardens",
+"type": "Other",
+"lat": 38.8909,
+"lng": -77.0432,
+"states": [
+"DC"
+]
+},
+{
+"code": "CORO",
+"name": "Coronado National Memorial",
+"type": "National Memorial",
+"lat": 31.3508,
+"lng": -110.2565,
+"states": [
+"AZ"
+]
+},
+{
+"code": "COWP",
+"name": "Cowpens National Battlefield",
+"type": "National Battlefield",
+"lat": 35.1328,
+"lng": -81.8095,
+"states": [
+"SC"
+]
+},
+{
+"code": "CRLA",
+"name": "Crater Lake National Park",
+"type": "National Park",
+"lat": 42.9451,
+"lng": -122.1343,
+"states": [
+"OR"
+]
+},
+{
+"code": "CRMO",
+"name": "Craters Of The Moon National Monument & Preserve",
+"type": "National Monument",
+"lat": 43.4044,
+"lng": -113.5061,
+"states": [
+"ID"
+]
+},
+{
+"code": "CRMP",
+"name": "Craters of the Moon National Preserve",
+"type": "National Preserve",
+"lat": 43.1587,
+"lng": -113.5391,
+"states": [
+"ID"
+]
+},
+{
+"code": "CUGA",
+"name": "Cumberland Gap National Historical Park",
+"type": "National Historical Park",
+"lat": 36.6188,
+"lng": -83.6452,
+"states": [
+"KY",
+"TN",
+"VA"
+]
+},
+{
+"code": "CUIS",
+"name": "Cumberland Island National Seashore",
+"type": "National Seashore",
+"lat": 30.8194,
+"lng": -81.4565,
+"states": [
+"GA"
+]
+},
+{
+"code": "CURE",
+"name": "Curecanti National Recreation Area",
+"type": "National Recreation Area",
+"lat": 38.4525,
+"lng": -107.3695,
+"states": [
+"CO"
+]
+},
+{
+"code": "CUVA",
+"name": "Cuyahoga Valley National Park",
+"type": "National Park",
+"lat": 41.2092,
+"lng": -81.5697,
+"states": [
+"OH"
+]
+},
+{
+"code": "CECH",
+"name": "César E. Chávez National Monument",
+"type": "National Monument",
+"lat": 35.2266,
+"lng": -118.5626,
+"states": [
+"CA"
+]
+},
+{
+"code": "DAAV",
+"name": "Dayton Aviation Heritage National Historical Park",
+"type": "National Historical Park",
+"lat": 39.8035,
+"lng": -84.0647,
+"states": [
+"OH"
+]
+},
+{
+"code": "DESO",
+"name": "De Soto National Memorial",
+"type": "National Memorial",
+"lat": 27.5222,
+"lng": -82.6429,
+"states": [
+"FL"
+]
+},
+{
+"code": "DEVA",
+"name": "Death Valley National Park",
+"type": "National Park",
+"lat": 36.5668,
+"lng": -117.1388,
+"states": [
+"CA",
+"NV"
+]
+},
+{
+"code": "DEWA",
+"name": "Delaware Water Gap National Recreation Area",
+"type": "National Recreation Area",
+"lat": 41.0989,
+"lng": -74.9404,
+"states": [
+"NJ",
+"PA"
+]
+},
+{
+"code": "DENA",
+"name": "Denali National Park & Preserve",
+"type": "National Park",
+"lat": 63.3263,
+"lng": -150.603,
+"states": [
+"AK"
+]
+},
+{
+"code": "DEPO",
+"name": "Devils Postpile National Monument",
+"type": "National Monument",
+"lat": 37.6154,
+"lng": -119.0877,
+"states": [
+"CA"
+]
+},
+{
+"code": "DETO",
+"name": "Devils Tower National Monument",
+"type": "National Monument",
+"lat": 44.5901,
+"lng": -104.7152,
+"states": [
+"WY"
+]
+},
+{
+"code": "DINO",
+"name": "Dinosaur National Monument",
+"type": "National Monument",
+"lat": 40.4943,
+"lng": -108.9377,
+"states": [
+"CO",
+"UT"
+]
+},
+{
+"code": "DRTO",
+"name": "Dry Tortugas National Park",
+"type": "National Park",
+"lat": 24.6458,
+"lng": -82.8741,
+"states": [
+"FL"
+]
+},
+{
+"code": "DDEM",
+"name": "Dwight D. Eisenhower Memorial",
+"type": "National Memorial",
+"lat": 38.8871,
+"lng": -77.0188,
+"states": [
+"DC"
+]
+},
+{
+"code": "EBLA",
+"name": "Ebey's Landing National Historical Reserve",
+"type": "National Reserve",
+"lat": 48.2069,
+"lng": -122.6823,
+"states": [
+"WA"
+]
+},
+{
+"code": "EDAL",
+"name": "Edgar Allan Poe National Historic Site",
+"type": "National Historic Site",
+"lat": 39.962,
+"lng": -75.15,
+"states": [
+"PA"
+]
+},
+{
+"code": "EFMO",
+"name": "Effigy Mounds National Monument",
+"type": "National Monument",
+"lat": 43.0914,
+"lng": -91.2083,
+"states": [
+"IA"
+]
+},
+{
+"code": "EISE",
+"name": "Eisenhower National Historic Site",
+"type": "National Historic Site",
+"lat": 39.7964,
+"lng": -77.2673,
+"states": [
+"PA"
+]
+},
+{
+"code": "ELMA",
+"name": "El Malpais National Monument",
+"type": "National Monument",
+"lat": 34.7862,
+"lng": -107.9777,
+"states": [
+"NM"
+]
+},
+{
+"code": "ELMO",
+"name": "El Morro National Monument",
+"type": "National Monument",
+"lat": 35.039,
+"lng": -108.3464,
+"states": [
+"NM"
+]
+},
+{
+"code": "ELRO",
+"name": "Eleanor Roosevelt National Historic Site",
+"type": "National Historic Site",
+"lat": 41.7634,
+"lng": -73.9006,
+"states": [
+"NY"
+]
+},
+{
+"code": "TILL",
+"name": "Emmett Till and Mamie Till-Mobley National Monument",
+"type": "National Monument",
+"lat": 33.8315,
+"lng": -90.2703,
+"states": [
+"IL",
+"MS"
+]
+},
+{
+"code": "EUON",
+"name": "Eugene O'Neill National Historic Site",
+"type": "National Historic Site",
+"lat": 37.8264,
+"lng": -122.0274,
+"states": [
+"CA"
+]
+},
+{
+"code": "EVER",
+"name": "Everglades National Park",
+"type": "National Park",
+"lat": 25.2826,
+"lng": -80.9548,
+"states": [
+"FL"
+]
+},
+{
+"code": "FEHA",
+"name": "Federal Hall National Memorial",
+"type": "National Memorial",
+"lat": 40.7073,
+"lng": -74.0103,
+"states": [
+"NY"
+]
+},
+{
+"code": "FIIS",
+"name": "Fire Island National Seashore",
+"type": "National Seashore",
+"lat": 40.7032,
+"lng": -72.9662,
+"states": [
+"NY"
+]
+},
+{
+"code": "FILA",
+"name": "First Ladies National Historic Site",
+"type": "National Historic Site",
+"lat": 40.7966,
+"lng": -81.3759,
+"states": [
+"OH"
+]
+},
+{
+"code": "FRST",
+"name": "First State National Historical Park",
+"type": "National Historical Park",
+"lat": 39.8362,
+"lng": -75.5603,
+"states": [
+"DE",
+"PA"
+]
+},
+{
+"code": "FLNI",
+"name": "Flight 93 National Memorial",
+"type": "National Memorial",
+"lat": 40.0576,
+"lng": -78.8927,
+"states": [
+"PA"
+]
+},
+{
+"code": "FLFO",
+"name": "Florissant Fossil Beds National Monument",
+"type": "National Monument",
+"lat": 38.9126,
+"lng": -105.286,
+"states": [
+"CO"
+]
+},
+{
+"code": "FOTH",
+"name": "Ford's Theatre National Historic Site",
+"type": "National Historic Site",
+"lat": 38.8967,
+"lng": -77.0257,
+"states": [
+"DC"
+]
+},
+{
+"code": "FOBO",
+"name": "Fort Bowie National Historic Site",
+"type": "National Historic Site",
+"lat": 32.1493,
+"lng": -109.4482,
+"states": [
+"AZ"
+]
+},
+{
+"code": "FOCA",
+"name": "Fort Caroline National Memorial",
+"type": "National Memorial",
+"lat": 30.384,
+"lng": -81.5005,
+"states": [
+"FL"
+]
+},
+{
+"code": "FODA",
+"name": "Fort Davis National Historic Site",
+"type": "National Historic Site",
+"lat": 30.5992,
+"lng": -103.8947,
+"states": [
+"TX"
+]
+},
+{
+"code": "FODO",
+"name": "Fort Donelson National Battlefield",
+"type": "National Battlefield",
+"lat": 36.4857,
+"lng": -87.8604,
+"states": [
+"KY",
+"TN"
+]
+},
+{
+"code": "FOFR",
+"name": "Fort Frederica National Monument",
+"type": "National Monument",
+"lat": 31.2235,
+"lng": -81.3901,
+"states": [
+"GA"
+]
+},
+{
+"code": "FOLA",
+"name": "Fort Laramie National Historic Site",
+"type": "National Historic Site",
+"lat": 42.2024,
+"lng": -104.5471,
+"states": [
+"WY"
+]
+},
+{
+"code": "FOLS",
+"name": "Fort Larned National Historic Site",
+"type": "National Historic Site",
+"lat": 38.1838,
+"lng": -99.2155,
+"states": [
+"KS"
+]
+},
+{
+"code": "FOMA",
+"name": "Fort Matanzas National Monument",
+"type": "National Monument",
+"lat": 29.7115,
+"lng": -81.2384,
+"states": [
+"FL"
+]
+},
+{
+"code": "FOMC",
+"name": "Fort McHenry National Monument and Historic Shrine",
+"type": "National Monument",
+"lat": 39.2636,
+"lng": -76.5803,
+"states": [
+"MD"
+]
+},
+{
+"code": "FOMR",
+"name": "Fort Monroe National Monument",
+"type": "National Monument",
+"lat": 37.0066,
+"lng": -76.3022,
+"states": [
+"VA"
+]
+},
+{
+"code": "FONE",
+"name": "Fort Necessity National Battlefield",
+"type": "National Battlefield",
+"lat": 39.8112,
+"lng": -79.5888,
+"states": [
+"PA"
+]
+},
+{
+"code": "FOPO",
+"name": "Fort Point National Historic Site",
+"type": "National Historic Site",
+"lat": 37.8085,
+"lng": -122.4734,
+"states": [
+"CA"
+]
+},
+{
+"code": "FOPU",
+"name": "Fort Pulaski National Monument",
+"type": "National Monument",
+"lat": 32.0328,
+"lng": -80.94,
+"states": [
+"GA"
+]
+},
+{
+"code": "FORA",
+"name": "Fort Raleigh National Historic Site",
+"type": "National Historic Site",
+"lat": 35.9345,
+"lng": -75.7159,
+"states": [
+"NC"
+]
+},
+{
+"code": "FOSC",
+"name": "Fort Scott National Historic Site",
+"type": "National Historic Site",
+"lat": 37.8435,
+"lng": -94.7045,
+"states": [
+"KS"
+]
+},
+{
+"code": "FOSM",
+"name": "Fort Smith National Historic Site",
+"type": "National Historic Site",
+"lat": 35.3886,
+"lng": -94.4311,
+"states": [
+"AR",
+"OK"
+]
+},
+{
+"code": "FOST",
+"name": "Fort Stanwix National Monument",
+"type": "National Monument",
+"lat": 43.2107,
+"lng": -75.4554,
+"states": [
+"NY"
+]
+},
+{
+"code": "FOSU",
+"name": "Fort Sumter and Fort Moultrie National Historical Park",
+"type": "National Historical Park",
+"lat": 32.7534,
+"lng": -79.8795,
+"states": [
+"SC"
+]
+},
+{
+"code": "FOUN",
+"name": "Fort Union National Monument",
+"type": "National Monument",
+"lat": 35.9074,
+"lng": -105.0121,
+"states": [
+"NM"
+]
+},
+{
+"code": "FOUS",
+"name": "Fort Union Trading Post National Historic Site",
+"type": "National Historic Site",
+"lat": 47.9989,
+"lng": -104.0377,
+"states": [
+"MT",
+"ND"
+]
+},
+{
+"code": "FOVA",
+"name": "Fort Vancouver National Historic Site",
+"type": "National Historic Site",
+"lat": 45.6238,
+"lng": -122.6625,
+"states": [
+"OR",
+"WA"
+]
+},
+{
+"code": "FOWA",
+"name": "Fort Washington Park",
+"type": "Other",
+"lat": 38.7106,
+"lng": -77.0287,
+"states": [
+"MD"
+]
+},
+{
+"code": "FOBU",
+"name": "Fossil Butte National Monument",
+"type": "National Monument",
+"lat": 41.8567,
+"lng": -110.7664,
+"states": [
+"WY"
+]
+},
+{
+"code": "FRPE",
+"name": "Frances Perkins National Monument",
+"type": "National Monument",
+"lat": 44.0042,
+"lng": -69.553,
+"states": [
+"ME"
+]
+},
+{
+"code": "FRDE",
+"name": "Franklin Delano Roosevelt Memorial",
+"type": "National Memorial",
+"lat": 38.8835,
+"lng": -77.0431,
+"states": [
+"DC"
+]
+},
+{
+"code": "FRDO",
+"name": "Frederick Douglass National Historic Site",
+"type": "National Historic Site",
+"lat": 38.8628,
+"lng": -76.9851,
+"states": [
+"DC"
+]
+},
+{
+"code": "FRLA",
+"name": "Frederick Law Olmsted National Historic Site",
+"type": "National Historic Site",
+"lat": 42.3248,
+"lng": -71.1322,
+"states": [
+"MA"
+]
+},
+{
+"code": "FRSP",
+"name": "Fredericksburg & Spotsylvania National Military Park",
+"type": "National Military Park",
+"lat": 38.2944,
+"lng": -77.7306,
+"states": [
+"VA"
+]
+},
+{
+"code": "FRRI",
+"name": "Freedom Riders National Monument",
+"type": "National Monument",
+"lat": 33.635,
+"lng": -85.908,
+"states": [
+"AL"
+]
+},
+{
+"code": "FRHI",
+"name": "Friendship Hill National Historic Site",
+"type": "National Historic Site",
+"lat": 39.7778,
+"lng": -79.9234,
+"states": [
+"PA"
+]
+},
+{
+"code": "GAAR",
+"name": "Gates Of The Arctic National Park & Preserve",
+"type": "National Park",
+"lat": 67.7623,
+"lng": -153.2699,
+"states": [
+"AK"
+]
+},
+{
+"code": "JEFF",
+"name": "Gateway Arch National Park",
+"type": "National Park",
+"lat": 38.6235,
+"lng": -90.1754,
+"states": [
+"MO"
+]
+},
+{
+"code": "GATE",
+"name": "Gateway National Recreation Area",
+"type": "National Recreation Area",
+"lat": 40.5986,
+"lng": -73.8571,
+"states": [
+"NY",
+"NJ"
+]
+},
+{
+"code": "GARI",
+"name": "Gauley River National Recreation Area",
+"type": "National Recreation Area",
+"lat": 38.1924,
+"lng": -81.0728,
+"states": [
+"WV"
+]
+},
+{
+"code": "GEGR",
+"name": "General Grant National Memorial",
+"type": "National Memorial",
+"lat": 40.8134,
+"lng": -73.9631,
+"states": [
+"NY"
+]
+},
+{
+"code": "GERO",
+"name": "George Rogers Clark National Historical Park",
+"type": "National Historical Park",
+"lat": 38.679,
+"lng": -87.5355,
+"states": [
+"IN"
+]
+},
+{
+"code": "GEWA",
+"name": "George Washington Birthplace National Monument",
+"type": "National Monument",
+"lat": 38.1916,
+"lng": -76.9198,
+"states": [
+"VA"
+]
+},
+{
+"code": "GWCA",
+"name": "George Washington Carver National Monument",
+"type": "National Monument",
+"lat": 36.9866,
+"lng": -94.3555,
+"states": [
+"MO"
+]
+},
+{
+"code": "GWMP",
+"name": "George Washington Memorial Parkway",
+"type": "Parkway",
+"lat": 38.7101,
+"lng": -77.0633,
+"states": [
+"DC",
+"MD",
+"VA"
+]
+},
+{
+"code": "GETT",
+"name": "Gettysburg National Military Park",
+"type": "National Military Park",
+"lat": 39.7993,
+"lng": -77.2379,
+"states": [
+"PA"
+]
+},
+{
+"code": "GICL",
+"name": "Gila Cliff Dwellings National Monument",
+"type": "National Monument",
+"lat": 33.2268,
+"lng": -108.2725,
+"states": [
+"NM"
+]
+},
+{
+"code": "GLBA",
+"name": "Glacier Bay National Park & Preserve",
+"type": "National Park",
+"lat": 58.8274,
+"lng": -136.8691,
+"states": [
+"AK"
+]
+},
+{
+"code": "GLAC",
+"name": "Glacier National Park",
+"type": "National Park",
+"lat": 48.6189,
+"lng": -113.7563,
+"states": [
+"MT"
+]
+},
+{
+"code": "GLCA",
+"name": "Glen Canyon National Recreation Area",
+"type": "National Recreation Area",
+"lat": 37.398,
+"lng": -110.8021,
+"states": [
+"AZ",
+"UT"
+]
+},
+{
+"code": "GOGA",
+"name": "Golden Gate National Recreation Area",
+"type": "National Recreation Area",
+"lat": 37.9468,
+"lng": -122.6876,
+"states": [
+"CA"
+]
+},
+{
+"code": "GOSP",
+"name": "Golden Spike National Historical Park",
+"type": "National Historical Park",
+"lat": 41.6166,
+"lng": -112.5479,
+"states": [
+"UT"
+]
+},
+{
+"code": "GOIS",
+"name": "Governors Island National Monument",
+"type": "National Monument",
+"lat": 40.6917,
+"lng": -74.0164,
+"states": [
+"NY"
+]
+},
+{
+"code": "GRCA",
+"name": "Grand Canyon National Park",
+"type": "National Park",
+"lat": 36.3099,
+"lng": -112.2997,
+"states": [
+"AZ"
+]
+},
+{
+"code": "PARA",
+"name": "Grand Canyon-Parashant National Monument",
+"type": "National Monument",
+"lat": 36.4154,
+"lng": -113.6683,
+"states": [
+"AZ"
+]
+},
+{
+"code": "GRPO",
+"name": "Grand Portage National Monument",
+"type": "National Monument",
+"lat": 47.9895,
+"lng": -89.7148,
+"states": [
+"MN"
+]
+},
+{
+"code": "GRTE",
+"name": "Grand Teton National Park",
+"type": "National Park",
+"lat": 43.8263,
+"lng": -110.6856,
+"states": [
+"WY"
+]
+},
+{
+"code": "GRKO",
+"name": "Grant-Kohrs Ranch National Historic Site",
+"type": "National Historic Site",
+"lat": 46.414,
+"lng": -112.7474,
+"states": [
+"MT"
+]
+},
+{
+"code": "GRBA",
+"name": "Great Basin National Park",
+"type": "National Park",
+"lat": 38.9272,
+"lng": -114.2443,
+"states": [
+"NV"
+]
+},
+{
+"code": "GRSA",
+"name": "Great Sand Dunes National Park & Preserve",
+"type": "National Park",
+"lat": 37.7669,
+"lng": -105.613,
+"states": [
+"CO"
+]
+},
+{
+"code": "GRSM",
+"name": "Great Smoky Mountains National Park",
+"type": "National Park",
+"lat": 35.6222,
+"lng": -83.4981,
+"states": [
+"NC",
+"TN"
+]
+},
+{
+"code": "GREE",
+"name": "Greenbelt Park",
+"type": "Other",
+"lat": 38.984,
+"lng": -76.8977,
+"states": [
+"MD"
+]
+},
+{
+"code": "GUMO",
+"name": "Guadalupe Mountains National Park",
+"type": "National Park",
+"lat": 31.9069,
+"lng": -104.9008,
+"states": [
+"TX"
+]
+},
+{
+"code": "GUCO",
+"name": "Guilford Courthouse National Military Park",
+"type": "National Military Park",
+"lat": 36.1314,
+"lng": -79.8435,
+"states": [
+"NC"
+]
+},
+{
+"code": "GUIS",
+"name": "Gulf Islands National Seashore",
+"type": "National Seashore",
+"lat": 30.3554,
+"lng": -87.0182,
+"states": [
+"FL",
+"MS"
+]
+},
+{
+"code": "HAFO",
+"name": "Hagerman Fossil Beds National Monument",
+"type": "National Monument",
+"lat": 42.8128,
+"lng": -114.9397,
+"states": [
+"ID"
+]
+},
+{
+"code": "HALE",
+"name": "Haleakalā National Park",
+"type": "National Park",
+"lat": 20.6994,
+"lng": -156.1326,
+"states": [
+"HI"
+]
+},
+{
+"code": "HAGR",
+"name": "Hamilton Grange National Memorial",
+"type": "National Memorial",
+"lat": 40.8214,
+"lng": -73.9472,
+"states": [
+"NY"
+]
+},
+{
+"code": "HAMP",
+"name": "Hampton National Historic Site",
+"type": "National Historic Site",
+"lat": 39.4165,
+"lng": -76.5887,
+"states": [
+"MD"
+]
+},
+{
+"code": "HAFE",
+"name": "Harpers Ferry National Historical Park",
+"type": "National Historical Park",
+"lat": 39.31,
+"lng": -77.7422,
+"states": [
+"WV",
+"VA",
+"MD"
+]
+},
+{
+"code": "HART",
+"name": "Harriet Tubman National Historical Park",
+"type": "National Historical Park",
+"lat": 42.9116,
+"lng": -76.5609,
+"states": [
+"NY"
+]
+},
+{
+"code": "HATU",
+"name": "Harriet Tubman Underground Railroad National Historical Park",
+"type": "National Historical Park",
+"lat": 38.4893,
+"lng": -76.2472,
+"states": [
+"MD"
+]
+},
+{
+"code": "HSTR",
+"name": "Harry S Truman National Historic Site",
+"type": "National Historic Site",
+"lat": 38.9012,
+"lng": -94.5308,
+"states": [
+"MO"
+]
+},
+{
+"code": "HAVO",
+"name": "Hawaiʻi Volcanoes National Park",
+"type": "National Park",
+"lat": 19.3031,
+"lng": -155.2395,
+"states": [
+"HI"
+]
+},
+{
+"code": "HEHO",
+"name": "Herbert Hoover National Historic Site",
+"type": "National Historic Site",
+"lat": 41.6679,
+"lng": -91.3525,
+"states": [
+"IA"
+]
+},
+{
+"code": "PIMA",
+"name": "Hohokam Pima National Monument",
+"type": "National Monument",
+"lat": 33.1866,
+"lng": -111.914,
+"states": [
+"AZ"
+]
+},
+{
+"code": "HOFR",
+"name": "Home Of Franklin D Roosevelt National Historic Site",
+"type": "National Historic Site",
+"lat": 41.7649,
+"lng": -73.9256,
+"states": [
+"NY"
+]
+},
+{
+"code": "HOME",
+"name": "Homestead National Historical Park",
+"type": "National Historical Park",
+"lat": 40.2887,
+"lng": -96.8324,
+"states": [
+"NE"
+]
+},
+{
+"code": "HONO",
+"name": "Honouliuli National Historic Site",
+"type": "National Historic Site",
+"lat": 21.386,
+"lng": -158.0564,
+"states": [
+"HI"
+]
+},
+{
+"code": "HOCU",
+"name": "Hopewell Culture National Historical Park",
+"type": "National Historical Park",
+"lat": 39.2788,
+"lng": -83.135,
+"states": [
+"OH"
+]
+},
+{
+"code": "HOFU",
+"name": "Hopewell Furnace National Historic Site",
+"type": "National Historic Site",
+"lat": 40.2109,
+"lng": -75.7662,
+"states": [
+"PA"
+]
+},
+{
+"code": "HOBE",
+"name": "Horseshoe Bend National Military Park",
+"type": "National Military Park",
+"lat": 32.9745,
+"lng": -85.7318,
+"states": [
+"AL"
+]
+},
+{
+"code": "HOSP",
+"name": "Hot Springs National Park",
+"type": "National Park",
+"lat": 34.5292,
+"lng": -93.03,
+"states": [
+"AR"
+]
+},
+{
+"code": "HOVE",
+"name": "Hovenweep National Monument",
+"type": "National Monument",
+"lat": 37.3836,
+"lng": -109.073,
+"states": [
+"CO",
+"UT"
+]
+},
+{
+"code": "HUTR",
+"name": "Hubbell Trading Post National Historic Site",
+"type": "National Historic Site",
+"lat": 35.7073,
+"lng": -109.56,
+"states": [
+"AZ"
+]
+},
+{
+"code": "IATR",
+"name": "Ice Age National Scenic Trail",
+"type": "National Scenic Trail",
+"lat": 43.0786,
+"lng": -89.617,
+"states": [
+"WI"
+]
+},
+{
+"code": "INDE",
+"name": "Independence National Historical Park",
+"type": "National Historical Park",
+"lat": 39.9517,
+"lng": -75.1494,
+"states": [
+"PA"
+]
+},
+{
+"code": "INDU",
+"name": "Indiana Dunes National Park",
+"type": "National Park",
+"lat": 41.6596,
+"lng": -87.0329,
+"states": [
+"IN"
+]
+},
+{
+"code": "ISRO",
+"name": "Isle Royale National Park",
+"type": "National Park",
+"lat": 48.031,
+"lng": -88.8067,
+"states": [
+"MI"
+]
+},
+{
+"code": "JAGA",
+"name": "James A Garfield National Historic Site",
+"type": "National Historic Site",
+"lat": 41.6649,
+"lng": -81.3509,
+"states": [
+"OH"
+]
+},
+{
+"code": "JELA",
+"name": "Jean Lafitte National Historical Park and Preserve",
+"type": "National Historical Park",
+"lat": 29.806,
+"lng": -90.1348,
+"states": [
+"LA"
+]
+},
+{
+"code": "JECA",
+"name": "Jewel Cave National Monument",
+"type": "National Monument",
+"lat": 43.731,
+"lng": -103.8316,
+"states": [
+"SD"
+]
+},
+{
+"code": "JICA",
+"name": "Jimmy Carter National Historical Park",
+"type": "National Historical Park",
+"lat": 32.0266,
+"lng": -84.4323,
+"states": [
+"GA"
+]
+},
+{
+"code": "JODR",
+"name": "John D. Rockefeller, Jr., Memorial Parkway",
+"type": "Parkway",
+"lat": 44.0882,
+"lng": -110.7229,
+"states": [
+"WY"
+]
+},
+{
+"code": "JODA",
+"name": "John Day Fossil Beds National Monument",
+"type": "National Monument",
+"lat": 44.5383,
+"lng": -119.6483,
+"states": [
+"OR"
+]
+},
+{
+"code": "JOFI",
+"name": "John Fitzgerald Kennedy National Historic Site",
+"type": "National Historic Site",
+"lat": 42.3469,
+"lng": -71.1232,
+"states": [
+"MA"
+]
+},
+{
+"code": "JOMU",
+"name": "John Muir National Historic Site",
+"type": "National Historic Site",
+"lat": 37.9817,
+"lng": -122.1323,
+"states": [
+"CA"
+]
+},
+{
+"code": "JOFL",
+"name": "Johnstown Flood National Memorial",
+"type": "National Memorial",
+"lat": 40.3469,
+"lng": -78.7735,
+"states": [
+"PA"
+]
+},
+{
+"code": "JOTR",
+"name": "Joshua Tree National Park",
+"type": "National Park",
+"lat": 33.8993,
+"lng": -115.9533,
+"states": [
+"CA"
+]
+},
+{
+"code": "KALA",
+"name": "Kalaupapa National Historical Park",
+"type": "National Historical Park",
+"lat": 21.1923,
+"lng": -156.9565,
+"states": [
+"HI"
+]
+},
+{
+"code": "KAHO",
+"name": "Kaloko-Honokōhau National Historical Park",
+"type": "National Historical Park",
+"lat": 19.6783,
+"lng": -156.031,
+"states": [
+"HI"
+]
+},
+{
+"code": "KAWW",
+"name": "Katahdin Woods and Waters National Monument",
+"type": "National Monument",
+"lat": 45.9462,
+"lng": -68.6916,
+"states": [
+"ME"
+]
+},
+{
+"code": "KATM",
+"name": "Katmai National Park & Preserve",
+"type": "National Park",
+"lat": 58.5105,
+"lng": -155.083,
+"states": [
+"AK"
+]
+},
+{
+"code": "KEFJ",
+"name": "Kenai Fjords National Park",
+"type": "National Park",
+"lat": 59.8092,
+"lng": -150.2466,
+"states": [
+"AK"
+]
+},
+{
+"code": "KEMO",
+"name": "Kennesaw Mountain National Battlefield Park",
+"type": "National Battlefield Park",
+"lat": 33.924,
+"lng": -84.589,
+"states": [
+"GA"
+]
+},
+{
+"code": "KEWE",
+"name": "Keweenaw National Historical Park",
+"type": "National Historical Park",
+"lat": 47.139,
+"lng": -88.5693,
+"states": [
+"MI"
+]
+},
+{
+"code": "KICA",
+"name": "Kings Canyon National Park",
+"type": "National Park",
+"lat": 36.8749,
+"lng": -118.5939,
+"states": [
+"CA"
+]
+},
+{
+"code": "KIMO",
+"name": "Kings Mountain National Military Park",
+"type": "National Military Park",
+"lat": 35.1376,
+"lng": -81.3891,
+"states": [
+"SC"
+]
+},
+{
+"code": "KLGO",
+"name": "Klondike Gold Rush National Historical Park",
+"type": "National Historical Park",
+"lat": 59.6316,
+"lng": -135.2927,
+"states": [
+"AK"
+]
+},
+{
+"code": "KNRI",
+"name": "Knife River Indian Villages National Historic Site",
+"type": "National Historic Site",
+"lat": 47.353,
+"lng": -101.3837,
+"states": [
+"ND"
+]
+},
+{
+"code": "KOVA",
+"name": "Kobuk Valley National Park",
+"type": "National Park",
+"lat": 67.3962,
+"lng": -159.0625,
+"states": [
+"AK"
+]
+},
+{
+"code": "KOWA",
+"name": "Korean War Veterans Memorial",
+"type": "National Memorial",
+"lat": 38.8879,
+"lng": -77.048,
+"states": [
+"DC"
+]
+},
+{
+"code": "LYBA",
+"name": "LBJ Memorial Grove on the Potomac",
+"type": "National Memorial",
+"lat": 38.879,
+"lng": -77.0518,
+"states": [
+"DC"
+]
+},
+{
+"code": "LACH",
+"name": "Lake Chelan National Recreation Area",
+"type": "National Recreation Area",
+"lat": 48.3486,
+"lng": -120.6903,
+"states": [
+"WA"
+]
+},
+{
+"code": "LACL",
+"name": "Lake Clark National Park & Preserve",
+"type": "National Park",
+"lat": 60.5886,
+"lng": -153.2619,
+"states": [
+"AK"
+]
+},
+{
+"code": "LAKE",
+"name": "Lake Mead National Recreation Area",
+"type": "National Recreation Area",
+"lat": 36.2446,
+"lng": -114.3805,
+"states": [
+"AZ",
+"NV"
+]
+},
+{
+"code": "LAMR",
+"name": "Lake Meredith National Recreation Area",
+"type": "National Recreation Area",
+"lat": 35.6011,
+"lng": -101.7093,
+"states": [
+"TX"
+]
+},
+{
+"code": "LARO",
+"name": "Lake Roosevelt National Recreation Area",
+"type": "National Recreation Area",
+"lat": 47.9106,
+"lng": -118.351,
+"states": [
+"WA"
+]
+},
+{
+"code": "LAVO",
+"name": "Lassen Volcanic National Park",
+"type": "National Park",
+"lat": 40.4971,
+"lng": -121.4046,
+"states": [
+"CA"
+]
+},
+{
+"code": "LABE",
+"name": "Lava Beds National Monument",
+"type": "National Monument",
+"lat": 41.7615,
+"lng": -121.5214,
+"states": [
+"CA"
+]
+},
+{
+"code": "LEWI",
+"name": "Lewis and Clark National Historical Park",
+"type": "National Historical Park",
+"lat": 46.2875,
+"lng": -124.0658,
+"states": [
+"OR",
+"WA"
+]
+},
+{
+"code": "LIBO",
+"name": "Lincoln Boyhood National Memorial",
+"type": "National Memorial",
+"lat": 38.1188,
+"lng": -86.9968,
+"states": [
+"IN"
+]
+},
+{
+"code": "LIHO",
+"name": "Lincoln Home National Historic Site",
+"type": "National Historic Site",
+"lat": 39.7972,
+"lng": -89.6451,
+"states": [
+"IL"
+]
+},
+{
+"code": "LINC",
+"name": "Lincoln Memorial",
+"type": "National Memorial",
+"lat": 38.8893,
+"lng": -77.0502,
+"states": [
+"DC"
+]
+},
+{
+"code": "LIBI",
+"name": "Little Bighorn Battlefield National Monument",
+"type": "National Monument",
+"lat": 45.5654,
+"lng": -107.4277,
+"states": [
+"MT"
+]
+},
+{
+"code": "LIRI",
+"name": "Little River Canyon National Preserve",
+"type": "National Preserve",
+"lat": 34.3959,
+"lng": -85.6166,
+"states": [
+"AL"
+]
+},
+{
+"code": "CHSC",
+"name": "Little Rock Central High School National Historic Site",
+"type": "National Historic Site",
+"lat": 34.7373,
+"lng": -92.2998,
+"states": [
+"AR"
+]
+},
+{
+"code": "LONG",
+"name": "Longfellow House Washington's Headquarters National Historic Site",
+"type": "National Historic Site",
+"lat": 42.377,
+"lng": -71.1264,
+"states": [
+"MA"
+]
+},
+{
+"code": "LOWE",
+"name": "Lowell National Historical Park",
+"type": "National Historical Park",
+"lat": 42.6454,
+"lng": -71.3124,
+"states": [
+"MA"
+]
+},
+{
+"code": "LOSA",
+"name": "Lower Saint Croix National Scenic Riverway",
+"type": "Wild & Scenic River",
+"lat": 45.234,
+"lng": -92.7523,
+"states": [
+"MN-WI"
+]
+},
+{
+"code": "LYJO",
+"name": "Lyndon B Johnson National Historical Park",
+"type": "National Historical Park",
+"lat": 30.2516,
+"lng": -98.6251,
+"states": [
+"TX"
+]
+},
+{
+"code": "MAWA",
+"name": "Maggie L Walker National Historic Site",
+"type": "National Historic Site",
+"lat": 37.5474,
+"lng": -77.4367,
+"states": [
+"VA"
+]
+},
+{
+"code": "MACA",
+"name": "Mammoth Cave National Park",
+"type": "National Park",
+"lat": 37.1886,
+"lng": -86.1203,
+"states": [
+"KY"
+]
+},
+{
+"code": "MANA",
+"name": "Manassas National Battlefield Park",
+"type": "National Battlefield Park",
+"lat": 38.8317,
+"lng": -77.5219,
+"states": [
+"VA"
+]
+},
+{
+"code": "MAPR",
+"name": "Manhattan Project National Historical Park",
+"type": "National Historical Park",
+"lat": 35.9359,
+"lng": -84.3934,
+"states": [
+"NM",
+"WA",
+"TN"
+]
+},
+{
+"code": "MANZ",
+"name": "Manzanar National Historic Site",
+"type": "National Historic Site",
+"lat": 36.727,
+"lng": -118.153,
+"states": [
+"CA"
+]
+},
+{
+"code": "MABI",
+"name": "Marsh - Billings - Rockefeller National Historical Park",
+"type": "National Historical Park",
+"lat": 43.6335,
+"lng": -72.5343,
+"states": [
+"VT"
+]
+},
+{
+"code": "MLKM",
+"name": "Martin Luther King, Jr. Memorial",
+"type": "National Memorial",
+"lat": 38.8864,
+"lng": -77.0439,
+"states": [
+"DC"
+]
+},
+{
+"code": "MALU",
+"name": "Martin Luther King, Jr. National Historical Park",
+"type": "National Historical Park",
+"lat": 33.7549,
+"lng": -84.3717,
+"states": [
+"GA"
+]
+},
+{
+"code": "MAVA",
+"name": "Martin Van Buren National Historic Site",
+"type": "National Historic Site",
+"lat": 42.3683,
+"lng": -73.7142,
+"states": [
+"NY"
+]
+},
+{
+"code": "MABE",
+"name": "Mary McLeod Bethune Council House National Historic Site",
+"type": "National Historic Site",
+"lat": 38.9082,
+"lng": -77.031,
+"states": [
+"DC"
+]
+},
+{
+"code": "MAMC",
+"name": "Mary McLeod Bethune Council House National Historic Site",
+"type": "National Historic Site",
+"lat": 38.9082,
+"lng": -77.031,
+"states": [
+"DC"
+]
+},
+{
+"code": "MEMY",
+"name": "Medgar and Myrlie Evers Home National Monument",
+"type": "National Monument",
+"lat": 32.3408,
+"lng": -90.2138,
+"states": [
+"MS"
+]
+},
+{
+"code": "MEVE",
+"name": "Mesa Verde National Park",
+"type": "National Park",
+"lat": 37.2535,
+"lng": -108.4556,
+"states": [
+"CO"
+]
+},
+{
+"code": "DELA",
+"name": "Middle Delaware National Scenic River",
+"type": "Wild & Scenic River",
+"lat": 41.1457,
+"lng": -74.9159,
+"states": [
+"NJ-PA"
+]
+},
+{
+"code": "MISP",
+"name": "Mill Springs Battlefield National Monument",
+"type": "National Monument",
+"lat": 37.057,
+"lng": -84.7375,
+"states": [
+"KY"
+]
+},
+{
+"code": "MIIN",
+"name": "Minidoka National Historic Site",
+"type": "National Historic Site",
+"lat": 42.6807,
+"lng": -114.2486,
+"states": [
+"ID",
+"WA"
+]
+},
+{
+"code": "MIMA",
+"name": "Minute Man National Historical Park",
+"type": "National Historical Park",
+"lat": 42.4549,
+"lng": -71.2999,
+"states": [
+"MA"
+]
+},
+{
+"code": "MIMI",
+"name": "Minuteman Missile National Historic Site",
+"type": "National Historic Site",
+"lat": 43.8446,
+"lng": -101.901,
+"states": [
+"SD"
+]
+},
+{
+"code": "MISS",
+"name": "Mississippi National River & Recreation Area",
+"type": "National River",
+"lat": 44.9146,
+"lng": -93.1276,
+"states": [
+"MN"
+]
+},
+{
+"code": "MNRR",
+"name": "Missouri National Recreational River",
+"type": "Wild & Scenic River",
+"lat": 42.733,
+"lng": -96.9076,
+"states": [
+"SD",
+"NE"
+]
+},
+{
+"code": "MOJA",
+"name": "Mojave National Preserve",
+"type": "National Preserve",
+"lat": 35.0972,
+"lng": -115.5394,
+"states": [
+"CA"
+]
+},
+{
+"code": "MONO",
+"name": "Monocacy National Battlefield",
+"type": "National Battlefield",
+"lat": 39.3612,
+"lng": -77.3931,
+"states": [
+"MD"
+]
+},
+{
+"code": "MOCA",
+"name": "Montezuma Castle National Monument",
+"type": "National Monument",
+"lat": 34.6132,
+"lng": -111.8367,
+"states": [
+"AZ"
+]
+},
+{
+"code": "MOCR",
+"name": "Moores Creek National Battlefield",
+"type": "National Battlefield",
+"lat": 34.4583,
+"lng": -78.1101,
+"states": [
+"NC"
+]
+},
+{
+"code": "MORR",
+"name": "Morristown National Historical Park",
+"type": "National Historical Park",
+"lat": 40.7678,
+"lng": -74.5375,
+"states": [
+"NJ"
+]
+},
+{
+"code": "MORA",
+"name": "Mount Rainier National Park",
+"type": "National Park",
+"lat": 46.8547,
+"lng": -121.7064,
+"states": [
+"WA"
+]
+},
+{
+"code": "MORU",
+"name": "Mount Rushmore National Memorial",
+"type": "National Memorial",
+"lat": 43.8799,
+"lng": -103.4539,
+"states": [
+"SD"
+]
+},
+{
+"code": "MUWO",
+"name": "Muir Woods National Monument",
+"type": "National Monument",
+"lat": 37.8964,
+"lng": -122.5801,
+"states": [
+"CA"
+]
+},
+{
+"code": "NATC",
+"name": "Natchez National Historical Park",
+"type": "National Historical Park",
+"lat": 31.5425,
+"lng": -91.3821,
+"states": [
+"MS"
+]
+},
+{
+"code": "NATT",
+"name": "Natchez Trace National Scenic Trail",
+"type": "National Scenic Trail",
+"lat": 34.3303,
+"lng": -88.71,
+"states": [
+"AL",
+"MS",
+"TN"
+]
+},
+{
+"code": "NATR",
+"name": "Natchez Trace Parkway",
+"type": "Parkway",
+"lat": 32.8707,
+"lng": -89.6547,
+"states": [
+"AL",
+"MS",
+"TN"
+]
+},
+{
+"code": "NACA",
+"name": "National Capital Parks",
+"type": "Other",
+"lat": 39.0632,
+"lng": -76.8352,
+"states": [
+"DC-MD"
+]
+},
+{
+"code": "MALL",
+"name": "National Mall",
+"type": "Other",
+"lat": 38.8898,
+"lng": -77.0222,
+"states": [
+"DC"
+]
+},
+{
+"code": "NPSA",
+"name": "National Park of American Samoa",
+"type": "National Park",
+"lat": -14.2488,
+"lng": -169.4488,
+"states": [
+"AS"
+]
+},
+{
+"code": "NABR",
+"name": "Natural Bridges National Monument",
+"type": "National Monument",
+"lat": 37.6026,
+"lng": -110.0111,
+"states": [
+"UT"
+]
+},
+{
+"code": "NAVA",
+"name": "Navajo National Monument",
+"type": "National Monument",
+"lat": 36.6855,
+"lng": -110.5363,
+"states": [
+"AZ"
+]
+},
+{
+"code": "NEBE",
+"name": "New Bedford Whaling National Historical Park",
+"type": "National Historical Park",
+"lat": 41.6355,
+"lng": -70.9232,
+"states": [
+"MA"
+]
+},
+{
+"code": "NEEN",
+"name": "New England National Scenic Trail",
+"type": "National Scenic Trail",
+"lat": 42.0726,
+"lng": -72.7148,
+"states": [
+"MA",
+"CT"
+]
+},
+{
+"code": "JAZZ",
+"name": "New Orleans Jazz National Historical Park",
+"type": "National Historical Park",
+"lat": 29.9631,
+"lng": -90.0675,
+"states": [
+"LA"
+]
+},
+{
+"code": "NEPH",
+"name": "New Philadelphia National Historic Site",
+"type": "National Historic Site",
+"lat": 39.6961,
+"lng": -90.9583,
+"states": [
+"IL"
+]
+},
+{
+"code": "NERI",
+"name": "New River Gorge National Park & Preserve",
+"type": "National Park",
+"lat": 37.897,
+"lng": -81.0429,
+"states": [
+"WV"
+]
+},
+{
+"code": "NEPE",
+"name": "Nez Perce National Historical Park",
+"type": "National Historical Park",
+"lat": 45.7964,
+"lng": -116.2748,
+"states": [
+"ID",
+"MT",
+"OR",
+"WA"
+]
+},
+{
+"code": "NICO",
+"name": "Nicodemus National Historic Site",
+"type": "National Historic Site",
+"lat": 39.3904,
+"lng": -99.6179,
+"states": [
+"KS"
+]
+},
+{
+"code": "NISI",
+"name": "Ninety Six National Historic Site",
+"type": "National Historic Site",
+"lat": 34.1437,
+"lng": -82.0151,
+"states": [
+"SC"
+]
+},
+{
+"code": "NIOB",
+"name": "Niobrara National Scenic River",
+"type": "Wild & Scenic River",
+"lat": 42.8137,
+"lng": -100.1393,
+"states": [
+"NE"
+]
+},
+{
+"code": "NOAT",
+"name": "Noatak National Preserve",
+"type": "National Preserve",
+"lat": 67.8585,
+"lng": -158.1453,
+"states": [
+"AK"
+]
+},
+{
+"code": "NOCA",
+"name": "North Cascades National Park",
+"type": "National Park",
+"lat": 48.8284,
+"lng": -121.3501,
+"states": [
+"WA"
+]
+},
+{
+"code": "NOCO",
+"name": "North Country National Scenic Trail",
+"type": "National Scenic Trail",
+"lat": 46.3922,
+"lng": -91.8077,
+"states": [
+"MI",
+"MN",
+"ND",
+"NY",
+"OH",
+"PA",
+"VT",
+"WI"
+]
+},
+{
+"code": "OBED",
+"name": "Obed Wild & Scenic River",
+"type": "Wild & Scenic River",
+"lat": 36.1056,
+"lng": -84.5979,
+"states": [
+"TN"
+]
+},
+{
+"code": "OBRI",
+"name": "Obed Wild and Scenic River",
+"type": "Wild & Scenic River",
+"lat": 36.1091,
+"lng": -84.7247,
+"states": [
+"TN"
+]
+},
+{
+"code": "OCMU",
+"name": "Ocmulgee Mounds National Historical Park",
+"type": "National Historical Park",
+"lat": 32.8273,
+"lng": -83.5944,
+"states": [
+"GA"
+]
+},
+{
+"code": "OKCI",
+"name": "Oklahoma City National Memorial",
+"type": "National Memorial",
+"lat": 35.473,
+"lng": -97.5171,
+"states": [
+"OK"
+]
+},
+{
+"code": "OLYM",
+"name": "Olympic National Park",
+"type": "National Park",
+"lat": 47.7867,
+"lng": -123.5343,
+"states": [
+"WA"
+]
+},
+{
+"code": "ORCA",
+"name": "Oregon Caves National Monument & Preserve",
+"type": "National Monument",
+"lat": 42.1046,
+"lng": -123.4043,
+"states": [
+"OR"
+]
+},
+{
+"code": "ORPI",
+"name": "Organ Pipe Cactus National Monument",
+"type": "National Monument",
+"lat": 32.0084,
+"lng": -112.8755,
+"states": [
+"AZ"
+]
+},
+{
+"code": "OZAR",
+"name": "Ozark National Scenic Riverways",
+"type": "National River",
+"lat": 37.2424,
+"lng": -91.3241,
+"states": [
+"MO"
+]
+},
+{
+"code": "PAIS",
+"name": "Padre Island National Seashore",
+"type": "National Seashore",
+"lat": 26.7058,
+"lng": -97.3411,
+"states": [
+"TX"
+]
+},
+{
+"code": "PAAL",
+"name": "Palo Alto Battlefield National Historical Park",
+"type": "National Historical Park",
+"lat": 26.0238,
+"lng": -97.4629,
+"states": [
+"TX"
+]
+},
+{
+"code": "PAGR",
+"name": "Paterson Great Falls National Historical Park",
+"type": "National Historical Park",
+"lat": 40.9169,
+"lng": -74.1793,
+"states": [
+"NJ"
+]
+},
+{
+"code": "PERI",
+"name": "Pea Ridge National Military Park",
+"type": "National Military Park",
+"lat": 36.4526,
+"lng": -94.0299,
+"states": [
+"AR"
+]
+},
+{
+"code": "PERL",
+"name": "Pearl Harbor National Memorial",
+"type": "National Memorial",
+"lat": 21.367,
+"lng": -157.9385,
+"states": [
+"HI"
+]
+},
+{
+"code": "PECO",
+"name": "Pecos National Historical Park",
+"type": "National Historical Park",
+"lat": 35.5381,
+"lng": -105.6749,
+"states": [
+"NM"
+]
+},
+{
+"code": "PAAV",
+"name": "Pennsylvania Avenue",
+"type": "National Historic Site",
+"lat": 38.8928,
+"lng": -77.0175,
+"states": [
+"DC"
+]
+},
+{
+"code": "PEVI",
+"name": "Perry's Victory & International Peace Memorial",
+"type": "National Memorial",
+"lat": 41.6549,
+"lng": -82.81,
+"states": [
+"OH"
+]
+},
+{
+"code": "PETE",
+"name": "Petersburg National Battlefield",
+"type": "National Battlefield",
+"lat": 37.1447,
+"lng": -77.6156,
+"states": [
+"VA"
+]
+},
+{
+"code": "PEFO",
+"name": "Petrified Forest National Park",
+"type": "National Park",
+"lat": 34.9311,
+"lng": -109.7727,
+"states": [
+"AZ"
+]
+},
+{
+"code": "PETR",
+"name": "Petroglyph National Monument",
+"type": "National Monument",
+"lat": 35.14,
+"lng": -106.7453,
+"states": [
+"NM"
+]
+},
+{
+"code": "PIRO",
+"name": "Pictured Rocks National Lakeshore",
+"type": "National Lakeshore",
+"lat": 46.5483,
+"lng": -86.3788,
+"states": [
+"MI"
+]
+},
+{
+"code": "PINN",
+"name": "Pinnacles National Park",
+"type": "National Park",
+"lat": 36.4754,
+"lng": -121.1734,
+"states": [
+"CA"
+]
+},
+{
+"code": "PISP",
+"name": "Pipe Spring National Monument",
+"type": "National Monument",
+"lat": 36.8628,
+"lng": -112.7399,
+"states": [
+"AZ"
+]
+},
+{
+"code": "PIPE",
+"name": "Pipestone National Monument",
+"type": "National Monument",
+"lat": 44.014,
+"lng": -96.3248,
+"states": [
+"MN"
+]
+},
+{
+"code": "PISC",
+"name": "Piscataway Park",
+"type": "Other",
+"lat": 38.6848,
+"lng": -77.0561,
+"states": [
+"MD"
+]
+},
+{
+"code": "PORE",
+"name": "Point Reyes National Seashore",
+"type": "National Seashore",
+"lat": 38.0708,
+"lng": -122.9175,
+"states": [
+"CA"
+]
+},
+{
+"code": "POCH",
+"name": "Port Chicago Naval Magazine National Memorial",
+"type": "National Memorial",
+"lat": 38.0567,
+"lng": -122.0303,
+"states": [
+"CA"
+]
+},
+{
+"code": "POHE",
+"name": "Potomac Heritage National Scenic Trail",
+"type": "National Scenic Trail",
+"lat": 39.1506,
+"lng": -77.523,
+"states": [
+"DC",
+"MD",
+"PA",
+"VA"
+]
+},
+{
+"code": "POPO",
+"name": "Poverty Point National Monument",
+"type": "National Monument",
+"lat": 32.6349,
+"lng": -91.4063,
+"states": [
+"LA"
+]
+},
+{
+"code": "WICL",
+"name": "President William Jefferson Clinton Birthplace Home National Historic Site",
+"type": "National Historic Site",
+"lat": 33.6676,
+"lng": -93.5964,
+"states": [
+"AR"
+]
+},
+{
+"code": "PRWI",
+"name": "Prince William Forest Park",
+"type": "Other",
+"lat": 38.5856,
+"lng": -77.381,
+"states": [
+"VA"
+]
+},
+{
+"code": "PULL",
+"name": "Pullman National Historical Park",
+"type": "National Historical Park",
+"lat": 41.7047,
+"lng": -87.6049,
+"states": [
+"IL"
+]
+},
+{
+"code": "PUHO",
+"name": "Puʻuhonua o Hōnaunau National Historical Park",
+"type": "National Historical Park",
+"lat": 19.4092,
+"lng": -155.8978,
+"states": [
+"HI"
+]
+},
+{
+"code": "PUHE",
+"name": "Puʻukoholā Heiau National Historic Site",
+"type": "National Historic Site",
+"lat": 20.0276,
+"lng": -155.8207,
+"states": [
+"HI"
+]
+},
+{
+"code": "RABR",
+"name": "Rainbow Bridge National Monument",
+"type": "National Monument",
+"lat": 37.0779,
+"lng": -110.9655,
+"states": [
+"UT"
+]
+},
+{
+"code": "REER",
+"name": "Reconstruction Era National Historical Park",
+"type": "National Historical Park",
+"lat": 32.3884,
+"lng": -80.5783,
+"states": [
+"SC"
+]
+},
+{
+"code": "REDW",
+"name": "Redwood National and State Parks",
+"type": "National Park",
+"lat": 41.2776,
+"lng": -124.0045,
+"states": [
+"CA"
+]
+},
+{
+"code": "RICH",
+"name": "Richmond National Battlefield Park",
+"type": "National Battlefield Park",
+"lat": 37.5701,
+"lng": -77.2813,
+"states": [
+"VA"
+]
+},
+{
+"code": "RIGR",
+"name": "Rio Grande Wild & Scenic River",
+"type": "Wild & Scenic River",
+"lat": 29.7578,
+"lng": -102.5327,
+"states": [
+"TX"
+]
+},
+{
+"code": "RIRA",
+"name": "River Raisin National Battlefield Park",
+"type": "National Battlefield Park",
+"lat": 41.9127,
+"lng": -83.3763,
+"states": [
+"MI"
+]
+},
+{
+"code": "ROCR",
+"name": "Rock Creek Park",
+"type": "Other",
+"lat": 38.9642,
+"lng": -77.0475,
+"states": [
+"DC"
+]
+},
+{
+"code": "ROMO",
+"name": "Rocky Mountain National Park",
+"type": "National Park",
+"lat": 40.3573,
+"lng": -105.7037,
+"states": [
+"CO"
+]
+},
+{
+"code": "ROWI",
+"name": "Roger Williams National Memorial",
+"type": "National Memorial",
+"lat": 41.8297,
+"lng": -71.4105,
+"states": [
+"RI"
+]
+},
+{
+"code": "RRBH",
+"name": "Ronald Reagan Boyhood Home National Historic Site",
+"type": "National Historic Site",
+"lat": 41.8362,
+"lng": -89.4802,
+"states": [
+"IL"
+]
+},
+{
+"code": "RORI",
+"name": "Rosie the Riveter WWII Home Front National Historical Park",
+"type": "National Historical Park",
+"lat": 37.9083,
+"lng": -122.3671,
+"states": [
+"CA"
+]
+},
+{
+"code": "ROLA",
+"name": "Ross Lake National Recreation Area",
+"type": "National Recreation Area",
+"lat": 48.7879,
+"lng": -121.0697,
+"states": [
+"WA"
+]
+},
+{
+"code": "RUCA",
+"name": "Russell Cave National Monument",
+"type": "National Monument",
+"lat": 34.9745,
+"lng": -85.8146,
+"states": [
+"AL"
+]
+},
+{
+"code": "SAHI",
+"name": "Sagamore Hill National Historic Site",
+"type": "National Historic Site",
+"lat": 40.8858,
+"lng": -73.4962,
+"states": [
+"NY"
+]
+},
+{
+"code": "SAGU",
+"name": "Saguaro National Park",
+"type": "National Park",
+"lat": 32.1707,
+"lng": -110.6184,
+"states": [
+"AZ"
+]
+},
+{
+"code": "SACR",
+"name": "Saint Croix Island International Historic Site",
+"type": "International Historic Site",
+"lat": 45.1287,
+"lng": -67.1336,
+"states": [
+"ME"
+]
+},
+{
+"code": "SACN",
+"name": "Saint Croix National Scenic Riverway",
+"type": "Wild & Scenic River",
+"lat": 46.0293,
+"lng": -92.0172,
+"states": [
+"WI",
+"MN"
+]
+},
+{
+"code": "SAPA",
+"name": "Saint Paul's Church National Historic Site",
+"type": "National Historic Site",
+"lat": 40.8927,
+"lng": -73.8257,
+"states": [
+"NY"
+]
+},
+{
+"code": "SAGA",
+"name": "Saint-Gaudens National Historical Park",
+"type": "National Historical Park",
+"lat": 43.5005,
+"lng": -72.3733,
+"states": [
+"NH"
+]
+},
+{
+"code": "SAMA",
+"name": "Salem Maritime National Historical Park",
+"type": "National Historical Park",
+"lat": 42.5192,
+"lng": -70.8857,
+"states": [
+"MA"
+]
+},
+{
+"code": "SAPU",
+"name": "Salinas Pueblo Missions National Monument",
+"type": "National Monument",
+"lat": 34.2597,
+"lng": -106.0902,
+"states": [
+"NM"
+]
+},
+{
+"code": "SARI",
+"name": "Salt River Bay National Historical Park and Ecological Preserve",
+"type": "National Historical Park",
+"lat": 17.7802,
+"lng": -64.7558,
+"states": [
+"VI"
+]
+},
+{
+"code": "SAAN",
+"name": "San Antonio Missions National Historical Park",
+"type": "National Historical Park",
+"lat": 29.3327,
+"lng": -98.4547,
+"states": [
+"TX"
+]
+},
+{
+"code": "SAFR",
+"name": "San Francisco Maritime National Historical Park",
+"type": "National Historical Park",
+"lat": 37.8105,
+"lng": -122.4238,
+"states": [
+"CA"
+]
+},
+{
+"code": "SAJH",
+"name": "San Juan Island National Historical Park",
+"type": "National Historical Park",
+"lat": 48.4622,
+"lng": -123.0087,
+"states": [
+"WA"
+]
+},
+{
+"code": "SAJU",
+"name": "San Juan National Historic Site",
+"type": "National Historic Site",
+"lat": 18.4685,
+"lng": -66.1205,
+"states": [
+"PR"
+]
+},
+{
+"code": "SAND",
+"name": "Sand Creek Massacre National Historic Site",
+"type": "National Historic Site",
+"lat": 38.563,
+"lng": -102.5193,
+"states": [
+"CO"
+]
+},
+{
+"code": "SAMO",
+"name": "Santa Monica Mountains National Recreation Area",
+"type": "National Recreation Area",
+"lat": 34.1104,
+"lng": -118.7985,
+"states": [
+"CA"
+]
+},
+{
+"code": "SARA",
+"name": "Saratoga National Historical Park",
+"type": "National Historical Park",
+"lat": 42.9919,
+"lng": -73.6295,
+"states": [
+"NY"
+]
+},
+{
+"code": "SAIR",
+"name": "Saugus Iron Works National Historic Site",
+"type": "National Historic Site",
+"lat": 42.4685,
+"lng": -71.0077,
+"states": [
+"MA"
+]
+},
+{
+"code": "SCBL",
+"name": "Scotts Bluff National Monument",
+"type": "National Monument",
+"lat": 41.835,
+"lng": -103.7071,
+"states": [
+"NE"
+]
+},
+{
+"code": "SEQU",
+"name": "Sequoia National Park",
+"type": "National Park",
+"lat": 36.4964,
+"lng": -118.5604,
+"states": [
+"CA"
+]
+},
+{
+"code": "SHEN",
+"name": "Shenandoah National Park",
+"type": "National Park",
+"lat": 38.4724,
+"lng": -78.464,
+"states": [
+"VA"
+]
+},
+{
+"code": "SHIL",
+"name": "Shiloh National Military Park",
+"type": "National Military Park",
+"lat": 35.1405,
+"lng": -88.336,
+"states": [
+"TN",
+"MS"
+]
+},
+{
+"code": "SITK",
+"name": "Sitka National Historical Park",
+"type": "National Historical Park",
+"lat": 57.047,
+"lng": -135.3156,
+"states": [
+"AK"
+]
+},
+{
+"code": "SLBE",
+"name": "Sleeping Bear Dunes National Lakeshore",
+"type": "National Lakeshore",
+"lat": 45.1078,
+"lng": -86.0125,
+"states": [
+"MI"
+]
+},
+{
+"code": "SPRA",
+"name": "Springfield 1908 Race Riot National Monument",
+"type": "National Monument",
+"lat": 39.8044,
+"lng": -89.6413,
+"states": [
+"IL"
+]
+},
+{
+"code": "SPAR",
+"name": "Springfield Armory National Historic Site",
+"type": "National Historic Site",
+"lat": 42.1084,
+"lng": -72.5811,
+"states": [
+"MA"
+]
+},
+{
+"code": "STLI",
+"name": "Statue Of Liberty National Monument",
+"type": "National Monument",
+"lat": 40.6983,
+"lng": -74.0411,
+"states": [
+"NY"
+]
+},
+{
+"code": "STGE",
+"name": "Ste. Geneviève National Historical Park",
+"type": "National Historical Park",
+"lat": 37.9736,
+"lng": -90.0416,
+"states": [
+"MO"
+]
+},
+{
+"code": "STEA",
+"name": "Steamtown National Historic Site",
+"type": "National Historic Site",
+"lat": 41.408,
+"lng": -75.6716,
+"states": [
+"PA"
+]
+},
+{
+"code": "STRI",
+"name": "Stones River National Battlefield",
+"type": "National Battlefield",
+"lat": 35.8733,
+"lng": -86.4336,
+"states": [
+"TN"
+]
+},
+{
+"code": "STON",
+"name": "Stonewall National Monument",
+"type": "National Monument",
+"lat": 40.7338,
+"lng": -74.0017,
+"states": [
+"NY"
+]
+},
+{
+"code": "SUCR",
+"name": "Sunset Crater Volcano National Monument",
+"type": "National Monument",
+"lat": 35.3711,
+"lng": -111.5113,
+"states": [
+"AZ"
+]
+},
+{
+"code": "TAPR",
+"name": "Tallgrass Prairie National Preserve",
+"type": "National Preserve",
+"lat": 38.4185,
+"lng": -96.5499,
+"states": [
+"KS"
+]
+},
+{
+"code": "THKO",
+"name": "Thaddeus Kosciuszko National Memorial",
+"type": "National Memorial",
+"lat": 39.9435,
+"lng": -75.1473,
+"states": [
+"PA"
+]
+},
+{
+"code": "WHHO",
+"name": "The White House and President's Park",
+"type": "Other",
+"lat": 38.8969,
+"lng": -77.0366,
+"states": [
+"DC"
+]
+},
+{
+"code": "THRB",
+"name": "Theodore Roosevelt Birthplace National Historic Site",
+"type": "National Historic Site",
+"lat": 40.7386,
+"lng": -73.989,
+"states": [
+"NY"
+]
+},
+{
+"code": "THRI",
+"name": "Theodore Roosevelt Inaugural National Historic Site",
+"type": "National Historic Site",
+"lat": 42.9015,
+"lng": -78.8725,
+"states": [
+"NY"
+]
+},
+{
+"code": "THIS",
+"name": "Theodore Roosevelt Island",
+"type": "National Memorial",
+"lat": 38.8961,
+"lng": -77.0628,
+"states": [
+"DC"
+]
+},
+{
+"code": "THRO",
+"name": "Theodore Roosevelt National Park",
+"type": "National Park",
+"lat": 46.9558,
+"lng": -103.463,
+"states": [
+"ND"
+]
+},
+{
+"code": "EDIS",
+"name": "Thomas Edison National Historical Park",
+"type": "National Historical Park",
+"lat": 40.7857,
+"lng": -74.2398,
+"states": [
+"NJ"
+]
+},
+{
+"code": "JEFM",
+"name": "Thomas Jefferson Memorial",
+"type": "National Memorial",
+"lat": 38.8813,
+"lng": -77.0361,
+"states": [
+"DC"
+]
+},
+{
+"code": "THST",
+"name": "Thomas Stone National Historic Site",
+"type": "National Historic Site",
+"lat": 38.5289,
+"lng": -77.0372,
+"states": [
+"MD"
+]
+},
+{
+"code": "TICA",
+"name": "Timpanogos Cave National Monument",
+"type": "National Monument",
+"lat": 40.4404,
+"lng": -111.7094,
+"states": [
+"UT"
+]
+},
+{
+"code": "TIMU",
+"name": "Timucuan Ecological & Historic Preserve",
+"type": "National Preserve",
+"lat": 30.4757,
+"lng": -81.4521,
+"states": [
+"FL"
+]
+},
+{
+"code": "TONT",
+"name": "Tonto National Monument",
+"type": "National Monument",
+"lat": 33.6484,
+"lng": -111.1136,
+"states": [
+"AZ"
+]
+},
+{
+"code": "TULE",
+"name": "Tule Lake National Monument",
+"type": "National Monument",
+"lat": 41.8873,
+"lng": -121.3745,
+"states": [
+"CA"
+]
+},
+{
+"code": "TUSK",
+"name": "Tule Springs Fossil Beds National Monument",
+"type": "National Monument",
+"lat": 36.4021,
+"lng": -115.3566,
+"states": [
+"NV"
+]
+},
+{
+"code": "TUMA",
+"name": "Tumacácori National Historical Park",
+"type": "National Historical Park",
+"lat": 31.5726,
+"lng": -111.0476,
+"states": [
+"AZ"
+]
+},
+{
+"code": "TUPE",
+"name": "Tupelo National Battlefield",
+"type": "National Battlefield",
+"lat": 34.2556,
+"lng": -88.7371,
+"states": [
+"MS"
+]
+},
+{
+"code": "TUAI",
+"name": "Tuskegee Airmen National Historic Site",
+"type": "National Historic Site",
+"lat": 32.4549,
+"lng": -85.6786,
+"states": [
+"AL"
+]
+},
+{
+"code": "TUIN",
+"name": "Tuskegee Institute National Historic Site",
+"type": "National Historic Site",
+"lat": 32.4303,
+"lng": -85.7048,
+"states": [
+"AL"
+]
+},
+{
+"code": "TUZI",
+"name": "Tuzigoot National Monument",
+"type": "National Monument",
+"lat": 34.7739,
+"lng": -112.0283,
+"states": [
+"AZ"
+]
+},
+{
+"code": "ULSG",
+"name": "Ulysses S Grant National Historic Site",
+"type": "National Historic Site",
+"lat": 38.5518,
+"lng": -90.3517,
+"states": [
+"MO"
+]
+},
+{
+"code": "UPDE",
+"name": "Upper Delaware Scenic & Recreational River",
+"type": "Wild & Scenic River",
+"lat": 41.517,
+"lng": -75.0097,
+"states": [
+"NY",
+"PA"
+]
+},
+{
+"code": "VALL",
+"name": "Valles Caldera National Preserve",
+"type": "National Preserve",
+"lat": 35.9181,
+"lng": -106.5106,
+"states": [
+"NM"
+]
+},
+{
+"code": "VAFO",
+"name": "Valley Forge National Historical Park",
+"type": "National Historical Park",
+"lat": 40.1005,
+"lng": -75.4447,
+"states": [
+"PA"
+]
+},
+{
+"code": "VAMA",
+"name": "Vanderbilt Mansion National Historic Site",
+"type": "National Historic Site",
+"lat": 41.7976,
+"lng": -73.9418,
+"states": [
+"NY"
+]
+},
+{
+"code": "VICK",
+"name": "Vicksburg National Military Park",
+"type": "National Military Park",
+"lat": 32.3476,
+"lng": -90.8522,
+"states": [
+"MS",
+"LA"
+]
+},
+{
+"code": "VIVE",
+"name": "Vietnam Veterans Memorial",
+"type": "National Memorial",
+"lat": 38.8909,
+"lng": -77.0477,
+"states": [
+"DC"
+]
+},
+{
+"code": "VICR",
+"name": "Virgin Islands Coral Reef National Monument",
+"type": "National Monument",
+"lat": 18.2797,
+"lng": -64.7039,
+"states": [
+"VI"
+]
+},
+{
+"code": "VIIS",
+"name": "Virgin Islands National Park",
+"type": "National Park",
+"lat": 18.3439,
+"lng": -64.7399,
+"states": [
+"VI"
+]
+},
+{
+"code": "VOYA",
+"name": "Voyageurs National Park",
+"type": "National Park",
+"lat": 48.4657,
+"lng": -92.8855,
+"states": [
+"MN"
+]
+},
+{
+"code": "WACO",
+"name": "Waco Mammoth National Monument",
+"type": "National Monument",
+"lat": 31.6049,
+"lng": -97.1762,
+"states": [
+"TX"
+]
+},
+{
+"code": "WACA",
+"name": "Walnut Canyon National Monument",
+"type": "National Monument",
+"lat": 35.1666,
+"lng": -111.5036,
+"states": [
+"AZ"
+]
+},
+{
+"code": "WAPA",
+"name": "War In The Pacific National Historical Park",
+"type": "National Historical Park",
+"lat": 13.3897,
+"lng": 144.6546,
+"states": [
+"GU"
+]
+},
+{
+"code": "WAMO",
+"name": "Washington Monument",
+"type": "National Memorial",
+"lat": 38.8885,
+"lng": -77.0354,
+"states": [
+"DC"
+]
+},
+{
+"code": "WABA",
+"name": "Washita Battlefield National Historic Site",
+"type": "National Historic Site",
+"lat": 35.6208,
+"lng": -99.7045,
+"states": [
+"OK"
+]
+},
+{
+"code": "WEFA",
+"name": "Weir Farm National Historical Park",
+"type": "National Historical Park",
+"lat": 41.2582,
+"lng": -73.4554,
+"states": [
+"CT"
+]
+},
+{
+"code": "WHIS",
+"name": "Whiskeytown National Recreation Area",
+"type": "National Recreation Area",
+"lat": 40.6163,
+"lng": -122.6127,
+"states": [
+"CA"
+]
+},
+{
+"code": "WHSA",
+"name": "White Sands National Park",
+"type": "National Park",
+"lat": 32.7648,
+"lng": -106.326,
+"states": [
+"NM"
+]
+},
+{
+"code": "WHMI",
+"name": "Whitman Mission National Historic Site",
+"type": "National Historic Site",
+"lat": 46.0429,
+"lng": -118.4651,
+"states": [
+"WA"
+]
+},
+{
+"code": "WIHO",
+"name": "William Howard Taft National Historic Site",
+"type": "National Historic Site",
+"lat": 39.1197,
+"lng": -84.5078,
+"states": [
+"OH"
+]
+},
+{
+"code": "WICR",
+"name": "Wilson's Creek National Battlefield",
+"type": "National Battlefield",
+"lat": 37.0997,
+"lng": -93.4092,
+"states": [
+"MO"
+]
+},
+{
+"code": "WICA",
+"name": "Wind Cave National Park",
+"type": "National Park",
+"lat": 43.5753,
+"lng": -103.4288,
+"states": [
+"SD"
+]
+},
+{
+"code": "WOTR",
+"name": "Wolf Trap National Park for the Performing Arts",
+"type": "Other",
+"lat": 38.9379,
+"lng": -77.2637,
+"states": [
+"VA"
+]
+},
+{
+"code": "WORI",
+"name": "Women's Rights National Historical Park",
+"type": "National Historical Park",
+"lat": 42.9027,
+"lng": -76.8444,
+"states": [
+"NY"
+]
+},
+{
+"code": "WWIM",
+"name": "World War I Memorial",
+"type": "National Memorial",
+"lat": 38.896,
+"lng": -77.0328,
+"states": [
+"DC"
+]
+},
+{
+"code": "WWII",
+"name": "World War II Memorial",
+"type": "National Memorial",
+"lat": 38.8892,
+"lng": -77.0404,
+"states": [
+"DC"
+]
+},
+{
+"code": "WRST",
+"name": "Wrangell - St Elias National Park & Preserve",
+"type": "National Park",
+"lat": 61.2156,
+"lng": -143.866,
+"states": [
+"AK"
+]
+},
+{
+"code": "WRBR",
+"name": "Wright Brothers National Memorial",
+"type": "National Memorial",
+"lat": 36.0176,
+"lng": -75.6681,
+"states": [
+"NC"
+]
+},
+{
+"code": "WUPA",
+"name": "Wupatki National Monument",
+"type": "National Monument",
+"lat": 35.5649,
+"lng": -111.4058,
+"states": [
+"AZ"
+]
+},
+{
+"code": "YELL",
+"name": "Yellowstone National Park",
+"type": "National Park",
+"lat": 44.583,
+"lng": -110.4901,
+"states": [
+"ID",
+"MT",
+"WY"
+]
+},
+{
+"code": "YOSE",
+"name": "Yosemite National Park",
+"type": "National Park",
+"lat": 37.8413,
+"lng": -119.5428,
+"states": [
+"CA"
+]
+},
+{
+"code": "YUHO",
+"name": "Yucca House National Monument",
+"type": "National Monument",
+"lat": 37.2453,
+"lng": -108.6822,
+"states": [
+"CO"
+]
+},
+{
+"code": "YUCH",
+"name": "Yukon - Charley Rivers National Preserve",
+"type": "National Preserve",
+"lat": 65.0586,
+"lng": -143.1363,
+"states": [
+"AK"
+]
+},
+{
+"code": "ZION",
+"name": "Zion National Park",
+"type": "National Park",
+"lat": 37.2795,
+"lng": -113.0457,
+"states": [
+"UT"
+]
+}
+]

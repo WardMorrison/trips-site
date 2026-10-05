@@ -1,0 +1,1879 @@
+{
+"716": {
+"name": "Zimbabwe",
+"iso": "ZW",
+"continent": "Africa",
+"aliases": [
+"Republic of Zimbabwe"
+]
+},
+"894": {
+"name": "Zambia",
+"iso": "ZM",
+"continent": "Africa",
+"aliases": [
+"Republic of Zambia"
+]
+},
+"887": {
+"name": "Yemen",
+"iso": "YE",
+"continent": "Asia",
+"aliases": [
+"Republic of Yemen"
+]
+},
+"704": {
+"name": "Vietnam",
+"iso": "VN",
+"continent": "Asia",
+"aliases": [
+"Socialist Republic of Viet Nam",
+"Viet Nam"
+]
+},
+"862": {
+"name": "Venezuela",
+"iso": "VE",
+"continent": "South America",
+"aliases": [
+"Bolivarian Republic of Venezuela",
+"Venezuela, Bolivarian Republic of"
+]
+},
+"336": {
+"name": "Vatican",
+"iso": "VA",
+"continent": "Europe",
+"aliases": [
+"Holy See (Vatican City State)"
+]
+},
+"548": {
+"name": "Vanuatu",
+"iso": "VU",
+"continent": "Oceania",
+"aliases": [
+"Republic of Vanuatu"
+]
+},
+"860": {
+"name": "Uzbekistan",
+"iso": "UZ",
+"continent": "Asia",
+"aliases": [
+"Republic of Uzbekistan"
+]
+},
+"858": {
+"name": "Uruguay",
+"iso": "UY",
+"continent": "South America",
+"aliases": [
+"Eastern Republic of Uruguay"
+]
+},
+"583": {
+"name": "Micronesia",
+"iso": "FM",
+"continent": "Oceania",
+"aliases": [
+"Federated States of Micronesia",
+"Micronesia, Federated States of"
+]
+},
+"584": {
+"name": "Marshall Is.",
+"iso": "MH",
+"continent": "Oceania",
+"aliases": [
+"Marshall Islands",
+"Republic of the Marshall Islands"
+]
+},
+"580": {
+"name": "N. Mariana Is.",
+"iso": "MP",
+"continent": "Oceania",
+"aliases": [
+"Commonwealth of the Northern Mariana Islands",
+"Northern Mariana Islands"
+]
+},
+"850": {
+"name": "U.S. Virgin Is.",
+"iso": "VI",
+"continent": "North America",
+"aliases": [
+"Virgin Islands of the United States",
+"Virgin Islands, U.S."
+]
+},
+"316": {
+"name": "Guam",
+"iso": "GU",
+"continent": "Oceania",
+"aliases": []
+},
+"016": {
+"name": "American Samoa",
+"iso": "AS",
+"continent": "Oceania",
+"aliases": []
+},
+"630": {
+"name": "Puerto Rico",
+"iso": "PR",
+"continent": "North America",
+"aliases": []
+},
+"840": {
+"name": "United States of America",
+"iso": "US",
+"continent": "North America",
+"aliases": [
+"America",
+"USA",
+"United States"
+]
+},
+"239": {
+"name": "S. Geo. and the Is.",
+"iso": "GS",
+"continent": "South America",
+"aliases": [
+"South Georgia and the South Sandwich Islands"
+]
+},
+"086": {
+"name": "Br. Indian Ocean Ter.",
+"iso": "IO",
+"continent": "Asia",
+"aliases": [
+"British Indian Ocean Territory"
+]
+},
+"654": {
+"name": "Saint Helena",
+"iso": "SH",
+"continent": "Africa",
+"aliases": [
+"Saint Helena, Ascension and Tristan da Cunha"
+]
+},
+"612": {
+"name": "Pitcairn Is.",
+"iso": "PN",
+"continent": "Oceania",
+"aliases": [
+"Pitcairn"
+]
+},
+"660": {
+"name": "Anguilla",
+"iso": "AI",
+"continent": "North America",
+"aliases": []
+},
+"238": {
+"name": "Falkland Is.",
+"iso": "FK",
+"continent": "South America",
+"aliases": [
+"Falkland Islands (Malvinas)"
+]
+},
+"136": {
+"name": "Cayman Is.",
+"iso": "KY",
+"continent": "North America",
+"aliases": [
+"Cayman Islands"
+]
+},
+"060": {
+"name": "Bermuda",
+"iso": "BM",
+"continent": "North America",
+"aliases": []
+},
+"092": {
+"name": "British Virgin Is.",
+"iso": "VG",
+"continent": "North America",
+"aliases": [
+"British Virgin Islands",
+"Virgin Islands, British"
+]
+},
+"796": {
+"name": "Turks and Caicos Is.",
+"iso": "TC",
+"continent": "North America",
+"aliases": [
+"Turks and Caicos Islands"
+]
+},
+"500": {
+"name": "Montserrat",
+"iso": "MS",
+"continent": "North America",
+"aliases": []
+},
+"832": {
+"name": "Jersey",
+"iso": "JE",
+"continent": "Europe",
+"aliases": []
+},
+"831": {
+"name": "Guernsey",
+"iso": "GG",
+"continent": "Europe",
+"aliases": []
+},
+"833": {
+"name": "Isle of Man",
+"iso": "IM",
+"continent": "Europe",
+"aliases": []
+},
+"826": {
+"name": "United Kingdom",
+"iso": "GB",
+"continent": "Europe",
+"aliases": [
+"Britain",
+"England",
+"Great Britain",
+"Scotland",
+"UK",
+"United Kingdom of Great Britain and Northern Ireland",
+"Wales"
+]
+},
+"784": {
+"name": "United Arab Emirates",
+"iso": "AE",
+"continent": "Asia",
+"aliases": []
+},
+"804": {
+"name": "Ukraine",
+"iso": "UA",
+"continent": "Europe",
+"aliases": []
+},
+"800": {
+"name": "Uganda",
+"iso": "UG",
+"continent": "Africa",
+"aliases": [
+"Republic of Uganda"
+]
+},
+"795": {
+"name": "Turkmenistan",
+"iso": "TM",
+"continent": "Asia",
+"aliases": []
+},
+"792": {
+"name": "Turkey",
+"iso": "TR",
+"continent": "Asia",
+"aliases": [
+"Republic of Türkiye",
+"Türkiye"
+]
+},
+"788": {
+"name": "Tunisia",
+"iso": "TN",
+"continent": "Africa",
+"aliases": [
+"Republic of Tunisia"
+]
+},
+"780": {
+"name": "Trinidad and Tobago",
+"iso": "TT",
+"continent": "North America",
+"aliases": [
+"Republic of Trinidad and Tobago"
+]
+},
+"776": {
+"name": "Tonga",
+"iso": "TO",
+"continent": "Oceania",
+"aliases": [
+"Kingdom of Tonga"
+]
+},
+"768": {
+"name": "Togo",
+"iso": "TG",
+"continent": "Africa",
+"aliases": [
+"Togolese Republic"
+]
+},
+"626": {
+"name": "Timor-Leste",
+"iso": "TL",
+"continent": "Asia",
+"aliases": [
+"Democratic Republic of Timor-Leste"
+]
+},
+"764": {
+"name": "Thailand",
+"iso": "TH",
+"continent": "Asia",
+"aliases": [
+"Kingdom of Thailand"
+]
+},
+"834": {
+"name": "Tanzania",
+"iso": "TZ",
+"continent": "Africa",
+"aliases": [
+"Tanzania, United Republic of",
+"United Republic of Tanzania"
+]
+},
+"762": {
+"name": "Tajikistan",
+"iso": "TJ",
+"continent": "Asia",
+"aliases": [
+"Republic of Tajikistan"
+]
+},
+"158": {
+"name": "Taiwan",
+"iso": "TW",
+"continent": "Asia",
+"aliases": [
+"Taiwan, Province of China"
+]
+},
+"760": {
+"name": "Syria",
+"iso": "SY",
+"continent": "Asia",
+"aliases": [
+"Syrian Arab Republic"
+]
+},
+"756": {
+"name": "Switzerland",
+"iso": "CH",
+"continent": "Europe",
+"aliases": [
+"Swiss Confederation"
+]
+},
+"752": {
+"name": "Sweden",
+"iso": "SE",
+"continent": "Europe",
+"aliases": [
+"Kingdom of Sweden"
+]
+},
+"748": {
+"name": "eSwatini",
+"iso": "SZ",
+"continent": "Africa",
+"aliases": [
+"Eswatini",
+"Kingdom of Eswatini"
+]
+},
+"740": {
+"name": "Suriname",
+"iso": "SR",
+"continent": "South America",
+"aliases": [
+"Republic of Suriname"
+]
+},
+"728": {
+"name": "S. Sudan",
+"iso": "SS",
+"continent": "Africa",
+"aliases": [
+"Republic of South Sudan",
+"South Sudan"
+]
+},
+"729": {
+"name": "Sudan",
+"iso": "SD",
+"continent": "Africa",
+"aliases": [
+"Republic of the Sudan"
+]
+},
+"144": {
+"name": "Sri Lanka",
+"iso": "LK",
+"continent": "Asia",
+"aliases": [
+"Democratic Socialist Republic of Sri Lanka"
+]
+},
+"724": {
+"name": "Spain",
+"iso": "ES",
+"continent": "Europe",
+"aliases": [
+"Kingdom of Spain"
+]
+},
+"410": {
+"name": "South Korea",
+"iso": "KR",
+"continent": "Asia",
+"aliases": [
+"Korea, Republic of"
+]
+},
+"710": {
+"name": "South Africa",
+"iso": "ZA",
+"continent": "Africa",
+"aliases": [
+"Republic of South Africa"
+]
+},
+"706": {
+"name": "Somalia",
+"iso": "SO",
+"continent": "Africa",
+"aliases": [
+"Federal Republic of Somalia"
+]
+},
+"Somaliland": {
+"name": "Somaliland",
+"iso": "SO",
+"continent": "Africa",
+"aliases": [
+"Federal Republic of Somalia",
+"Somalia"
+]
+},
+"090": {
+"name": "Solomon Is.",
+"iso": "SB",
+"continent": "Oceania",
+"aliases": [
+"Solomon Islands"
+]
+},
+"703": {
+"name": "Slovakia",
+"iso": "SK",
+"continent": "Europe",
+"aliases": [
+"Slovak Republic"
+]
+},
+"705": {
+"name": "Slovenia",
+"iso": "SI",
+"continent": "Europe",
+"aliases": [
+"Republic of Slovenia"
+]
+},
+"702": {
+"name": "Singapore",
+"iso": "SG",
+"continent": "Asia",
+"aliases": [
+"Republic of Singapore"
+]
+},
+"694": {
+"name": "Sierra Leone",
+"iso": "SL",
+"continent": "Africa",
+"aliases": [
+"Republic of Sierra Leone"
+]
+},
+"690": {
+"name": "Seychelles",
+"iso": "SC",
+"continent": "Africa",
+"aliases": [
+"Republic of Seychelles"
+]
+},
+"688": {
+"name": "Serbia",
+"iso": "RS",
+"continent": "Europe",
+"aliases": [
+"Republic of Serbia"
+]
+},
+"686": {
+"name": "Senegal",
+"iso": "SN",
+"continent": "Africa",
+"aliases": [
+"Republic of Senegal"
+]
+},
+"682": {
+"name": "Saudi Arabia",
+"iso": "SA",
+"continent": "Asia",
+"aliases": [
+"Kingdom of Saudi Arabia"
+]
+},
+"678": {
+"name": "São Tomé and Principe",
+"iso": "ST",
+"continent": "Africa",
+"aliases": [
+"Democratic Republic of Sao Tome and Principe",
+"Sao Tome and Principe"
+]
+},
+"674": {
+"name": "San Marino",
+"iso": "SM",
+"continent": "Europe",
+"aliases": [
+"Republic of San Marino"
+]
+},
+"882": {
+"name": "Samoa",
+"iso": "WS",
+"continent": "Oceania",
+"aliases": [
+"Independent State of Samoa"
+]
+},
+"670": {
+"name": "St. Vin. and Gren.",
+"iso": "VC",
+"continent": "North America",
+"aliases": [
+"Saint Vincent and the Grenadines"
+]
+},
+"662": {
+"name": "Saint Lucia",
+"iso": "LC",
+"continent": "North America",
+"aliases": []
+},
+"659": {
+"name": "St. Kitts and Nevis",
+"iso": "KN",
+"continent": "North America",
+"aliases": [
+"Saint Kitts and Nevis"
+]
+},
+"646": {
+"name": "Rwanda",
+"iso": "RW",
+"continent": "Africa",
+"aliases": [
+"Rwandese Republic"
+]
+},
+"643": {
+"name": "Russia",
+"iso": "RU",
+"continent": "Europe",
+"aliases": [
+"Russian Federation"
+]
+},
+"642": {
+"name": "Romania",
+"iso": "RO",
+"continent": "Europe",
+"aliases": []
+},
+"634": {
+"name": "Qatar",
+"iso": "QA",
+"continent": "Asia",
+"aliases": [
+"State of Qatar"
+]
+},
+"620": {
+"name": "Portugal",
+"iso": "PT",
+"continent": "Europe",
+"aliases": [
+"Portuguese Republic"
+]
+},
+"616": {
+"name": "Poland",
+"iso": "PL",
+"continent": "Europe",
+"aliases": [
+"Republic of Poland"
+]
+},
+"608": {
+"name": "Philippines",
+"iso": "PH",
+"continent": "Asia",
+"aliases": [
+"Republic of the Philippines"
+]
+},
+"604": {
+"name": "Peru",
+"iso": "PE",
+"continent": "South America",
+"aliases": [
+"Republic of Peru"
+]
+},
+"600": {
+"name": "Paraguay",
+"iso": "PY",
+"continent": "South America",
+"aliases": [
+"Republic of Paraguay"
+]
+},
+"598": {
+"name": "Papua New Guinea",
+"iso": "PG",
+"continent": "Oceania",
+"aliases": [
+"Independent State of Papua New Guinea"
+]
+},
+"591": {
+"name": "Panama",
+"iso": "PA",
+"continent": "North America",
+"aliases": [
+"Republic of Panama"
+]
+},
+"585": {
+"name": "Palau",
+"iso": "PW",
+"continent": "Oceania",
+"aliases": [
+"Republic of Palau"
+]
+},
+"586": {
+"name": "Pakistan",
+"iso": "PK",
+"continent": "Asia",
+"aliases": [
+"Islamic Republic of Pakistan"
+]
+},
+"512": {
+"name": "Oman",
+"iso": "OM",
+"continent": "Asia",
+"aliases": [
+"Sultanate of Oman"
+]
+},
+"578": {
+"name": "Norway",
+"iso": "NO",
+"continent": "Europe",
+"aliases": [
+"Kingdom of Norway"
+]
+},
+"408": {
+"name": "North Korea",
+"iso": "KP",
+"continent": "Asia",
+"aliases": [
+"Democratic People's Republic of Korea",
+"Korea, Democratic People's Republic of"
+]
+},
+"566": {
+"name": "Nigeria",
+"iso": "NG",
+"continent": "Africa",
+"aliases": [
+"Federal Republic of Nigeria"
+]
+},
+"562": {
+"name": "Niger",
+"iso": "NE",
+"continent": "Africa",
+"aliases": [
+"Republic of the Niger"
+]
+},
+"558": {
+"name": "Nicaragua",
+"iso": "NI",
+"continent": "North America",
+"aliases": [
+"Republic of Nicaragua"
+]
+},
+"554": {
+"name": "New Zealand",
+"iso": "NZ",
+"continent": "Oceania",
+"aliases": []
+},
+"570": {
+"name": "Niue",
+"iso": "NU",
+"continent": "Oceania",
+"aliases": []
+},
+"184": {
+"name": "Cook Is.",
+"iso": "CK",
+"continent": "Oceania",
+"aliases": [
+"Cook Islands"
+]
+},
+"528": {
+"name": "Netherlands",
+"iso": "NL",
+"continent": "Europe",
+"aliases": [
+"Kingdom of the Netherlands"
+]
+},
+"533": {
+"name": "Aruba",
+"iso": "AW",
+"continent": "North America",
+"aliases": []
+},
+"531": {
+"name": "Curaçao",
+"iso": "CW",
+"continent": "North America",
+"aliases": []
+},
+"524": {
+"name": "Nepal",
+"iso": "NP",
+"continent": "Asia",
+"aliases": [
+"Federal Democratic Republic of Nepal"
+]
+},
+"520": {
+"name": "Nauru",
+"iso": "NR",
+"continent": "Oceania",
+"aliases": [
+"Republic of Nauru"
+]
+},
+"516": {
+"name": "Namibia",
+"iso": "NA",
+"continent": "Africa",
+"aliases": [
+"Republic of Namibia"
+]
+},
+"508": {
+"name": "Mozambique",
+"iso": "MZ",
+"continent": "Africa",
+"aliases": [
+"Republic of Mozambique"
+]
+},
+"504": {
+"name": "Morocco",
+"iso": "MA",
+"continent": "Africa",
+"aliases": [
+"Kingdom of Morocco"
+]
+},
+"732": {
+"name": "W. Sahara",
+"iso": "EH",
+"continent": "Africa",
+"aliases": [
+"Western Sahara"
+]
+},
+"499": {
+"name": "Montenegro",
+"iso": "ME",
+"continent": "Europe",
+"aliases": []
+},
+"496": {
+"name": "Mongolia",
+"iso": "MN",
+"continent": "Asia",
+"aliases": []
+},
+"498": {
+"name": "Moldova",
+"iso": "MD",
+"continent": "Europe",
+"aliases": [
+"Moldova, Republic of",
+"Republic of Moldova"
+]
+},
+"492": {
+"name": "Monaco",
+"iso": "MC",
+"continent": "Europe",
+"aliases": [
+"Principality of Monaco"
+]
+},
+"484": {
+"name": "Mexico",
+"iso": "MX",
+"continent": "North America",
+"aliases": [
+"United Mexican States"
+]
+},
+"480": {
+"name": "Mauritius",
+"iso": "MU",
+"continent": "Africa",
+"aliases": [
+"Republic of Mauritius"
+]
+},
+"478": {
+"name": "Mauritania",
+"iso": "MR",
+"continent": "Africa",
+"aliases": [
+"Islamic Republic of Mauritania"
+]
+},
+"470": {
+"name": "Malta",
+"iso": "MT",
+"continent": "Europe",
+"aliases": [
+"Republic of Malta"
+]
+},
+"466": {
+"name": "Mali",
+"iso": "ML",
+"continent": "Africa",
+"aliases": [
+"Republic of Mali"
+]
+},
+"462": {
+"name": "Maldives",
+"iso": "MV",
+"continent": "Asia",
+"aliases": [
+"Republic of Maldives"
+]
+},
+"458": {
+"name": "Malaysia",
+"iso": "MY",
+"continent": "Asia",
+"aliases": []
+},
+"454": {
+"name": "Malawi",
+"iso": "MW",
+"continent": "Africa",
+"aliases": [
+"Republic of Malawi"
+]
+},
+"450": {
+"name": "Madagascar",
+"iso": "MG",
+"continent": "Africa",
+"aliases": [
+"Republic of Madagascar"
+]
+},
+"807": {
+"name": "Macedonia",
+"iso": "MK",
+"continent": "Europe",
+"aliases": [
+"North Macedonia",
+"Republic of North Macedonia"
+]
+},
+"442": {
+"name": "Luxembourg",
+"iso": "LU",
+"continent": "Europe",
+"aliases": [
+"Grand Duchy of Luxembourg"
+]
+},
+"440": {
+"name": "Lithuania",
+"iso": "LT",
+"continent": "Europe",
+"aliases": [
+"Republic of Lithuania"
+]
+},
+"438": {
+"name": "Liechtenstein",
+"iso": "LI",
+"continent": "Europe",
+"aliases": [
+"Principality of Liechtenstein"
+]
+},
+"434": {
+"name": "Libya",
+"iso": "LY",
+"continent": "Africa",
+"aliases": []
+},
+"430": {
+"name": "Liberia",
+"iso": "LR",
+"continent": "Africa",
+"aliases": [
+"Republic of Liberia"
+]
+},
+"426": {
+"name": "Lesotho",
+"iso": "LS",
+"continent": "Africa",
+"aliases": [
+"Kingdom of Lesotho"
+]
+},
+"422": {
+"name": "Lebanon",
+"iso": "LB",
+"continent": "Asia",
+"aliases": [
+"Lebanese Republic"
+]
+},
+"428": {
+"name": "Latvia",
+"iso": "LV",
+"continent": "Europe",
+"aliases": [
+"Republic of Latvia"
+]
+},
+"418": {
+"name": "Laos",
+"iso": "LA",
+"continent": "Asia",
+"aliases": [
+"Lao People's Democratic Republic"
+]
+},
+"417": {
+"name": "Kyrgyzstan",
+"iso": "KG",
+"continent": "Asia",
+"aliases": [
+"Kyrgyz Republic"
+]
+},
+"414": {
+"name": "Kuwait",
+"iso": "KW",
+"continent": "Asia",
+"aliases": [
+"State of Kuwait"
+]
+},
+"Kosovo": {
+"name": "Kosovo",
+"iso": "XK",
+"continent": "Europe",
+"aliases": []
+},
+"296": {
+"name": "Kiribati",
+"iso": "KI",
+"continent": "Oceania",
+"aliases": [
+"Republic of Kiribati"
+]
+},
+"404": {
+"name": "Kenya",
+"iso": "KE",
+"continent": "Africa",
+"aliases": [
+"Republic of Kenya"
+]
+},
+"398": {
+"name": "Kazakhstan",
+"iso": "KZ",
+"continent": "Asia",
+"aliases": [
+"Republic of Kazakhstan"
+]
+},
+"400": {
+"name": "Jordan",
+"iso": "JO",
+"continent": "Asia",
+"aliases": [
+"Hashemite Kingdom of Jordan"
+]
+},
+"392": {
+"name": "Japan",
+"iso": "JP",
+"continent": "Asia",
+"aliases": []
+},
+"388": {
+"name": "Jamaica",
+"iso": "JM",
+"continent": "North America",
+"aliases": []
+},
+"380": {
+"name": "Italy",
+"iso": "IT",
+"continent": "Europe",
+"aliases": [
+"Italian Republic"
+]
+},
+"376": {
+"name": "Israel",
+"iso": "IL",
+"continent": "Asia",
+"aliases": [
+"State of Israel"
+]
+},
+"275": {
+"name": "Palestine",
+"iso": "PS",
+"continent": "Asia",
+"aliases": [
+"Palestine, State of",
+"the State of Palestine"
+]
+},
+"372": {
+"name": "Ireland",
+"iso": "IE",
+"continent": "Europe",
+"aliases": []
+},
+"368": {
+"name": "Iraq",
+"iso": "IQ",
+"continent": "Asia",
+"aliases": [
+"Republic of Iraq"
+]
+},
+"364": {
+"name": "Iran",
+"iso": "IR",
+"continent": "Asia",
+"aliases": [
+"Iran, Islamic Republic of",
+"Islamic Republic of Iran"
+]
+},
+"360": {
+"name": "Indonesia",
+"iso": "ID",
+"continent": "Asia",
+"aliases": [
+"Republic of Indonesia"
+]
+},
+"356": {
+"name": "India",
+"iso": "IN",
+"continent": "Asia",
+"aliases": [
+"Republic of India"
+]
+},
+"352": {
+"name": "Iceland",
+"iso": "IS",
+"continent": "Europe",
+"aliases": [
+"Republic of Iceland"
+]
+},
+"348": {
+"name": "Hungary",
+"iso": "HU",
+"continent": "Europe",
+"aliases": []
+},
+"340": {
+"name": "Honduras",
+"iso": "HN",
+"continent": "North America",
+"aliases": [
+"Republic of Honduras"
+]
+},
+"332": {
+"name": "Haiti",
+"iso": "HT",
+"continent": "North America",
+"aliases": [
+"Republic of Haiti"
+]
+},
+"328": {
+"name": "Guyana",
+"iso": "GY",
+"continent": "South America",
+"aliases": [
+"Republic of Guyana"
+]
+},
+"624": {
+"name": "Guinea-Bissau",
+"iso": "GW",
+"continent": "Africa",
+"aliases": [
+"Republic of Guinea-Bissau"
+]
+},
+"324": {
+"name": "Guinea",
+"iso": "GN",
+"continent": "Africa",
+"aliases": [
+"Republic of Guinea"
+]
+},
+"320": {
+"name": "Guatemala",
+"iso": "GT",
+"continent": "North America",
+"aliases": [
+"Republic of Guatemala"
+]
+},
+"308": {
+"name": "Grenada",
+"iso": "GD",
+"continent": "North America",
+"aliases": []
+},
+"300": {
+"name": "Greece",
+"iso": "GR",
+"continent": "Europe",
+"aliases": [
+"Hellenic Republic"
+]
+},
+"288": {
+"name": "Ghana",
+"iso": "GH",
+"continent": "Africa",
+"aliases": [
+"Republic of Ghana"
+]
+},
+"276": {
+"name": "Germany",
+"iso": "DE",
+"continent": "Europe",
+"aliases": [
+"Federal Republic of Germany"
+]
+},
+"268": {
+"name": "Georgia",
+"iso": "GE",
+"continent": "Asia",
+"aliases": []
+},
+"270": {
+"name": "Gambia",
+"iso": "GM",
+"continent": "Africa",
+"aliases": [
+"Republic of the Gambia"
+]
+},
+"266": {
+"name": "Gabon",
+"iso": "GA",
+"continent": "Africa",
+"aliases": [
+"Gabonese Republic"
+]
+},
+"250": {
+"name": "France",
+"iso": "FR",
+"continent": "Europe",
+"aliases": [
+"French Republic"
+]
+},
+"666": {
+"name": "St. Pierre and Miquelon",
+"iso": "PM",
+"continent": "North America",
+"aliases": [
+"Saint Pierre and Miquelon"
+]
+},
+"876": {
+"name": "Wallis and Futuna Is.",
+"iso": "WF",
+"continent": "Oceania",
+"aliases": [
+"Wallis and Futuna"
+]
+},
+"663": {
+"name": "St-Martin",
+"iso": "MF",
+"continent": "North America",
+"aliases": [
+"Saint Martin (French part)"
+]
+},
+"652": {
+"name": "St-Barthélemy",
+"iso": "BL",
+"continent": "North America",
+"aliases": [
+"Saint Barthélemy"
+]
+},
+"258": {
+"name": "Fr. Polynesia",
+"iso": "PF",
+"continent": "Oceania",
+"aliases": [
+"French Polynesia"
+]
+},
+"540": {
+"name": "New Caledonia",
+"iso": "NC",
+"continent": "Oceania",
+"aliases": []
+},
+"260": {
+"name": "Fr. S. Antarctic Lands",
+"iso": "TF",
+"continent": "Antarctica",
+"aliases": [
+"French Southern Territories"
+]
+},
+"248": {
+"name": "Åland",
+"iso": "AX",
+"continent": "Europe",
+"aliases": [
+"Åland Islands"
+]
+},
+"246": {
+"name": "Finland",
+"iso": "FI",
+"continent": "Europe",
+"aliases": [
+"Republic of Finland"
+]
+},
+"242": {
+"name": "Fiji",
+"iso": "FJ",
+"continent": "Oceania",
+"aliases": [
+"Republic of Fiji"
+]
+},
+"231": {
+"name": "Ethiopia",
+"iso": "ET",
+"continent": "Africa",
+"aliases": [
+"Federal Democratic Republic of Ethiopia"
+]
+},
+"233": {
+"name": "Estonia",
+"iso": "EE",
+"continent": "Europe",
+"aliases": [
+"Republic of Estonia"
+]
+},
+"232": {
+"name": "Eritrea",
+"iso": "ER",
+"continent": "Africa",
+"aliases": [
+"the State of Eritrea"
+]
+},
+"226": {
+"name": "Eq. Guinea",
+"iso": "GQ",
+"continent": "Africa",
+"aliases": [
+"Equatorial Guinea",
+"Republic of Equatorial Guinea"
+]
+},
+"222": {
+"name": "El Salvador",
+"iso": "SV",
+"continent": "North America",
+"aliases": [
+"Republic of El Salvador"
+]
+},
+"818": {
+"name": "Egypt",
+"iso": "EG",
+"continent": "Africa",
+"aliases": [
+"Arab Republic of Egypt"
+]
+},
+"218": {
+"name": "Ecuador",
+"iso": "EC",
+"continent": "South America",
+"aliases": [
+"Republic of Ecuador"
+]
+},
+"214": {
+"name": "Dominican Rep.",
+"iso": "DO",
+"continent": "North America",
+"aliases": [
+"Dominican Republic"
+]
+},
+"212": {
+"name": "Dominica",
+"iso": "DM",
+"continent": "North America",
+"aliases": [
+"Commonwealth of Dominica"
+]
+},
+"262": {
+"name": "Djibouti",
+"iso": "DJ",
+"continent": "Africa",
+"aliases": [
+"Republic of Djibouti"
+]
+},
+"304": {
+"name": "Greenland",
+"iso": "GL",
+"continent": "North America",
+"aliases": []
+},
+"234": {
+"name": "Faeroe Is.",
+"iso": "FO",
+"continent": "Europe",
+"aliases": [
+"Faroe Islands"
+]
+},
+"208": {
+"name": "Denmark",
+"iso": "DK",
+"continent": "Europe",
+"aliases": [
+"Kingdom of Denmark"
+]
+},
+"203": {
+"name": "Czechia",
+"iso": "CZ",
+"continent": "Europe",
+"aliases": [
+"Czech Republic"
+]
+},
+"N. Cyprus": {
+"name": "N. Cyprus",
+"iso": "CY",
+"continent": "Asia",
+"aliases": [
+"Cyprus",
+"Republic of Cyprus"
+]
+},
+"196": {
+"name": "Cyprus",
+"iso": "CY",
+"continent": "Asia",
+"aliases": [
+"Republic of Cyprus"
+]
+},
+"192": {
+"name": "Cuba",
+"iso": "CU",
+"continent": "North America",
+"aliases": [
+"Republic of Cuba"
+]
+},
+"191": {
+"name": "Croatia",
+"iso": "HR",
+"continent": "Europe",
+"aliases": [
+"Republic of Croatia"
+]
+},
+"384": {
+"name": "Côte d'Ivoire",
+"iso": "CI",
+"continent": "Africa",
+"aliases": [
+"Republic of Côte d'Ivoire"
+]
+},
+"188": {
+"name": "Costa Rica",
+"iso": "CR",
+"continent": "North America",
+"aliases": [
+"Republic of Costa Rica"
+]
+},
+"180": {
+"name": "Dem. Rep. Congo",
+"iso": "CD",
+"continent": "Africa",
+"aliases": [
+"Congo, The Democratic Republic of the"
+]
+},
+"178": {
+"name": "Congo",
+"iso": "CG",
+"continent": "Africa",
+"aliases": [
+"Republic of the Congo"
+]
+},
+"174": {
+"name": "Comoros",
+"iso": "KM",
+"continent": "Africa",
+"aliases": [
+"Union of the Comoros"
+]
+},
+"170": {
+"name": "Colombia",
+"iso": "CO",
+"continent": "South America",
+"aliases": [
+"Republic of Colombia"
+]
+},
+"156": {
+"name": "China",
+"iso": "CN",
+"continent": "Asia",
+"aliases": [
+"People's Republic of China"
+]
+},
+"446": {
+"name": "Macao",
+"iso": "MO",
+"continent": "Asia",
+"aliases": [
+"Macao Special Administrative Region of China"
+]
+},
+"344": {
+"name": "Hong Kong",
+"iso": "HK",
+"continent": "Asia",
+"aliases": [
+"Hong Kong Special Administrative Region of China"
+]
+},
+"152": {
+"name": "Chile",
+"iso": "CL",
+"continent": "South America",
+"aliases": [
+"Republic of Chile"
+]
+},
+"148": {
+"name": "Chad",
+"iso": "TD",
+"continent": "Africa",
+"aliases": [
+"Republic of Chad"
+]
+},
+"140": {
+"name": "Central African Rep.",
+"iso": "CF",
+"continent": "Africa",
+"aliases": [
+"Central African Republic"
+]
+},
+"132": {
+"name": "Cabo Verde",
+"iso": "CV",
+"continent": "Africa",
+"aliases": [
+"Republic of Cabo Verde"
+]
+},
+"124": {
+"name": "Canada",
+"iso": "CA",
+"continent": "North America",
+"aliases": []
+},
+"120": {
+"name": "Cameroon",
+"iso": "CM",
+"continent": "Africa",
+"aliases": [
+"Republic of Cameroon"
+]
+},
+"116": {
+"name": "Cambodia",
+"iso": "KH",
+"continent": "Asia",
+"aliases": [
+"Kingdom of Cambodia"
+]
+},
+"104": {
+"name": "Myanmar",
+"iso": "MM",
+"continent": "Asia",
+"aliases": [
+"Republic of Myanmar"
+]
+},
+"108": {
+"name": "Burundi",
+"iso": "BI",
+"continent": "Africa",
+"aliases": [
+"Republic of Burundi"
+]
+},
+"854": {
+"name": "Burkina Faso",
+"iso": "BF",
+"continent": "Africa",
+"aliases": []
+},
+"100": {
+"name": "Bulgaria",
+"iso": "BG",
+"continent": "Europe",
+"aliases": [
+"Republic of Bulgaria"
+]
+},
+"096": {
+"name": "Brunei",
+"iso": "BN",
+"continent": "Asia",
+"aliases": [
+"Brunei Darussalam"
+]
+},
+"076": {
+"name": "Brazil",
+"iso": "BR",
+"continent": "South America",
+"aliases": [
+"Federative Republic of Brazil"
+]
+},
+"072": {
+"name": "Botswana",
+"iso": "BW",
+"continent": "Africa",
+"aliases": [
+"Republic of Botswana"
+]
+},
+"070": {
+"name": "Bosnia and Herz.",
+"iso": "BA",
+"continent": "Europe",
+"aliases": [
+"Bosnia and Herzegovina",
+"Republic of Bosnia and Herzegovina"
+]
+},
+"068": {
+"name": "Bolivia",
+"iso": "BO",
+"continent": "South America",
+"aliases": [
+"Bolivia, Plurinational State of",
+"Plurinational State of Bolivia"
+]
+},
+"064": {
+"name": "Bhutan",
+"iso": "BT",
+"continent": "Asia",
+"aliases": [
+"Kingdom of Bhutan"
+]
+},
+"204": {
+"name": "Benin",
+"iso": "BJ",
+"continent": "Africa",
+"aliases": [
+"Republic of Benin"
+]
+},
+"084": {
+"name": "Belize",
+"iso": "BZ",
+"continent": "North America",
+"aliases": []
+},
+"056": {
+"name": "Belgium",
+"iso": "BE",
+"continent": "Europe",
+"aliases": [
+"Kingdom of Belgium"
+]
+},
+"112": {
+"name": "Belarus",
+"iso": "BY",
+"continent": "Europe",
+"aliases": [
+"Republic of Belarus"
+]
+},
+"052": {
+"name": "Barbados",
+"iso": "BB",
+"continent": "North America",
+"aliases": []
+},
+"050": {
+"name": "Bangladesh",
+"iso": "BD",
+"continent": "Asia",
+"aliases": [
+"People's Republic of Bangladesh"
+]
+},
+"048": {
+"name": "Bahrain",
+"iso": "BH",
+"continent": "Asia",
+"aliases": [
+"Kingdom of Bahrain"
+]
+},
+"044": {
+"name": "Bahamas",
+"iso": "BS",
+"continent": "North America",
+"aliases": [
+"Commonwealth of the Bahamas"
+]
+},
+"031": {
+"name": "Azerbaijan",
+"iso": "AZ",
+"continent": "Asia",
+"aliases": [
+"Republic of Azerbaijan"
+]
+},
+"040": {
+"name": "Austria",
+"iso": "AT",
+"continent": "Europe",
+"aliases": [
+"Republic of Austria"
+]
+},
+"036": {
+"name": "Ashmore and Cartier Is.",
+"iso": "AU",
+"continent": "Oceania",
+"aliases": [
+"Australia"
+]
+},
+"Indian Ocean Ter.": {
+"name": "Indian Ocean Ter.",
+"iso": "AU",
+"continent": "Oceania",
+"aliases": [
+"Australia"
+]
+},
+"334": {
+"name": "Heard I. and McDonald Is.",
+"iso": "HM",
+"continent": "Antarctica",
+"aliases": [
+"Heard Island and McDonald Islands"
+]
+},
+"574": {
+"name": "Norfolk Island",
+"iso": "NF",
+"continent": "Oceania",
+"aliases": []
+},
+"051": {
+"name": "Armenia",
+"iso": "AM",
+"continent": "Asia",
+"aliases": [
+"Republic of Armenia"
+]
+},
+"032": {
+"name": "Argentina",
+"iso": "AR",
+"continent": "South America",
+"aliases": [
+"Argentine Republic"
+]
+},
+"028": {
+"name": "Antigua and Barb.",
+"iso": "AG",
+"continent": "North America",
+"aliases": [
+"Antigua and Barbuda"
+]
+},
+"024": {
+"name": "Angola",
+"iso": "AO",
+"continent": "Africa",
+"aliases": [
+"Republic of Angola"
+]
+},
+"020": {
+"name": "Andorra",
+"iso": "AD",
+"continent": "Europe",
+"aliases": [
+"Principality of Andorra"
+]
+},
+"012": {
+"name": "Algeria",
+"iso": "DZ",
+"continent": "Africa",
+"aliases": [
+"People's Democratic Republic of Algeria"
+]
+},
+"008": {
+"name": "Albania",
+"iso": "AL",
+"continent": "Europe",
+"aliases": [
+"Republic of Albania"
+]
+},
+"004": {
+"name": "Afghanistan",
+"iso": "AF",
+"continent": "Asia",
+"aliases": [
+"Islamic Republic of Afghanistan"
+]
+},
+"Siachen Glacier": {
+"name": "Siachen Glacier",
+"iso": "IN",
+"continent": "Asia",
+"aliases": [
+"India",
+"Republic of India"
+]
+},
+"010": {
+"name": "Antarctica",
+"iso": "AQ",
+"continent": "Antarctica",
+"aliases": []
+},
+"534": {
+"name": "Sint Maarten",
+"iso": "SX",
+"continent": "North America",
+"aliases": [
+"Sint Maarten (Dutch part)"
+]
+}
+}

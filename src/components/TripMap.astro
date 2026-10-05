@@ -1,0 +1,20 @@
+---
+import { tripMap } from "../lib/maps";
+interface Props { places: { name: string; lat: number; lng: number }[]; visitedIsos: Set<string> }
+const { places, visitedIsos } = Astro.props;
+const m = tripMap(places, visitedIsos);
+---
+{places.length > 0 && (
+  <svg class="map trip-map" viewBox={`0 0 ${m.width} ${m.height}`} role="img" aria-label={`Map of ${places.map((p) => p.name).join(", ")}`}>
+    <rect width={m.width} height={m.height} fill="var(--water)" />
+    {m.lands.map((l) => <path class={l.visited ? "land visited" : "land"} d={l.d} />)}
+    <path class="borders" d={m.borders} />
+    <path class="borders" d={m.states} />
+    {m.points.map((pt, i) => pt && (
+      <g>
+        <circle class="trip-pt" cx={pt.x} cy={pt.y} r="5" />
+        <text class="trip-label" x={pt.x + (pt.x > m.width * 0.6 ? -9 : 9)} y={pt.ly} text-anchor={pt.x > m.width * 0.6 ? "end" : "start"}>{places[i].name}</text>
+      </g>
+    ))}
+  </svg>
+)}

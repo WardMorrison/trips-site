@@ -1,0 +1,17 @@
+---
+interface Props { links: { type: "instagram" | "facebook" | "other"; url: string; label?: string }[] }
+const { links } = Astro.props;
+const NAME = { instagram: "Instagram", facebook: "Facebook", other: "Link" };
+---
+{links.map((l) => (
+  <a class="post-link" href={l.url} target="_blank" rel="noopener">
+    {l.type === "instagram" ? (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    ) : l.type === "facebook" ? (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M15 8h-1.5A1.5 1.5 0 0 0 12 9.5V21M9.5 13h5"/></svg>
+    ) : (
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>
+    )}
+    <span>{l.label ?? (l.type === "other" ? new URL(l.url).hostname : `${NAME[l.type]} post`)}<small>{NAME[l.type] === "Link" ? "Opens in a new tab" : `On ${NAME[l.type]}`}</small></span>
+  </a>
+))}

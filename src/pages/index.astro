@@ -1,0 +1,46 @@
+---
+import Base from "../layouts/Base.astro";
+import Stats from "../components/Stats.astro";
+import Atlas from "../components/Atlas.astro";
+import CategoryRow from "../components/CategoryRow.astro";
+import ParkGrid from "../components/ParkGrid.astro";
+import { getVisited, categories, site } from "../lib/data";
+
+const v = await getVisited();
+const hasSamples = v.trips.some((t) => t.data.sample);
+const rows = categories.map((c) => ({ ...c, trips: v.trips.filter((t) => t.data.category === c.id) }));
+---
+<Base sample={hasSamples}>
+  <div class="band title-band">
+    <div class="wrap">
+      <h1>Where I've been</h1>
+      <p class="kicker">Backpacking, field research and the rest, from home bases in midcoast Maine and San Luis Obispo.</p>
+    </div>
+  </div>
+
+  <main>
+    <section class="wrap" aria-label="Totals">
+      <Stats continents={v.continents.size} countries={v.countryIsos.size} states={v.fiftyVisited.length} parks={v.parkCodes.size} />
+    </section>
+
+    <section class="wrap" aria-labelledby="map-h">
+      <div class="section-head"><h2 id="map-h">Map</h2></div>
+      <Atlas countryIsos={v.countryIsos} states={v.states} parkCodes={v.parkCodes} />
+    </section>
+
+    <section class="wrap" aria-labelledby="trips-h">
+      <div class="section-head"><h2 id="trips-h">Trips</h2><span class="meta">{v.trips.length} so far</span></div>
+      {rows.map((r) => <CategoryRow id={r.id} label={r.label} trips={r.trips} />)}
+    </section>
+
+    <section class="wrap" aria-labelledby="parks-h">
+      <div class="section-head"><h2 id="parks-h">National Park System</h2></div>
+      <div class="park-total">
+        <span class="big">{v.parkCodes.size}</span><span class="of">of {site.npsTotal} sites</span>
+        <span class="what">Parks, monuments, historic sites, seashores and every other unit of the National Park System.</span>
+      </div>
+      <ParkGrid visited={v.parkCodes.size} />
+      <a class="button" href="/parks/">See every site</a>
+    </section>
+  </main>
+</Base>

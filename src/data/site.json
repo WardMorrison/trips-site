@@ -1,0 +1,17 @@
+{
+  "title": "Trips",
+  "author": "Ward Morrison",
+  "url": "https://trips.wardmorrison.com",
+  "description": "Trips, field work and national park sites by Ward Morrison, with a map of everywhere so far.",
+  "npsTotal": 433,
+  "npsTotalSource": "National Park Service unit count, Congressional Research Service, February 2026",
+  "homeBases": [
+    { "name": "Midcoast Maine", "note": "Home", "lat": 44.21, "lng": -69.07 },
+    { "name": "San Luis Obispo", "note": "School", "lat": 35.28, "lng": -120.66 }
+  ],
+  "links": [
+    { "label": "Photos", "url": "https://photos.wardmorrison.com" },
+    { "label": "Projects", "url": "https://projects.wardmorrison.com" },
+    { "label": "Instagram", "url": "https://instagram.com/morrison_photo" }
+  ]
+}

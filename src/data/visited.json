@@ -1,0 +1,151 @@
+{
+  "_comment": "Places visited outside any trip page. Trips add their own countries, states and parks automatically. Countries: name or ISO code. States: two-letter codes. Parks: NPS four-letter codes (see parks.json).",
+  "countries": [
+    "United States"
+  ],
+  "states": [
+    "ME",
+    "CA"
+  ],
+  "parks": [
+    "ACAD",
+    "BICY",
+    "BIHO",
+    "BISC",
+    "BITH",
+    "BLRI",
+    "BLUE",
+    "BOHA",
+    "BOWA",
+    "BUFF",
+    "CABR",
+    "CACO",
+    "CANA",
+    "CAVO",
+    "CHCH",
+    "CHSC",
+    "CIRO",
+    "COLO",
+    "CRMO",
+    "DINO",
+    "DRTO",
+    "ELMA",
+    "EVER",
+    "FOBU",
+    "FOSC",
+    "FOSM",
+    "FOUN",
+    "FRLA",
+    "GICL",
+    "GOGA",
+    "GOIS",
+    "GOSP",
+    "GRCA",
+    "GRSA",
+    "GRTE",
+    "GUIS",
+    "GWMP",
+    "HAFO",
+    "HOFU",
+    "INDE",
+    "JAZZ",
+    "JEFF",
+    "JELA",
+    "JICA",
+    "JOMU",
+    "KAWW",
+    "KEMO",
+    "KICA",
+    "KIMO",
+    "KNRI",
+    "LIBI",
+    "LINC",
+    "LOWE",
+    "LYJO",
+    "MABI",
+    "MACA",
+    "MALL",
+    "MEVE",
+    "MIIN",
+    "MIMA",
+    "MISS",
+    "MUWO",
+    "NATC",
+    "NATR",
+    "NATT",
+    "NEBE",
+    "NEPE",
+    "PAAV",
+    "PAGR",
+    "PAIS",
+    "PINN",
+    "POCH",
+    "PORE",
+    "ROMO",
+    "SAGA",
+    "SAIR",
+    "SAJU",
+    "SAMA",
+    "SEQU",
+    "SHIL",
+    "STEA",
+    "STLI",
+    "THRO",
+    "TICA",
+    "TUAI",
+    "TUIN",
+    "TUPE",
+    "VICK",
+    "VICR",
+    "VIIS",
+    "WACO",
+    "WAMO",
+    "WAPA",
+    "WHSA",
+    "WICL",
+    "WIHO",
+    "YELL"
+  ],
+  "otherNpsSites": [
+    {
+      "code": "CALI",
+      "name": "California National Historic Trail"
+    },
+    {
+      "code": "CAHI",
+      "name": "Capitol Hill Parks"
+    },
+    {
+      "code": "ELIS",
+      "name": "Ellis Island Part of Statue of Liberty National Monument"
+    },
+    {
+      "code": "LECL",
+      "name": "Lewis & Clark National Historic Trail"
+    },
+    {
+      "code": "LODE",
+      "name": "Lower Delaware National Wild and Scenic River"
+    },
+    {
+      "code": "MOPI",
+      "name": "Mormon Pioneer National Historic Trail"
+    },
+    {
+      "code": "NACE",
+      "name": "National Capital Parks-East"
+    },
+    {
+      "code": "NPNH",
+      "name": "National Parks of New York Harbor"
+    },
+    {
+      "code": "PRSF",
+      "name": "Presidio of San Francisco"
+    },
+    {
+      "code": "ROCA",
+      "name": "Roosevelt Campobello International Park"
+    }
+  ]
+}

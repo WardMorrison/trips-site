@@ -1,0 +1,108 @@
+---
+import Base from "../layouts/Base.astro";
+import Atlas from "../components/Atlas.astro";
+import ParkGrid from "../components/ParkGrid.astro";
+import { getVisited, parks, site, STATE_NAMES } from "../lib/data";
+
+const v = await getVisited();
+// Group by first listed state; multi-state units show their other states underneath.
+const groups = new Map<string, typeof parks>();
+for (const p of parks) {
+  const s = p.states[0];
+  groups.set(s, [...(groups.get(s) ?? []), p]);
+}
+const states = [...groups.keys()].sort((a, b) => (STATE_NAMES[a] ?? a).localeCompare(STATE_NAMES[b] ?? b));
+const types = [...new Set(parks.map((p) => p.type))].sort();
+---
+<Base title="National park sites" description={`${v.parkCodes.size} of ${site.npsTotal} National Park System sites visited.`}>
+  <div class="band title-band">
+    <div class="wrap">
+      <h1>National park sites</h1>
+      <p class="kicker">{v.parkCodes.size} of {site.npsTotal} units of the National Park System: parks, monuments, historic sites, seashores, rivers, trails and more.</p>
+    </div>
+  </div>
+
+  <main>
+    <section class="wrap">
+      <ParkGrid visited={v.parkCodes.size} />
+    </section>
+
+    <section class="wrap" aria-labelledby="pmap-h">
+      <div class="section-head"><h2 id="pmap-h">Map</h2></div>
+      <Atlas countryIsos={v.countryIsos} states={v.states} parkCodes={v.parkCodes} initial="us" />
+    </section>
+
+    <section class="wrap" aria-labelledby="plist-h">
+      <div class="section-head"><h2 id="plist-h">Every site</h2><span class="meta" id="park-count">{parks.length} shown</span></div>
+      <div class="filters">
+        <label class="sr-only" for="park-q">Search park sites</label>
+        <input id="park-q" type="search" placeholder="Search by name or state" autocomplete="off" />
+        <label class="sr-only" for="park-show">Show</label>
+        <select id="park-show">
+          <option value="all">All sites</option>
+          <option value="v">Visited</option>
+          <option value="n">Not yet</option>
+        </select>
+        <label class="sr-only" for="park-type">Type</label>
+        <select id="park-type">
+          <option value="">All types</option>
+          {types.map((t) => <option value={t}>{t}</option>)}
+        </select>
+      </div>
+      <div class="park-list">
+        {states.map((s) => {
+          const list = groups.get(s)!;
+          const seen = list.filter((p) => v.parkCodes.has(p.code)).length;
+          return (
+            <div class="park-state" data-state>
+              <h3>{STATE_NAMES[s] ?? s}<small>{seen} / {list.length}</small></h3>
+              <ul>
+                {list.map((p) => (
+                  <li class={v.parkCodes.has(p.code) ? "v" : undefined} data-name={`${p.name} ${p.states.map((x) => STATE_NAMES[x] ?? x).join(" ")}`.toLowerCase()} data-type={p.type}>
+                    <span class="mark" aria-hidden="true"></span>
+                    <span>{p.name}<span class="sr-only">{v.parkCodes.has(p.code) ? " (visited)" : ""}</span>{p.states.length > 1 && <small>Also in {p.states.slice(1).map((x) => STATE_NAMES[x] ?? x).join(", ")}</small>}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
+      </div>
+      {v.otherNpsSites.length > 0 && (
+        <div class="park-state" style="margin-top:28px;max-width:520px">
+          <h3>Other NPS sites<small>{v.otherNpsSites.length}</small></h3>
+          <p style="font:400 14px/1.5 var(--display);color:var(--muted);margin:6px 0">Visited, but not counted: trails, partnership rivers and groupings that aren't official units.</p>
+          <ul>{v.otherNpsSites.map((o) => <li class="v"><span class="mark" aria-hidden="true"></span><span>{o.name}</span></li>)}</ul>
+        </div>
+      )}
+      <p class="meta" style="font:400 13px/1.5 var(--display);color:var(--muted);margin-top:18px">
+        The total of {site.npsTotal} is the official count ({site.npsTotalSource}). The list has {parks.length} entries because a few
+        units share a code in NPS data.
+      </p>
+    </section>
+  </main>
+</Base>
+
+<script>
+  const q = document.querySelector<HTMLInputElement>("#park-q")!;
+  const show = document.querySelector<HTMLSelectElement>("#park-show")!;
+  const type = document.querySelector<HTMLSelectElement>("#park-type")!;
+  const count = document.querySelector("#park-count")!;
+  const apply = () => {
+    const term = q.value.trim().toLowerCase();
+    let n = 0;
+    for (const group of document.querySelectorAll<HTMLElement>("[data-state]")) {
+      let any = false;
+      for (const li of group.querySelectorAll<HTMLElement>("li")) {
+        const ok = (!term || li.dataset.name!.includes(term))
+          && (show.value === "all" || (show.value === "v") === li.classList.contains("v"))
+          && (!type.value || li.dataset.type === type.value);
+        li.hidden = !ok;
+        if (ok) { any = true; n++; }
+      }
+      group.hidden = !any;
+    }
+    count.textContent = `${n} shown`;
+  };
+  for (const el of [q, show, type]) el.addEventListener("input", apply);
+</script>

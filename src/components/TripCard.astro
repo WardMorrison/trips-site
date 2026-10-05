@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets";
+import { tripMonths, tripWhere, type Trip } from "../lib/data";
+interface Props { trip: Trip }
+const { trip } = Astro.props;
+const d = trip.data;
+---
+<a class="card" href={`/trips/${trip.id}/`}>
+  <Image src={d.cover} alt={d.coverAlt} widths={[400, 680]} sizes="(max-width: 600px) 78vw, 340px" />
+  <div class="body">
+    <h4>{d.title}</h4>
+    <div class="when">{tripMonths(d.start, d.end)}, {tripWhere(trip)}</div>
+    <p>{d.summary}</p>
+  </div>
+</a>

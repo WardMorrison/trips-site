@@ -1,0 +1,118 @@
+---
+import { Image } from "astro:assets";
+import { render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import TripMap from "../../components/TripMap.astro";
+import PostLinks from "../../components/PostLinks.astro";
+import { getTrips, getVisited, categories, park, country, tripDates, tripLength, STATE_NAMES } from "../../lib/data";
+
+export async function getStaticPaths() {
+  const trips = await getTrips();
+  return trips.map((trip, i) => ({ params: { slug: trip.id }, props: { trip, newer: trips[i - 1], older: trips[i + 1] } }));
+}
+
+const { trip, newer, older } = Astro.props;
+const d = trip.data;
+const { Content } = await render(trip);
+const v = await getVisited();
+const cat = categories.find((c) => c.id === d.category)!;
+const parksHere = d.parks.map(park);
+const countryNames = d.countries.map((c) => country(c).name.replace("United States of America", "United States"));
+const stateNames = d.states.map((s) => STATE_NAMES[s.toUpperCase()] ?? s);
+const length = tripLength(d.start, d.end);
+---
+<Base title={d.title} description={d.summary} image={d.cover.src} sample={d.sample}>
+  <div class="band title-band">
+    <div class="wrap">
+      <h1>{d.title}</h1>
+      <div class="trip-meta">
+        <span>{tripDates(d.start, d.end)}</span>
+        {length && <span>{length}</span>}
+        <span>{cat.label}</span>
+        <span>{(stateNames.length ? stateNames : countryNames).join(", ")}</span>
+      </div>
+    </div>
+  </div>
+
+  <figure class="cover">
+    <Image src={d.cover} alt={d.coverAlt} widths={[800, 1400, 2200]} sizes="100vw" loading="eager" />
+  </figure>
+
+  <main class="wrap trip-body">
+    <article class="prose">
+      <p class="lede">{d.summary}</p>
+      <Content />
+    </article>
+
+    <aside class="trip-side">
+      {d.places.length > 0 && (
+        <div class="side-block">
+          <h2>Where</h2>
+          <TripMap places={d.places} visitedIsos={v.countryIsos} />
+        </div>
+      )}
+      {parksHere.length > 0 && (
+        <div class="side-block">
+          <h2>Park sites</h2>
+          <ul>{parksHere.map((p) => <li>{p.name}</li>)}</ul>
+        </div>
+      )}
+      {d.links.length > 0 && (
+        <div class="side-block">
+          <h2>Posts</h2>
+          <PostLinks links={d.links} />
+        </div>
+      )}
+    </aside>
+  </main>
+
+  {d.gallery.length > 0 && (
+    <section class="wrap" aria-labelledby="photos-h">
+      <div class="section-head"><h2 id="photos-h">Photos</h2><span class="meta">{d.gallery.length}</span></div>
+      <div class="gallery" data-gallery>
+        {d.gallery.map((g, i) => (
+          <figure>
+            <button type="button" data-full={g.src.src} data-index={i} aria-label={`Open photo: ${g.alt}`}>
+              <Image src={g.src} alt={g.alt} widths={[400, 800]} sizes="(max-width: 600px) 100vw, 380px" />
+            </button>
+            {g.caption && <figcaption>{g.caption}</figcaption>}
+          </figure>
+        ))}
+      </div>
+      <dialog class="lightbox" aria-label="Photo">
+        <button class="close" type="button" aria-label="Close">×</button>
+        <img alt="" />
+        <p></p>
+      </dialog>
+    </section>
+  )}
+
+  <nav class="wrap pager" aria-label="More trips">
+    {older ? <a href={`/trips/${older.id}/`}>Earlier trip<strong>{older.data.title}</strong></a> : <span></span>}
+    {newer ? <a href={`/trips/${newer.id}/`}>Later trip<strong>{newer.data.title}</strong></a> : <span></span>}
+  </nav>
+</Base>
+
+<script>
+  const gallery = document.querySelector<HTMLElement>("[data-gallery]");
+  const dlg = document.querySelector<HTMLDialogElement>("dialog.lightbox");
+  if (gallery && dlg) {
+    const buttons = [...gallery.querySelectorAll<HTMLButtonElement>("button[data-full]")];
+    let i = 0;
+    const show = (n: number) => {
+      i = (n + buttons.length) % buttons.length;
+      const b = buttons[i];
+      const img = b.querySelector("img")!;
+      dlg.querySelector("img")!.src = b.dataset.full!;
+      dlg.querySelector("img")!.alt = img.alt;
+      dlg.querySelector("p")!.textContent = b.closest("figure")?.querySelector("figcaption")?.textContent ?? "";
+    };
+    buttons.forEach((b, n) => b.addEventListener("click", () => { show(n); dlg.showModal(); }));
+    dlg.querySelector(".close")!.addEventListener("click", () => dlg.close());
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") show(i + 1);
+      if (e.key === "ArrowLeft") show(i - 1);
+    });
+  }
+</script>
