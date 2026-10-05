@@ -1,0 +1,19 @@
+---
+// U.S. states (visited filled) with every National Park System site as a dot. Drawn at build time.
+import { usMap } from "../lib/maps";
+import { site, parks } from "../lib/data";
+interface Props { states: Set<string>; parkCodes: Set<string> }
+const { states, parkCodes } = Astro.props;
+const m = usMap(states);
+const pts = parks
+  .map((p) => ({ p, xy: m.project(p), v: parkCodes.has(p.code) }))
+  .filter((x) => x.xy)
+  .sort((a, b) => Number(a.v) - Number(b.v)); // visited on top
+---
+<svg class="map us-map" viewBox={`0 0 ${m.width} ${m.height}`} role="img" aria-label={`Map of the United States: ${states.size} states visited, national park sites marked`}>
+  {m.states.map((s) => <path class={s.visited ? "state visited" : "state"} d={s.d}><title>{s.name}</title></path>)}
+  {pts.map(({ p, xy, v }) => (
+    <circle class={v ? "park visited" : "park"} cx={xy!.x} cy={xy!.y} r={v ? 3.6 : 2.2}><title>{p.name}{v ? "" : " (not yet)"}</title></circle>
+  ))}
+  {site.homeBases.map((h) => { const xy = m.project(h); return xy && <circle class="home" cx={xy.x} cy={xy.y} r="5.5"><title>{h.name}</title></circle>; })}
+</svg>

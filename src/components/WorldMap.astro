@@ -1,0 +1,12 @@
+---
+// World countries, visited filled. Countries too small for the 1:110m outlines (Vatican, Palau) get a dot.
+import { worldMap } from "../lib/maps";
+interface Props { countryIsos: Set<string> }
+const { countryIsos } = Astro.props;
+const w = worldMap(countryIsos);
+---
+<svg class="map world-map" viewBox={`0 0 ${w.width} ${w.height}`} role="img" aria-label={`World map: ${countryIsos.size} countries visited`}>
+  {w.lands.map((l) => <path class={l.visited ? "land visited" : "land"} d={l.d}><title>{l.name}</title></path>)}
+  <path class="borders" d={w.borders} />
+  {w.extraDots.map((d) => <circle class="dot" cx={d.x} cy={d.y} r="4"><title>{d.name}</title></circle>)}
+</svg>

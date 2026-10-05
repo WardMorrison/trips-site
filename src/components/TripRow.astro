@@ -1,0 +1,44 @@
+---
+// One horizontal row of trips, newest first. The last card runs off the right edge of the page so
+// it's obvious there's more; arrows stay visible on desktop (hover-only arrows go unnoticed).
+import TripCard from "./TripCard.astro";
+import type { Trip } from "../lib/data";
+interface Props { trips: Trip[] }
+const { trips } = Astro.props;
+---
+<div class="trip-row" data-row>
+  <div class="row-tools wrap">
+    <h2 id="trips-h">Trips</h2>
+    {trips.length > 1 && (
+      <div class="arrows">
+        <button class="prev" type="button" aria-label="Scroll trips left" disabled></button>
+        <button class="next" type="button" aria-label="Scroll trips right"></button>
+      </div>
+    )}
+  </div>
+  <ol class="track" aria-labelledby="trips-h" tabindex="0">
+    {trips.map((t, i) => <li><TripCard trip={t} eager={i < 3} /></li>)}
+  </ol>
+</div>
+
+<script>
+  for (const row of document.querySelectorAll<HTMLElement>("[data-row]")) {
+    const track = row.querySelector<HTMLElement>(".track")!;
+    const prev = row.querySelector<HTMLButtonElement>(".prev");
+    const next = row.querySelector<HTMLButtonElement>(".next");
+    if (!prev || !next) continue;
+    const smooth = matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+    const step = () => Math.max(260, track.clientWidth * 0.7);
+    prev.addEventListener("click", () => track.scrollBy({ left: -step(), behavior: smooth }));
+    next.addEventListener("click", () => track.scrollBy({ left: step(), behavior: smooth }));
+    const tools = row.querySelector<HTMLElement>(".arrows")!;
+    const update = () => {
+      tools.hidden = track.scrollWidth <= track.clientWidth + 4; // nothing to scroll, no arrows
+      prev.disabled = track.scrollLeft < 4;
+      next.disabled = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+    };
+    track.addEventListener("scroll", update, { passive: true });
+    addEventListener("resize", update);
+    update();
+  }
+</script>

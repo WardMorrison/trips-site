@@ -36,9 +36,11 @@ const round = (n: number) => Math.round(n * 10) / 10;
 /** World map (Equal Earth). Visited countries are filled; small visited countries missing from
  *  the 1:110m outlines get a dot at their 1:50m centroid so they still show. */
 export function worldMap(visitedIsos: Set<string>, width = 960) {
-  const projection = geoEqualEarth().rotate([-10, 0]).fitWidth(width, { type: "Sphere" } as any);
+  // Frame the inhabited land, not the whole globe: no Antarctica, no empty ocean band at the bottom.
+  const inhabited = { type: "FeatureCollection", features: worldFeatures.filter((f: any) => f.properties.name !== "Antarctica") };
+  const projection = geoEqualEarth().rotate([-10, 0]).fitWidth(width, inhabited as any);
   const path = geoPath(projection).digits(0);
-  const height = Math.ceil(path.bounds({ type: "Sphere" } as any)[1][1]);
+  const height = Math.ceil(path.bounds(inhabited as any)[1][1]) + 2;
   const drawn = new Set<string>();
   const lands = worldFeatures
     .filter((f: any) => f.properties.name !== "Antarctica")

@@ -1,45 +1,30 @@
 ---
 import Base from "../layouts/Base.astro";
-import Stamps from "../components/Stamps.astro";
-import Atlas from "../components/Atlas.astro";
-import CategoryRow from "../components/CategoryRow.astro";
-import ParkGrid from "../components/ParkGrid.astro";
-import Contour from "../components/Contour.astro";
-import { getVisited, categories, site, parks } from "../lib/data";
+import USMap from "../components/USMap.astro";
+import WorldMap from "../components/WorldMap.astro";
+import TripRow from "../components/TripRow.astro";
+import { getVisited, site, FIFTY } from "../lib/data";
 
 const v = await getVisited();
 const hasSamples = v.trips.some((t) => t.data.sample);
-const npAll = parks.filter((p) => p.type === "National Park");
-const npSeen = npAll.filter((p) => v.parkCodes.has(p.code)).length;
-const rows = categories.map((c) => ({ ...c, trips: v.trips.filter((t) => t.data.category === c.id) }));
 ---
 <Base sample={hasSamples}>
   <main>
-    <section class="wrap intro">
-      <div class="intro-text">
-        <h1>Where I've been</h1>
-        <p>Backpacking, field research and plain old fun, from home in midcoast Maine and school in San Luis Obispo.</p>
-      </div>
-      <Stamps continents={v.continents.size} countries={v.countryIsos.size} states={v.fiftyVisited.length} parks={v.parkCodes.size} />
+    <section class="wrap map-block" aria-labelledby="us-h">
+      <h2 id="us-h">United States</h2>
+      <USMap states={v.states} parkCodes={v.parkCodes} />
+      <p class="caption">
+        <span>{v.fiftyVisited.length} of {FIFTY.length} states, <a href="/parks/">{v.parkCodes.size} of {site.npsTotal} park sites</a></span>
+        <span class="key"><i class="k-state"></i>visited <i class="k-park"></i>park site <i class="k-home"></i>home</span>
+      </p>
     </section>
 
-    <section class="wrap map-section" aria-label="Map">
-      <Atlas countryIsos={v.countryIsos} states={v.states} parkCodes={v.parkCodes} />
+    <section class="wrap map-block" aria-labelledby="world-h">
+      <h2 id="world-h">World</h2>
+      <WorldMap countryIsos={v.countryIsos} />
+      <p class="caption">{v.countryIsos.size} countries</p>
     </section>
 
-    <Contour />
-
-    <section class="wrap" aria-label="Trips">
-      {rows.map((r) => <CategoryRow id={r.id} label={r.label} trips={r.trips} />)}
-    </section>
-
-    <Contour />
-
-    <section class="wrap parks-teaser" aria-labelledby="parks-h">
-      <h2 id="parks-h">National park sites</h2>
-      <p class="tally"><strong>{v.parkCodes.size}</strong> of {site.npsTotal}, including {npSeen} of the {npAll.length} national parks. Every monument, historic site, seashore and battlefield counts too.</p>
-      <ParkGrid visited={v.parkCodes.size} />
-      <p><a class="trail-link" href="/parks/">See every site</a></p>
-    </section>
+    <TripRow trips={v.trips} />
   </main>
 </Base>

@@ -4,7 +4,7 @@ import { render } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import TripMap from "../../components/TripMap.astro";
 import PostLinks from "../../components/PostLinks.astro";
-import { getTrips, getVisited, categories, park, country, tripDates, tripLength, STATE_NAMES } from "../../lib/data";
+import { getTrips, getVisited, park, country, tripDates, STATE_NAMES } from "../../lib/data";
 
 export async function getStaticPaths() {
   const trips = await getTrips();
@@ -15,33 +15,27 @@ const { trip, newer, older } = Astro.props;
 const d = trip.data;
 const { Content } = await render(trip);
 const v = await getVisited();
-const cat = categories.find((c) => c.id === d.category)!;
 const parksHere = d.parks.map(park);
 const countryNames = d.countries.map((c) => country(c).name.replace("United States of America", "United States"));
 const stateNames = d.states.map((s) => STATE_NAMES[s.toUpperCase()] ?? s);
-const length = tripLength(d.start, d.end);
 ---
 <Base title={d.title} description={d.summary} image={d.cover.src} sample={d.sample}>
   <header class="trip-hero">
     <Image src={d.cover} alt={d.coverAlt} widths={[800, 1400, 2200]} sizes="100vw" loading="eager" />
     <div class="trip-title wrap">
-      <p class="trip-cat">{cat.label}</p>
       <h1>{d.title}</h1>
-      <p class="trip-meta">
-        {tripDates(d.start, d.end)}{length && <>, {length}</>}. {(stateNames.length ? stateNames : countryNames).join(", ")}.
-      </p>
+      <p class="trip-meta">{tripDates(d.start, d.end)}. {(stateNames.length ? stateNames : countryNames).join(", ")}.</p>
     </div>
   </header>
 
   <main class="wrap trip-body">
     <article class="prose">
-      <p class="lede">{d.summary}</p>
       <Content />
     </article>
 
     <aside class="trip-side">
       {d.places.length > 0 && (
-        <div class="side-block postcard-frame">
+        <div class="side-block">
           <h2>Where</h2>
           <TripMap places={d.places} visitedIsos={v.countryIsos} />
         </div>
@@ -49,7 +43,7 @@ const length = tripLength(d.start, d.end);
       {parksHere.length > 0 && (
         <div class="side-block">
           <h2>Park sites</h2>
-          <ul class="mini-stamps">{parksHere.map((p) => <li>{p.name}</li>)}</ul>
+          <ul class="plain-list">{parksHere.map((p) => <li>{p.name}</li>)}</ul>
         </div>
       )}
       {d.links.length > 0 && (
@@ -66,7 +60,7 @@ const length = tripLength(d.start, d.end);
       <h2 id="photos-h" class="section-title">Photos</h2>
       <div class="gallery" data-gallery>
         {d.gallery.map((g, i) => (
-          <figure style={`--tilt:${[-1.2, 0.9, -0.4, 1.4, -1.6, 0.6][i % 6]}deg`}>
+          <figure>
             <button type="button" data-full={g.src.src} data-index={i} aria-label={`Open photo: ${g.alt}`}>
               <Image src={g.src} alt={g.alt} widths={[400, 800]} sizes="(max-width: 600px) 100vw, 380px" />
             </button>

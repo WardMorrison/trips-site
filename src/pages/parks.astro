@@ -1,8 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
-import Atlas from "../components/Atlas.astro";
-import ParkGrid from "../components/ParkGrid.astro";
-import Contour from "../components/Contour.astro";
+import USMap from "../components/USMap.astro";
 import { getVisited, parks, site, STATE_NAMES } from "../lib/data";
 
 const v = await getVisited();
@@ -25,14 +23,11 @@ byType.push({ t: "Everything else", n: rest.length, v: rest.filter((p) => v.park
 ---
 <Base title="National park sites" description={`${v.parkCodes.size} of ${site.npsTotal} National Park System sites visited.`}>
   <main>
-    <section class="wrap intro intro-parks">
-      <div class="intro-text">
-        <h1>National park sites</h1>
-        <p><strong>{v.parkCodes.size}</strong> of the {site.npsTotal} units of the National Park System: parks, monuments, historic sites, seashores, rivers, trails and the rest.</p>
-      </div>
+    <section class="wrap intro">
+      <h1>National park sites</h1>
+      <p><strong>{v.parkCodes.size}</strong> of {site.npsTotal}.</p>
     </section>
     <section class="wrap">
-      <ParkGrid visited={v.parkCodes.size} />
       <dl class="by-type">
         {byType.map((b) => (
           <div>
@@ -44,13 +39,11 @@ byType.push({ t: "Everything else", n: rest.length, v: rest.filter((p) => v.park
       </dl>
     </section>
 
-    <Contour />
     <section class="wrap" aria-labelledby="pmap-h">
-      <h2 id="pmap-h" class="section-title">Map</h2>
-      <Atlas countryIsos={v.countryIsos} states={v.states} parkCodes={v.parkCodes} initial="us" />
+      <h2 id="pmap-h" class="sr-only">Map</h2>
+      <USMap states={v.states} parkCodes={v.parkCodes} />
     </section>
 
-    <Contour />
     <section class="wrap" aria-labelledby="plist-h">
       <h2 id="plist-h" class="section-title">Every site <span class="meta" id="park-count">{parks.length} shown</span></h2>
       <div class="filters">
@@ -88,13 +81,13 @@ byType.push({ t: "Everything else", n: rest.length, v: rest.filter((p) => v.park
         })}
       </div>
       {v.otherNpsSites.length > 0 && (
-        <div class="park-state" style="margin-top:28px;max-width:520px">
+        <div class="park-state other-sites">
           <h3>Other NPS sites<small>{v.otherNpsSites.length}</small></h3>
-          <p style="font:400 14px/1.5 var(--display);color:var(--muted);margin:6px 0">Visited, but not counted: trails, partnership rivers and groupings that aren't official units.</p>
+          <p class="note">Not official units, so not counted.</p>
           <ul>{v.otherNpsSites.map((o) => <li class="v"><span class="mark" aria-hidden="true"></span><span>{o.name}</span></li>)}</ul>
         </div>
       )}
-      <p class="meta" style="font:400 13px/1.5 var(--display);color:var(--muted);margin-top:18px">
+      <p class="note">
         The total of {site.npsTotal} is the official count ({site.npsTotalSource}). The list has {parks.length} entries because a few
         units share a code in NPS data.
       </p>

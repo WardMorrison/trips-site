@@ -1,15 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import { tripMonths, tripWhere, type Trip } from "../lib/data";
-interface Props { trip: Trip; tilt?: number }
-const { trip, tilt = 0 } = Astro.props;
+import type { Trip } from "../lib/data";
+interface Props { trip: Trip; eager?: boolean }
+const { trip, eager = false } = Astro.props;
 const d = trip.data;
 ---
-<a class="postcard" href={`/trips/${trip.id}/`} style={`--tilt:${tilt}deg`}>
-  <Image src={d.cover} alt={d.coverAlt} widths={[400, 680]} sizes="(max-width: 600px) 78vw, 320px" />
-  <div class="caption">
-    <h4>{d.title}</h4>
-    <p class="when">{tripMonths(d.start, d.end)}, {tripWhere(trip)}</p>
-    <p class="summary">{d.summary}</p>
-  </div>
+<a class="trip-card" href={`/trips/${trip.id}/`}>
+  <Image src={d.cover} alt={d.coverAlt} widths={[360, 640]} sizes="(max-width: 600px) 70vw, 300px" loading={eager ? "eager" : "lazy"} />
+  <span class="t">{d.title}</span>
+  <span class="y">{d.start.getUTCFullYear()}</span>
 </a>
