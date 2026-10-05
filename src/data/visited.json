@@ -184,7 +184,5 @@
       "name": "Roosevelt Campobello International Park"
     }
   ],
-  "statesNotCounted": [
-    "GA"
-  ]
+  "statesNotCounted": []
 }
