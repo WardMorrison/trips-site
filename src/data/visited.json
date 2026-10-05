@@ -43,7 +43,6 @@
     "WV",
     "WY",
     "TN",
-    "KS",
     "MS",
     "AL",
     "GA",
@@ -195,5 +194,7 @@
       "name": "Roosevelt Campobello International Park"
     }
   ],
-  "statesNotCounted": []
+  "statesNotCounted": [
+    "KS"
+  ]
 }
