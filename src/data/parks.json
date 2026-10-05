@@ -971,16 +971,6 @@
 ]
 },
 {
-"code": "CRMP",
-"name": "Craters of the Moon National Preserve",
-"type": "National Preserve",
-"lat": 43.1587,
-"lng": -113.5391,
-"states": [
-"ID"
-]
-},
-{
 "code": "CUGA",
 "name": "Cumberland Gap National Historical Park",
 "type": "National Historical Park",
@@ -2675,16 +2665,6 @@
 ]
 },
 {
-"code": "MAMC",
-"name": "Mary McLeod Bethune Council House National Historic Site",
-"type": "National Historic Site",
-"lat": 38.9082,
-"lng": -77.031,
-"states": [
-"DC"
-]
-},
-{
 "code": "MEMY",
 "name": "Medgar and Myrlie Evers Home National Monument",
 "type": "National Monument",
@@ -3069,16 +3049,6 @@
 "PA",
 "VT",
 "WI"
-]
-},
-{
-"code": "OBED",
-"name": "Obed Wild & Scenic River",
-"type": "Wild & Scenic River",
-"lat": 36.1056,
-"lng": -84.5979,
-"states": [
-"TN"
 ]
 },
 {

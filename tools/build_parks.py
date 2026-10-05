@@ -16,7 +16,9 @@ HERE = Path(__file__).parent
 OUT = HERE.parent / "src" / "data" / "parks.json"
 
 # Units in the API but missing from the boundary layer that are official NPS units.
-EXTRA_UNITS = {"COLT", "PARA", "NATT", "POHE", "OBED", "MAMC", "OKCI"}
+EXTRA_UNITS = {"COLT", "PARA", "NATT", "POHE", "OKCI"}
+# Boundary-layer codes that duplicate another entry (Craters of the Moon's preserve is part of CRMO).
+DUPLICATES = {"CRMP"}
 SKIP_TYPES = {"National Trails System"}  # national historic trails are not counted as units
 
 TYPE_SINGULAR = {
@@ -41,6 +43,8 @@ for f in arc:
     if a["UNIT_TYPE"] in SKIP_TYPES:
         continue
     code = a["UNIT_CODE"]
+    if code in DUPLICATES:
+        continue
     u = units.setdefault(code, {"code": code, "name": a["UNIT_NAME"], "type": TYPE_SINGULAR.get(a["UNIT_TYPE"], "Other"),
                                 "state": a["STATE"], "lat": round(f["geometry"]["y"], 4), "lng": round(f["geometry"]["x"], 4)})
     # A park and its preserve share a code; keep the park's type and point.
